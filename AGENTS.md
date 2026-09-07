@@ -2,6 +2,14 @@
 
 Read README.md, INTERFACES.md and ARCHITECTURE.md before changing the manager.
 Read ANYGINE_INTEGRATION.md before editing engine integration examples.
+Read ASSET_AUTHORING.md before adding or reorganizing catalog assets.
+
+## Language policy
+
+- Write all project text records in English: documentation, comments, docstrings, metadata prose, diagnostics, commit messages, and release notes.
+- Communicate with the user in Chinese while collaborating with AI on development.
+- Preserve required third-party attribution and original proper names verbatim when necessary.
+- Apply this policy to new and edited content. Do not rewrite published Git history or move release tags to translate historical records.
 
 - Preserve exact commit locks. `sync` must never resolve a moving branch or modify assets.lock.json.
 - Never checkout, reset, clean, or prune a user's author repository during consumption.
