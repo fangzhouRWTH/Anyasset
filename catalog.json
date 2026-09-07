@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "assets": {
+    "defaults/checker": {
+      "entry": "content/defaults/checker.png",
+      "files": ["content/defaults/checker.png"],
+      "depends": [],
+      "license": "CC0-1.0",
+      "origin": "Procedurally generated 2x2 checker fixture for Anyasset"
+    },
+    "tests/triangle": {
+      "entry": "content/tests/triangle.obj",
+      "files": ["content/tests/triangle.obj"],
+      "depends": [],
+      "license": "CC0-1.0",
+      "origin": "Original minimal triangle fixture for Anyasset; meters, right-handed, Y-up"
+    }
+  },
+  "collections": {
+    "defaults": ["defaults/checker"],
+    "tests/model-import": ["tests/triangle"],
+    "smoke": ["defaults/checker", "tests/triangle"]
+  }
+}

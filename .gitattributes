@@ -1,0 +1,12 @@
+* text=auto eol=lf
+content/**/*.png filter=lfs diff=lfs merge=lfs -text
+content/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+content/**/*.exr filter=lfs diff=lfs merge=lfs -text
+content/**/*.hdr filter=lfs diff=lfs merge=lfs -text
+content/**/*.glb filter=lfs diff=lfs merge=lfs -text
+content/**/*.bin filter=lfs diff=lfs merge=lfs -text
+content/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+content/**/*.blend filter=lfs diff=lfs merge=lfs -text
+content/**/*.psd filter=lfs diff=lfs merge=lfs -text
+content/**/*.wav filter=lfs diff=lfs merge=lfs -text
+content/**/*.zip filter=lfs diff=lfs merge=lfs -text

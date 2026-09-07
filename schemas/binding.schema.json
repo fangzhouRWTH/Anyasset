@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Anyasset local resolved binding v1",
+  "type": "object",
+  "required": ["schema", "lock_digest", "root", "assets"],
+  "properties": {
+    "schema": {"const": 1},
+    "lock_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "root": {"type": "string", "minLength": 1},
+    "assets": {"type": "object", "additionalProperties": {"type": "string", "minLength": 1}}
+  },
+  "additionalProperties": false
+}

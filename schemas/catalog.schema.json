@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Anyasset catalog v1",
+  "type": "object",
+  "required": ["schema", "assets", "collections"],
+  "properties": {
+    "schema": {"const": 1},
+    "assets": {
+      "type": "object",
+      "propertyNames": {"pattern": "^[a-z0-9][a-z0-9._/-]*$"},
+      "additionalProperties": {
+        "type": "object",
+        "required": ["entry", "files", "license", "origin"],
+        "properties": {
+          "entry": {"type": "string", "pattern": "^content/"},
+          "files": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^content/"}},
+          "depends": {"type": "array", "items": {"type": "string"}},
+          "license": {"type": "string", "minLength": 1},
+          "origin": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "collections": {
+      "type": "object",
+      "propertyNames": {"pattern": "^[a-z0-9][a-z0-9._/-]*$"},
+      "additionalProperties": {"type": "array", "items": {"type": "string"}}
+    }
+  },
+  "$comment": "Runtime validation additionally enforces portable paths, entry membership, dependency existence/cycles and case collisions."
+}
