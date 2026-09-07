@@ -53,3 +53,11 @@ python -m anyasset catalog-check
 ```
 
 Tests use temporary local Git/LFS repositories without GitHub network access. Add behavior-level tests for new capabilities, especially multi-project, offline, corruption, interruption, and concurrency. Never use tests to clean production data. Data-distribution tests do not establish engine format compatibility.
+
+## 0.2 reliability and external-library operations
+
+Use assetctl doctor --project <engine-dir> for actionable diagnostics and assetctl plan --project <engine-dir> for selected entries, unique missing cached bytes, and external revisions. Both are observational; doctor does not repair views or delete data.
+
+For slow networks set ANYASSET_GIT_TIMEOUT_SEC deliberately. Set ANYASSET_LOCK_TIMEOUT_SEC when concurrent consumers need to wait longer for large imports. Batch fetching reduces process/network startup overhead, but full hash verification and snapshot copies still scale with selected bytes.
+
+External library publication shares only reviewed index metadata. Keep payloads and their version backups outside the Anyasset checkout. Refer to EXTERNAL_LIBRARIES.md before registering libraries or rotating external directories. Never replace a version's indexed contents in place without preserving the old bytes.

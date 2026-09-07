@@ -13,6 +13,6 @@ except ImportError:
     raise SystemExit("Install a pinned Anyasset tool release in this Python environment first.")
 
 args = sys.argv[1:]
-if args and args[0] not in ("catalog-check", "--version", "--help", "-h") and "--project" not in args:
+if args and args[0] not in ("catalog-check", "library-index", "library-bind", "--version", "--help", "-h") and "--project" not in args:
     args += ["--project", str(Path(__file__).resolve().parents[2])]
 raise SystemExit(main(args))

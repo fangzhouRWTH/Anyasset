@@ -13,7 +13,7 @@ The two initial fixtures do not replace existing engine Assets. Do not redirect 
 Install a fixed tool revision in a dedicated Python environment:
 
 ```powershell
-python -m pip install "git+ssh://git@github.com/fangzhouRWTH/Anyasset.git@v0.1.0"
+python -m pip install "git+ssh://git@github.com/fangzhouRWTH/Anyasset.git@v0.2.0"
 ```
 
 Alternatively install a local checkout non-editably. Copy examples/engine/assets.toml to the engine and ignore .anyasset/.

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Anyasset external library index v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "id",
+    "version",
+    "revision",
+    "catalog",
+    "files"
+  ],
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,79}$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,79}$"
+    },
+    "revision": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "catalog": {
+      "$ref": "catalog.schema.json"
+    },
+    "files": {
+      "allOf": [
+        {
+          "$ref": "lock.schema.json#/properties/files"
+        },
+        {
+          "items": {
+            "properties": {
+              "lfs": {
+                "const": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "$comment": "Runtime checks revision digest, exact catalog file coverage, path portability and dependency cycles. No local root or payload fields are allowed."
+}

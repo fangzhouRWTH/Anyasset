@@ -1,10 +1,10 @@
 # Interface contracts v1
 
-Tool version `0.1.0` and integer data `schema = 1` evolve independently. Requires Python 3.11+. Successful CLI calls emit one UTF-8 JSON object to stdout and exit 0. Operational/file/data failures emit `{"code":"ASSET_ERROR","error":"..."}` to stderr and exit 2. Argparse usage failures print help and exit 2. Captured Git subprocess output does not contaminate successful JSON output.
+Tool version `0.2.0` supports schema 1 and schema 2. Schema 2 adds external libraries; old locks remain supported. Requires Python 3.11+. Successful CLI calls emit one UTF-8 JSON object to stdout and exit 0. Operational/file/data failures emit `{"code":"ASSET_ERROR","error":"..."}` to stderr and exit 2. Argparse usage failures print help and exit 2. Captured Git subprocess output does not contaminate successful JSON output. Progress messages may appear on stderr during successful fetch/clone operations; use the exit code to determine success.
 
 ## CLI
 
-Project commands accept `--project <directory>` (default cwd) and `--store <directory>`. Without `--store`, the manager reads `.anyasset/config.json`. First-time init requires an explicit store.
+Project commands accept `--project <directory>` (default cwd) and `--store <directory>`. Without `--store`, the manager reads `.anyasset/config.json`. First-time init requires an explicit store. See EXTERNAL_LIBRARIES.md for library-index and library-bind commands. plan reports selected entries and missing cached bytes without downloads; doctor returns healthy/status or error/actions without repair. A doctor result with healthy=false still exits 0 as a completed diagnostic query.
 
 | Command | Additional arguments | Effects | Main result fields |
 | --- | --- | --- | --- |
@@ -43,6 +43,8 @@ sync(project, offline=False) -> dict
 status(project, verify=False) -> dict
 edit(project, destination) -> dict
 gc() -> dict
+plan(project) -> dict
+doctor(project) -> dict
 resolve_asset(project, asset_id) -> Path
 ```
 
@@ -87,3 +89,9 @@ A lock provides consistency and reproducibility, not a signature or a replacemen
 `.anyasset/resolved.json`: schema, lock_digest, absolute root, and logical IDs mapped to absolute asset paths. See [binding.schema.json](schemas/binding.schema.json). Consumers must reject stale lock digests; using the public API/CLI handles this check.
 
 `bindings/<project-id>.json` retains all snapshots referenced by that project; `snapshot.json` stores the full lock. These are internal records and must not be edited directly.
+
+## Runtime controls and external libraries
+
+ANYASSET_GIT_TIMEOUT_SEC defaults to 300; ANYASSET_LOCK_TIMEOUT_SEC defaults to 30. Values must be positive and below 86400 seconds. Git timeouts stop the child process tree and preserve completed cached data. Locks still serialize store mutation; increase the lock wait for a deliberate large import. Hashing/copying are not bounded by the Git timeout.
+
+Schema-2 external fields and APIs are documented in [EXTERNAL_LIBRARIES.md](EXTERNAL_LIBRARIES.md), with machine-readable contracts in schemas/external-index.schema.json and the extended requirements/lock/binding schemas. plan hashes cached objects when estimating missing content; it is not a constant-time query. Its missing_unique_bytes includes local-import and Git-object bytes, not just network download bytes.

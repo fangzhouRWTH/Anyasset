@@ -3,6 +3,7 @@
 Read README.md, INTERFACES.md and ARCHITECTURE.md before changing the manager.
 Read ANYGINE_INTEGRATION.md before editing engine integration examples.
 Read ASSET_AUTHORING.md before adding or reorganizing catalog assets.
+Read EXTERNAL_LIBRARIES.md before changing external providers or schema-2 contracts.
 
 ## Language policy
 
@@ -24,3 +25,5 @@ Read ASSET_AUTHORING.md before adding or reorganizing catalog assets.
 - Update schemas, interface docs and tests together for public contract changes.
 - No automatic destructive GC in schema/tool v1 initial implementation. Add retention/lease design before implementing deletion.
 - Engine-side modifications are a separate repository; do not stage its contents into Anyasset or add Anyasset as a submodule.
+- External indexes contain metadata only. Never copy external payloads, machine-local roots, or credentials into this repository as part of registration.
+- Preserve schema-1 lock compatibility. External libraries use schema 2 and explicit namespaced IDs; do not implement silent live-directory overrides.

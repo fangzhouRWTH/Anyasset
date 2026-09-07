@@ -44,7 +44,7 @@ Managed repositories set lfs.storage to the store root. LFS and ordinary asset o
 2. For an existing view, verify metadata and selected file hashes before refreshing the binding.
 3. Otherwise obtain the exact commit, resolve its catalog, and compare the result to the lock.
 4. Reuse verified objects; retrieve ordinary files from Git and LFS contents from a seed or remote.
-5. Fetch only missing selected LFS paths. Initial implementation uses one fetch per missing file; batching is a future optimization.
+5. Fetch only missing selected LFS paths. Missing paths are batched within a bounded command length.
 6. Copy to staging, verify size/hash, and publish using a same-filesystem rename.
 7. Save retention references before atomically replacing the project binding.
 
@@ -73,3 +73,11 @@ A local cache is not a backup. Remote backup must include required Git refs and 
 ## Extension points
 
 Future changes may add HTTP/S3 object retrieval, reflink materialization, finer object/view locks, explicit pins, process leases, and retention policies. Incompatible schema changes need a new version. Derived caches need separate keys including source hashes, importer revision, settings, and target platform.
+
+## External providers and initialization recovery
+
+External indexes contain metadata only. Selected local files are verified, imported to the same object cache, and materialized below libraries/<id>/content in a combined view. Namespaced entry IDs use <id>::<asset-id>. No live directory mount is exposed to engines. See EXTERNAL_LIBRARIES.md for limitations and retention requirements.
+
+New bare repositories are configured in a temporary sibling and renamed only when complete. Valid existing managed bare repositories with missing origin/LFS configuration are repaired on use. Invalid Git metadata is reported without destructive deletion.
+
+Git subprocesses have configurable overall timeouts and progress notices. The store lock remains global. Full hash verification remains the default for sync; a fast mode, writable-cache repair, and destructive GC are intentionally not part of this minimum release.

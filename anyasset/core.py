@@ -9,14 +9,15 @@ import contextlib
 import hashlib
 import json
 import os
-from pathlib import Path, PurePosixPath
+from pathlib import Path
 import re
 import shutil
-import stat
+import signal
 import subprocess
 import tempfile
 import time
 import tomllib
+import sys
 
 DEFAULT_SOURCE = "git@github.com:fangzhouRWTH/Anyasset.git"
 HEX = re.compile(r"^[0-9a-f]{64}$")
@@ -80,15 +81,38 @@ def safe_path(value):
 
 def git(repo, *args, check=True):
     env = dict(os.environ, GIT_LFS_SKIP_SMUDGE="1", GIT_TERMINAL_PROMPT="0")
-    proc = subprocess.run(["git", "-C", str(repo), *args], capture_output=True, env=env)
+    env.setdefault("GIT_SSH_COMMAND", "ssh -oBatchMode=yes -oConnectTimeout=15")
+    timeout = positive_env("ANYASSET_GIT_TIMEOUT_SEC", 300)
+    if args[0] in ("fetch", "clone") or args[:2] == ("lfs", "fetch"):
+        print(f"Anyasset: {args[0]} in progress (timeout {timeout:g}s)", file=sys.stderr)
+    child = subprocess.Popen(["git", "-C", str(repo), *args], stdout=subprocess.PIPE,
+                             stderr=subprocess.PIPE, env=env, start_new_session=os.name != "nt")
+    try:
+        stdout, stderr = child.communicate(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        if os.name == "nt":
+            subprocess.run(["taskkill", "/PID", str(child.pid), "/T", "/F"], capture_output=True, timeout=10)
+        else:
+            os.killpg(child.pid, signal.SIGKILL)
+        child.kill()
+        child.communicate()
+        raise AssetError(f"Git operation timed out after {timeout:g}s; cached completed data is retained")
+    proc = subprocess.CompletedProcess(child.args, child.returncode, stdout, stderr)
     if check and proc.returncode:
         raise AssetError(f"git {args[0]} failed: {proc.stderr.decode('utf-8', errors='replace').strip()}")
     return proc
 
 
+def positive_env(name, default):
+    value = float(os.environ.get(name, default))
+    require(0 < value < 86400, f"{name} must be between 0 and 86400 seconds")
+    return value
+
+
 @contextlib.contextmanager
-def store_lock(root, timeout=30):
+def store_lock(root, timeout=None):
     """OS locks release on crash; the lock file itself deliberately persists."""
+    timeout = positive_env("ANYASSET_LOCK_TIMEOUT_SEC", 30) if timeout is None else timeout
     root.mkdir(parents=True, exist_ok=True)
     with (root / "manager.lock").open("a+b") as stream:
         stream.seek(0, 2)
@@ -139,6 +163,19 @@ def validate_catalog(catalog):
         require(isinstance(deps, list) and all(isinstance(d, str) and d in assets for d in deps), f"Unknown dependencies: {name}")
     for name, members in collections.items():
         require(NAME.fullmatch(name) is not None and isinstance(members, list) and all(isinstance(a, str) and a in assets for a in members), f"Invalid collection: {name}")
+    # Validate the entire graph, including assets not reachable from a collection.
+    done, active = set(), set()
+    def visit(name):
+        require(name not in active, f"Dependency cycle at {name}")
+        if name in done:
+            return
+        active.add(name)
+        for dep in assets[name].get("depends", []):
+            visit(dep)
+        active.remove(name)
+        done.add(name)
+    for name in assets:
+        visit(name)
     return catalog
 
 
@@ -169,13 +206,16 @@ def requirements(project):
         value = tomllib.loads((project / "assets.toml").read_text(encoding="utf-8"))
     except (OSError, ValueError) as exc:
         raise AssetError(f"Cannot read assets.toml: {exc}") from exc
-    require(value.get("schema") == 1 and isinstance(value.get("source"), str), "Invalid assets.toml")
+    require(value.get("schema") in (1, 2) and isinstance(value.get("source"), str) and value["source"], "Invalid assets.toml")
     require(isinstance(value.get("collections"), list) and value["collections"] and all(isinstance(x, str) for x in value["collections"]), "collections must be a nonempty string array")
+    from .libraries import validate_requests
+    validate_requests(value.get("external", []))
+    require(not value.get("external") or value["schema"] == 2, "External libraries require requirements schema 2")
     return value
 
 
 def validate_lock(value):
-    require(isinstance(value, dict) and value.get("schema") == 1, "Unsupported lock schema")
+    require(isinstance(value, dict) and value.get("schema") in (1, 2), "Unsupported lock schema")
     require(isinstance(value.get("source"), str) and COMMIT.fullmatch(value.get("commit", "")), "Invalid lock source/commit")
     require(HEX.fullmatch(value.get("requirements_digest", "")), "Invalid requirements digest")
     require(isinstance(value.get("files"), list) and isinstance(value.get("assets"), dict), "Invalid lock files/assets")
@@ -189,7 +229,25 @@ def validate_lock(value):
         require(type(item.get("lfs")) is bool, "Invalid LFS flag")
     for name, path in value["assets"].items():
         require(NAME.fullmatch(name) and safe_path(path).casefold() in paths, "Invalid asset entry mapping")
+    from .libraries import validate_locked
+    validate_locked(value.get("external", []))
+    require(not value.get("external") or value["schema"] == 2, "External libraries require lock schema 2")
     return value
+
+
+def all_files(lock):
+    files = list(lock["files"])
+    for library in lock.get("external", []):
+        files.extend(dict(item, path=f"libraries/{library['id']}/{item['path']}") for item in library["files"])
+    return files
+
+
+def all_entries(lock):
+    entries = dict(lock["assets"])
+    for library in lock.get("external", []):
+        entries.update({f"{library['id']}::{name}": f"libraries/{library['id']}/{path}"
+                        for name, path in library["assets"].items()})
+    return entries
 
 
 class AssetManager:
@@ -217,9 +275,24 @@ class AssetManager:
     def _repo(self, source):
         path = self.store / "repos" / (digest(source) + ".git")
         if not path.exists():
-            path.mkdir(parents=True)
-            git(path, "init", "--bare")
-            git(path, "remote", "add", "origin", source)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            staging = Path(tempfile.mkdtemp(prefix=".repo-", dir=path.parent))
+            try:
+                git(staging, "init", "--bare")
+                git(staging, "remote", "add", "origin", source)
+                git(staging, "config", "lfs.storage", str(self.store))
+                os.replace(staging, path)
+            finally:
+                if staging.exists():
+                    shutil.rmtree(staging)
+        else:
+            require(git(path, "rev-parse", "--is-bare-repository", check=False).stdout.strip() == b"true",
+                    "Managed repository is incomplete; use doctor and a new store if Git metadata is damaged")
+            remote = git(path, "remote", "get-url", "origin", check=False)
+            if remote.returncode:
+                git(path, "remote", "add", "origin", source)
+            else:
+                require(remote.stdout.decode().strip() == source, "Managed repository source mismatch")
             git(path, "config", "lfs.storage", str(self.store))
         return path
 
@@ -278,9 +351,12 @@ class AssetManager:
             repo = self._repo(req["source"])
             commit = self._commit(project, repo, ref, offline)
             files, entries = self._selection(repo, commit, req["collections"])
-            lock = {"schema": 1, "source": req["source"], "commit": commit,
+            lock = {"schema": req["schema"], "source": req["source"], "commit": commit,
                     "requirements_digest": digest(req), "collections": sorted(set(req["collections"])),
                     "files": files, "assets": entries}
+            if req.get("external"):
+                from .libraries import resolve_indexes
+                lock["external"] = resolve_indexes(repo, commit, req["external"])
             atomic_json(project / "assets.lock.json", lock)
             return lock
 
@@ -289,6 +365,10 @@ class AssetManager:
         req = requirements(project)
         require(value["requirements_digest"] == digest(req) and value["source"] == req["source"], "Requirements changed; run explicit update and review the new lock")
         require(value.get("collections") == sorted(set(req["collections"])), "Lock collections mismatch")
+        from .libraries import validate_requests
+        require(validate_requests(req.get("external", [])) == [
+            {"id": lib["id"], "index": lib["index"], "collections": lib["collections"]}
+            for lib in value.get("external", [])], "External lock requests mismatch")
         return value
 
     def _object(self, sha):
@@ -300,7 +380,7 @@ class AssetManager:
     def _verify_view(self, root, lock):
         require(root.is_dir() and not root.is_symlink(), "Snapshot missing or symlinked")
         require(read_json(root / "snapshot.json") == lock, "Snapshot metadata mismatch")
-        for item in lock["files"]:
+        for item in all_files(lock):
             path = root / item["path"]
             require(path.resolve().is_relative_to(root.resolve()) and self._valid(path, item), f"Snapshot corrupted: {item['path']}")
 
@@ -318,6 +398,10 @@ class AssetManager:
                 commit = self._commit(project, repo, lock["commit"], offline)
                 files, entries = self._selection(repo, commit, lock["collections"])
                 require(files == lock["files"] and entries == lock["assets"], "Lock does not match committed catalog/content")
+                if lock.get("external"):
+                    from .libraries import resolve_indexes
+                    require(resolve_indexes(repo, commit, requirements(project)["external"]) == lock["external"],
+                            "External lock does not match committed indexes")
                 missing = [f for f in files if not self._valid(self._object(f["sha256"]), f)]
                 lfs_missing = [f for f in missing if f["lfs"]]
                 require(not (offline and lfs_missing), "LFS content missing/corrupt offline: " + ", ".join(f["path"] for f in lfs_missing))
@@ -340,7 +424,16 @@ class AssetManager:
                         target = self._object(item["sha256"])
                         if target.exists():
                             target.unlink()  # invalid private cache object, never author content
-                        git(repo, "lfs", "fetch", "--include=" + item["path"], "--exclude=", "origin", commit)
+                    # Bound command length for Windows while amortizing network startup.
+                    batch, length = [], 0
+                    for item in still_missing:
+                        if batch and length + len(item["path"]) > 6000:
+                            git(repo, "lfs", "fetch", "--include=" + ",".join(batch), "--exclude=", "origin", commit)
+                            batch, length = [], 0
+                        batch.append(item["path"])
+                        length += len(item["path"]) + 1
+                    if batch:
+                        git(repo, "lfs", "fetch", "--include=" + ",".join(batch), "--exclude=", "origin", commit)
                 for item in missing:
                     target = self._object(item["sha256"])
                     if not item["lfs"]:
@@ -351,10 +444,12 @@ class AssetManager:
                             stream.write(data)
                         os.replace(name, target)
                     require(self._valid(target, item), f"Object verification failed: {item['path']}")
+                from .libraries import import_objects
+                import_objects(self, lock.get("external", []))
                 root.parent.mkdir(parents=True, exist_ok=True)
                 staging = Path(tempfile.mkdtemp(prefix=".prepare-", dir=root.parent))
                 try:
-                    for item in files:
+                    for item in all_files(lock):
                         dest = staging / item["path"]
                         dest.parent.mkdir(parents=True, exist_ok=True)
                         shutil.copyfile(self._object(item["sha256"]), dest)
@@ -364,8 +459,8 @@ class AssetManager:
                 finally:
                     if staging.exists():
                         shutil.rmtree(staging)
-            binding = {"schema": 1, "lock_digest": snapshot, "root": str(root),
-                       "assets": {name: str(root / path) for name, path in lock["assets"].items()}}
+            binding = {"schema": lock["schema"], "lock_digest": snapshot, "root": str(root),
+                       "assets": {name: str(root / path) for name, path in all_entries(lock).items()}}
             # Register retention before exposing a binding to the consumer.
             atomic_json(self.store / "bindings" / (digest(str(project)) + ".json"),
                         {"project": str(project), "snapshots": self._retained(project, snapshot)})
@@ -401,7 +496,32 @@ class AssetManager:
                 require(current, "Binding stale or absent; run sync --locked")
                 self._verify_view(expected, lock)
             return {"current": bool(current), "commit": lock["commit"], "snapshot": digest(lock),
-                    "root": str(expected), "asset_ids": sorted(lock["assets"]), "verified": verify}
+                    "root": str(expected), "asset_ids": sorted(all_entries(lock)), "verified": verify}
+
+    def doctor(self, project):
+        """Report binding/content problems without deleting or repairing data."""
+        try:
+            result = self.status(project, verify=True)
+            return {"healthy": True, "status": result, "actions": []}
+        except (AssetError, OSError, ValueError, KeyError, TypeError) as exc:
+            return {"healthy": False, "error": str(exc), "actions": [
+                "Check local library bindings and source availability; run sync --locked",
+                "For a damaged published view, stop consumers and quarantine it before rebuilding",
+                "Never edit the lock to bypass content verification"]}
+
+    def plan(self, project):
+        """Inspect the locked selection and missing cached bytes without downloading."""
+        project = Path(project).resolve()
+        with store_lock(self.store):
+            lock = self._lock(project)
+            unique = {f["sha256"]: f for f in all_files(lock)}
+            missing = [f for f in unique.values() if not self._valid(self._object(f["sha256"]), f)]
+            return {"snapshot": digest(lock), "assets": all_entries(lock),
+                    "selected_bytes": sum(f["size"] for f in all_files(lock)),
+                    "missing_unique_bytes": sum(f["size"] for f in missing),
+                    "missing_objects": len(missing), "external_libraries": [
+                        {"id": x["id"], "version": x["version"], "revision": x["revision"]}
+                        for x in lock.get("external", [])]}
 
     def edit(self, project, destination):
         """Create a separate author checkout from the locked commit; no binding override."""
@@ -436,9 +556,10 @@ def resolve_asset(project, asset_id):
     lock = validate_lock(read_json(project / "assets.lock.json"))
     require(lock["requirements_digest"] == digest(requirements(project)), "Requirements changed; update lock")
     binding = read_json(project / ".anyasset/resolved.json")
-    require(binding.get("schema") == 1 and binding.get("lock_digest") == digest(lock), "Stale asset binding; run sync --locked")
-    require(asset_id in lock["assets"], f"Asset not selected: {asset_id}")
+    require(binding.get("schema") == lock["schema"] and binding.get("lock_digest") == digest(lock), "Stale asset binding; run sync --locked")
+    entries = all_entries(lock)
+    require(asset_id in entries, f"Asset not selected: {asset_id}")
     root = Path(binding["root"]).resolve()
-    path = (root / lock["assets"][asset_id]).resolve()
+    path = (root / entries[asset_id]).resolve()
     require(path.is_relative_to(root) and path.is_file(), "Resolved asset missing or outside snapshot")
     return path
