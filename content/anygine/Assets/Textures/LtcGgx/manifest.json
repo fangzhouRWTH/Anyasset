@@ -1,0 +1,82 @@
+{
+  "contractVersion": 1,
+  "fit": {
+    "alpha": "max(roughness^2, 0.00001)",
+    "brdf": "isotropic_ggx",
+    "coordinates": [
+      "roughness",
+      "sqrt(1 - clamp(NdotV, 0, 1))"
+    ],
+    "fitSamplesPerAxis": 32,
+    "resolution": [
+      64,
+      64
+    ],
+    "sampleUv": "coordinate * (63 / 64) + (0.5 / 64)"
+  },
+  "identity": {
+    "algorithm": "fnv1a64(matrix_payload || amplitude_payload)",
+    "combinedPayloadSha256": "ae24fd6cecc09c80e7d63a7cd7671f11866af0a09e2ed3d371dff2d6c6aa1339",
+    "contentFingerprintHex": "0xf3ff239c2026a163"
+  },
+  "schema": "anygine.renderer.ltc-ggx-lookup.v1",
+  "source": {
+    "commit": "31e5e96b54f98f33098f8503003119ba2231a1c6",
+    "filesSha256": {
+      "LICENSE": "692a54e97fcadd0f04b14027386e53809c1dcf96de3e15b15af15731b15c1e94",
+      "fit/fitLTC.cpp": "441fcfaa8500ec831966ac485e3772155ace9d08c30a5ff010da1ec3eb373b94",
+      "fit/results/ltc_1.dds": "6aa389c6c0403a408cf6bb23dcdc543ad3e97f0fdc49e60f034b6a85682ee18d",
+      "fit/results/ltc_2.dds": "2ff4f03b10d73e25985216d73a58aa57375f0c775dee0e1bde075d44e2b07200",
+      "webgl/shaders/ltc/ltc_quad.fs": "ee7718f16873e21906f2b7b6f0632e0f37e18db34a0a4486777c6b250ffecca5"
+    },
+    "license": {
+      "file": "LICENSE.selfshadow-ltc-code.txt",
+      "identifier": "LicenseRef-selfshadow-ltc-code",
+      "requiresPaperReference": true,
+      "sha256": "692a54e97fcadd0f04b14027386e53809c1dcf96de3e15b15af15731b15c1e94"
+    },
+    "paper": {
+      "authors": [
+        "Eric Heitz",
+        "Jonathan Dupuy",
+        "Stephen Hill",
+        "David Neubelt"
+      ],
+      "title": "Real-Time Polygonal-Light Shading with Linearly Transformed Cosines",
+      "venue": "ACM Transactions on Graphics 35(4), SIGGRAPH 2016"
+    },
+    "projectPage": "https://eheitzresearch.wordpress.com/415-2/",
+    "repository": "https://github.com/selfshadow/ltc_code"
+  },
+  "storage": {
+    "amplitude": {
+      "channels": [
+        "magnitude",
+        "schlick_fresnel",
+        "unused_zero",
+        "sphere_scale"
+      ],
+      "file": "ltc-amplitude.rgba16f",
+      "role": "amplitude_fresnel",
+      "sha256": "a2a4a3eca0aecdf276f3cf28e43d523961dd8774ad6a69f1f421d71bbb2c6ed6"
+    },
+    "arrayLayers": 1,
+    "format": "rgba16_float_little_endian",
+    "height": 64,
+    "matrix": {
+      "channels": [
+        "Minv[0][0]",
+        "Minv[0][2]",
+        "Minv[2][0]",
+        "Minv[2][2]"
+      ],
+      "file": "ltc-matrix.rgba16f",
+      "role": "inverse_transform",
+      "sha256": "d8a46ada3b16bf2736d45240d0ded31070adff62b23c34d4d50bdfd44ee42f82"
+    },
+    "mipLevels": 1,
+    "payloadBytesPerTable": 32768,
+    "sampler": "linear_clamp_to_edge",
+    "width": 64
+  }
+}

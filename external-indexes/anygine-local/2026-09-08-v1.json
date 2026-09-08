@@ -1,0 +1,3002 @@
+{
+  "catalog": {
+    "assets": {
+      "bots/demo/demo_rover.glb": {
+        "depends": [],
+        "entry": "content/local/Bots/Demo/demo_rover.glb",
+        "files": [
+          "content/local/Bots/Demo/demo_rover.bin",
+          "content/local/Bots/Demo/demo_rover.glb",
+          "content/local/Bots/Demo/demo_rover.gltf",
+          "content/local/Bots/Demo/demo_rover.robot.json"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Bots/Demo/demo_rover.glb"
+      },
+      "bots/demo/demo_rover.gltf": {
+        "depends": [],
+        "entry": "content/local/Bots/Demo/demo_rover.gltf",
+        "files": [
+          "content/local/Bots/Demo/demo_rover.bin",
+          "content/local/Bots/Demo/demo_rover.glb",
+          "content/local/Bots/Demo/demo_rover.gltf",
+          "content/local/Bots/Demo/demo_rover.robot.json"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Bots/Demo/demo_rover.gltf"
+      },
+      "bots/demo/demo_rover.robot.json": {
+        "depends": [],
+        "entry": "content/local/Bots/Demo/demo_rover.robot.json",
+        "files": [
+          "content/local/Bots/Demo/demo_rover.bin",
+          "content/local/Bots/Demo/demo_rover.glb",
+          "content/local/Bots/Demo/demo_rover.gltf",
+          "content/local/Bots/Demo/demo_rover.robot.json"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Bots/Demo/demo_rover.robot.json"
+      },
+      "models/abeautifulgame/abeautifulgame.glb": {
+        "depends": [],
+        "entry": "content/local/Models/ABeautifulGame/ABeautifulGame.glb",
+        "files": [
+          "content/local/Models/ABeautifulGame/ABeautifulGame.bin",
+          "content/local/Models/ABeautifulGame/ABeautifulGame.glb",
+          "content/local/Models/ABeautifulGame/ABeautifulGame.gltf",
+          "content/local/Models/ABeautifulGame/Image_0.jpg",
+          "content/local/Models/ABeautifulGame/Image_1.jpg",
+          "content/local/Models/ABeautifulGame/Image_10.jpg",
+          "content/local/Models/ABeautifulGame/Image_11.jpg",
+          "content/local/Models/ABeautifulGame/Image_12.jpg",
+          "content/local/Models/ABeautifulGame/Image_13.jpg",
+          "content/local/Models/ABeautifulGame/Image_14.jpg",
+          "content/local/Models/ABeautifulGame/Image_15.jpg",
+          "content/local/Models/ABeautifulGame/Image_16.jpg",
+          "content/local/Models/ABeautifulGame/Image_17.jpg",
+          "content/local/Models/ABeautifulGame/Image_18.jpg",
+          "content/local/Models/ABeautifulGame/Image_19.jpg",
+          "content/local/Models/ABeautifulGame/Image_2.jpg",
+          "content/local/Models/ABeautifulGame/Image_20.jpg",
+          "content/local/Models/ABeautifulGame/Image_21.jpg",
+          "content/local/Models/ABeautifulGame/Image_22.jpg",
+          "content/local/Models/ABeautifulGame/Image_23.jpg",
+          "content/local/Models/ABeautifulGame/Image_24.jpg",
+          "content/local/Models/ABeautifulGame/Image_25.jpg",
+          "content/local/Models/ABeautifulGame/Image_26.jpg",
+          "content/local/Models/ABeautifulGame/Image_27.jpg",
+          "content/local/Models/ABeautifulGame/Image_28.jpg",
+          "content/local/Models/ABeautifulGame/Image_29.jpg",
+          "content/local/Models/ABeautifulGame/Image_3.jpg",
+          "content/local/Models/ABeautifulGame/Image_30.jpg",
+          "content/local/Models/ABeautifulGame/Image_31.jpg",
+          "content/local/Models/ABeautifulGame/Image_32.jpg",
+          "content/local/Models/ABeautifulGame/Image_4.jpg",
+          "content/local/Models/ABeautifulGame/Image_5.jpg",
+          "content/local/Models/ABeautifulGame/Image_6.jpg",
+          "content/local/Models/ABeautifulGame/Image_7.jpg",
+          "content/local/Models/ABeautifulGame/Image_8.jpg",
+          "content/local/Models/ABeautifulGame/Image_9.jpg",
+          "content/local/Models/ABeautifulGame/README.md"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Models/ABeautifulGame/ABeautifulGame.glb"
+      },
+      "models/abeautifulgame/abeautifulgame.gltf": {
+        "depends": [],
+        "entry": "content/local/Models/ABeautifulGame/ABeautifulGame.gltf",
+        "files": [
+          "content/local/Models/ABeautifulGame/ABeautifulGame.bin",
+          "content/local/Models/ABeautifulGame/ABeautifulGame.glb",
+          "content/local/Models/ABeautifulGame/ABeautifulGame.gltf",
+          "content/local/Models/ABeautifulGame/Image_0.jpg",
+          "content/local/Models/ABeautifulGame/Image_1.jpg",
+          "content/local/Models/ABeautifulGame/Image_10.jpg",
+          "content/local/Models/ABeautifulGame/Image_11.jpg",
+          "content/local/Models/ABeautifulGame/Image_12.jpg",
+          "content/local/Models/ABeautifulGame/Image_13.jpg",
+          "content/local/Models/ABeautifulGame/Image_14.jpg",
+          "content/local/Models/ABeautifulGame/Image_15.jpg",
+          "content/local/Models/ABeautifulGame/Image_16.jpg",
+          "content/local/Models/ABeautifulGame/Image_17.jpg",
+          "content/local/Models/ABeautifulGame/Image_18.jpg",
+          "content/local/Models/ABeautifulGame/Image_19.jpg",
+          "content/local/Models/ABeautifulGame/Image_2.jpg",
+          "content/local/Models/ABeautifulGame/Image_20.jpg",
+          "content/local/Models/ABeautifulGame/Image_21.jpg",
+          "content/local/Models/ABeautifulGame/Image_22.jpg",
+          "content/local/Models/ABeautifulGame/Image_23.jpg",
+          "content/local/Models/ABeautifulGame/Image_24.jpg",
+          "content/local/Models/ABeautifulGame/Image_25.jpg",
+          "content/local/Models/ABeautifulGame/Image_26.jpg",
+          "content/local/Models/ABeautifulGame/Image_27.jpg",
+          "content/local/Models/ABeautifulGame/Image_28.jpg",
+          "content/local/Models/ABeautifulGame/Image_29.jpg",
+          "content/local/Models/ABeautifulGame/Image_3.jpg",
+          "content/local/Models/ABeautifulGame/Image_30.jpg",
+          "content/local/Models/ABeautifulGame/Image_31.jpg",
+          "content/local/Models/ABeautifulGame/Image_32.jpg",
+          "content/local/Models/ABeautifulGame/Image_4.jpg",
+          "content/local/Models/ABeautifulGame/Image_5.jpg",
+          "content/local/Models/ABeautifulGame/Image_6.jpg",
+          "content/local/Models/ABeautifulGame/Image_7.jpg",
+          "content/local/Models/ABeautifulGame/Image_8.jpg",
+          "content/local/Models/ABeautifulGame/Image_9.jpg",
+          "content/local/Models/ABeautifulGame/README.md"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Models/ABeautifulGame/ABeautifulGame.gltf"
+      },
+      "models/cart/cart.glb": {
+        "depends": [],
+        "entry": "content/local/Models/Cart/Cart.glb",
+        "files": [
+          "content/local/Models/Cart/Cart.glb",
+          "content/local/Models/Cart/demo_rover.glb"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Models/Cart/Cart.glb"
+      },
+      "models/cart/demo_rover.glb": {
+        "depends": [],
+        "entry": "content/local/Models/Cart/demo_rover.glb",
+        "files": [
+          "content/local/Models/Cart/Cart.glb",
+          "content/local/Models/Cart/demo_rover.glb"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Models/Cart/demo_rover.glb"
+      },
+      "models/chronographwatch/chronographwatch.glb": {
+        "depends": [],
+        "entry": "content/local/Models/ChronographWatch/ChronographWatch.glb",
+        "files": [
+          "content/local/Models/ChronographWatch/ChronographWatch.glb"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Models/ChronographWatch/ChronographWatch.glb"
+      },
+      "models/pazhou/all.glb": {
+        "depends": [],
+        "entry": "content/local/Models/Pazhou/all.glb",
+        "files": [
+          "content/local/Models/Pazhou/all.glb"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Models/Pazhou/all.glb"
+      },
+      "models/porsche/1975_porsche_911_930_turbo.glb": {
+        "depends": [],
+        "entry": "content/local/Models/Porsche/1975_porsche_911_930_turbo.glb",
+        "files": [
+          "content/local/Models/Porsche/1975_porsche_911_930_turbo.glb",
+          "content/local/Models/Porsche/1975_porsche_911_930_turbo.gltf",
+          "content/local/Models/Porsche/free_1975_porsche_911_930_turbo.zip",
+          "content/local/Models/Porsche/license.txt",
+          "content/local/Models/Porsche/scene.bin",
+          "content/local/Models/Porsche/textures/930_chromes_baseColor.png",
+          "content/local/Models/Porsche/textures/930_chromes_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_lights_baseColor.png",
+          "content/local/Models/Porsche/textures/930_lights_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_lights_normal.png",
+          "content/local/Models/Porsche/textures/930_plastics_baseColor.png",
+          "content/local/Models/Porsche/textures/930_plastics_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_rim_baseColor.png",
+          "content/local/Models/Porsche/textures/930_rim_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_rim_normal.png",
+          "content/local/Models/Porsche/textures/930_stickers_baseColor.png",
+          "content/local/Models/Porsche/textures/930_tire_baseColor.png",
+          "content/local/Models/Porsche/textures/930_tire_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_tire_normal.png",
+          "content/local/Models/Porsche/textures/930_wunderbaum_baseColor.png",
+          "content/local/Models/Porsche/textures/930_wunderbaum_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/coat_baseColor.png",
+          "content/local/Models/Porsche/textures/coat_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/glass_baseColor.png",
+          "content/local/Models/Porsche/textures/glass_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/material_0_baseColor.png",
+          "content/local/Models/Porsche/textures/paint_clearcoat.png",
+          "content/local/Models/Porsche/textures/paint_clearcoat_normal.png",
+          "content/local/Models/Porsche/textures/paint_clearcoat_roughness.png",
+          "content/local/Models/Porsche/textures/paint_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/plate_baseColor.png",
+          "content/local/Models/Porsche/textures/plate_normal.png"
+        ],
+        "license": "See retained Models/Porsche/license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Porsche/1975_porsche_911_930_turbo.glb"
+      },
+      "models/porsche/1975_porsche_911_930_turbo.gltf": {
+        "depends": [],
+        "entry": "content/local/Models/Porsche/1975_porsche_911_930_turbo.gltf",
+        "files": [
+          "content/local/Models/Porsche/1975_porsche_911_930_turbo.glb",
+          "content/local/Models/Porsche/1975_porsche_911_930_turbo.gltf",
+          "content/local/Models/Porsche/free_1975_porsche_911_930_turbo.zip",
+          "content/local/Models/Porsche/license.txt",
+          "content/local/Models/Porsche/scene.bin",
+          "content/local/Models/Porsche/textures/930_chromes_baseColor.png",
+          "content/local/Models/Porsche/textures/930_chromes_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_lights_baseColor.png",
+          "content/local/Models/Porsche/textures/930_lights_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_lights_normal.png",
+          "content/local/Models/Porsche/textures/930_plastics_baseColor.png",
+          "content/local/Models/Porsche/textures/930_plastics_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_rim_baseColor.png",
+          "content/local/Models/Porsche/textures/930_rim_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_rim_normal.png",
+          "content/local/Models/Porsche/textures/930_stickers_baseColor.png",
+          "content/local/Models/Porsche/textures/930_tire_baseColor.png",
+          "content/local/Models/Porsche/textures/930_tire_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/930_tire_normal.png",
+          "content/local/Models/Porsche/textures/930_wunderbaum_baseColor.png",
+          "content/local/Models/Porsche/textures/930_wunderbaum_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/coat_baseColor.png",
+          "content/local/Models/Porsche/textures/coat_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/glass_baseColor.png",
+          "content/local/Models/Porsche/textures/glass_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/material_0_baseColor.png",
+          "content/local/Models/Porsche/textures/paint_clearcoat.png",
+          "content/local/Models/Porsche/textures/paint_clearcoat_normal.png",
+          "content/local/Models/Porsche/textures/paint_clearcoat_roughness.png",
+          "content/local/Models/Porsche/textures/paint_metallicRoughness.png",
+          "content/local/Models/Porsche/textures/plate_baseColor.png",
+          "content/local/Models/Porsche/textures/plate_normal.png"
+        ],
+        "license": "See retained Models/Porsche/license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Porsche/1975_porsche_911_930_turbo.gltf"
+      },
+      "models/sponza/newsponza_main_gltf_003.gltf": {
+        "depends": [],
+        "entry": "content/local/Models/Sponza/NewSponza_Main_glTF_003.gltf",
+        "files": [
+          "content/local/Models/Sponza/NewSponza_Main_USD_003.max",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Yup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.bin",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.gltf",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.max",
+          "content/local/Models/Sponza/Render_Main_A.png",
+          "content/local/Models/Sponza/Render_Main_B.png",
+          "content/local/Models/Sponza/Render_Main_C.png",
+          "content/local/Models/Sponza/Render_Main_D.png",
+          "content/local/Models/Sponza/Render_Main_E.png",
+          "content/local/Models/Sponza/Render_Main_E_Fix.png",
+          "content/local/Models/Sponza/Render_Main_E_USD_Fix.png",
+          "content/local/Models/Sponza/Render_Main_F.png",
+          "content/local/Models/Sponza/credits_license.txt",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Normal.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughnessarch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughnessbrickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughnessbrickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughnesscol_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscol_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscolumn_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughnesscol_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughnesscol_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughnesscol_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Normal.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Roughness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_blue_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_green_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_red_BaseColor.png",
+          "content/local/Models/Sponza/textures/desktop.ini",
+          "content/local/Models/Sponza/textures/dirt_decal_01.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_alpha.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_gltf_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_invmask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_gltf.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_usd.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughnessdoor_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughnessdoor_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughnessfloor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/kloppenheim_05_4k.hdr",
+          "content/local/Models/Sponza/textures/lionhead_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Normal.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughnesslionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughnessmetal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Normal.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughnessornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughnessroof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Normal.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughnessstone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughnessstone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughnessstone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Normal.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughnessstones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Normal.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughnesswindow_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughnesswood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughnesswood_tile_01_Metalness.png"
+        ],
+        "license": "See retained Models/Sponza/credits_license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Sponza/NewSponza_Main_glTF_003.gltf"
+      },
+      "models/sponza/newsponza_main_usd_yup_003.usda": {
+        "depends": [],
+        "entry": "content/local/Models/Sponza/NewSponza_Main_USD_Yup_003.usda",
+        "files": [
+          "content/local/Models/Sponza/NewSponza_Main_USD_003.max",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Yup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.bin",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.gltf",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.max",
+          "content/local/Models/Sponza/Render_Main_A.png",
+          "content/local/Models/Sponza/Render_Main_B.png",
+          "content/local/Models/Sponza/Render_Main_C.png",
+          "content/local/Models/Sponza/Render_Main_D.png",
+          "content/local/Models/Sponza/Render_Main_E.png",
+          "content/local/Models/Sponza/Render_Main_E_Fix.png",
+          "content/local/Models/Sponza/Render_Main_E_USD_Fix.png",
+          "content/local/Models/Sponza/Render_Main_F.png",
+          "content/local/Models/Sponza/credits_license.txt",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Normal.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughnessarch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughnessbrickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughnessbrickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughnesscol_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscol_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscolumn_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughnesscol_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughnesscol_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughnesscol_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Normal.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Roughness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_blue_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_green_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_red_BaseColor.png",
+          "content/local/Models/Sponza/textures/desktop.ini",
+          "content/local/Models/Sponza/textures/dirt_decal_01.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_alpha.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_gltf_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_invmask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_gltf.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_usd.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughnessdoor_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughnessdoor_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughnessfloor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/kloppenheim_05_4k.hdr",
+          "content/local/Models/Sponza/textures/lionhead_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Normal.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughnesslionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughnessmetal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Normal.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughnessornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughnessroof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Normal.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughnessstone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughnessstone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughnessstone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Normal.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughnessstones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Normal.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughnesswindow_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughnesswood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughnesswood_tile_01_Metalness.png"
+        ],
+        "license": "See retained Models/Sponza/credits_license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Sponza/NewSponza_Main_USD_Yup_003.usda"
+      },
+      "models/sponza/newsponza_main_usd_zup_003.usda": {
+        "depends": [],
+        "entry": "content/local/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+        "files": [
+          "content/local/Models/Sponza/NewSponza_Main_USD_003.max",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Yup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.bin",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.gltf",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.max",
+          "content/local/Models/Sponza/Render_Main_A.png",
+          "content/local/Models/Sponza/Render_Main_B.png",
+          "content/local/Models/Sponza/Render_Main_C.png",
+          "content/local/Models/Sponza/Render_Main_D.png",
+          "content/local/Models/Sponza/Render_Main_E.png",
+          "content/local/Models/Sponza/Render_Main_E_Fix.png",
+          "content/local/Models/Sponza/Render_Main_E_USD_Fix.png",
+          "content/local/Models/Sponza/Render_Main_F.png",
+          "content/local/Models/Sponza/credits_license.txt",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Normal.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughnessarch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughnessbrickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughnessbrickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughnesscol_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscol_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscolumn_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughnesscol_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughnesscol_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughnesscol_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Normal.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Roughness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_blue_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_green_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_red_BaseColor.png",
+          "content/local/Models/Sponza/textures/desktop.ini",
+          "content/local/Models/Sponza/textures/dirt_decal_01.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_alpha.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_gltf_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_invmask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_gltf.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_usd.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughnessdoor_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughnessdoor_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughnessfloor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/kloppenheim_05_4k.hdr",
+          "content/local/Models/Sponza/textures/lionhead_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Normal.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughnesslionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughnessmetal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Normal.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughnessornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughnessroof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Normal.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughnessstone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughnessstone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughnessstone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Normal.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughnessstones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Normal.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughnesswindow_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughnesswood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughnesswood_tile_01_Metalness.png"
+        ],
+        "license": "See retained Models/Sponza/credits_license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Sponza/NewSponza_Main_USD_Zup_003.usda"
+      },
+      "models/sponza/newsponza_main_yup_003.fbx": {
+        "depends": [],
+        "entry": "content/local/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+        "files": [
+          "content/local/Models/Sponza/NewSponza_Main_USD_003.max",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Yup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.bin",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.gltf",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.max",
+          "content/local/Models/Sponza/Render_Main_A.png",
+          "content/local/Models/Sponza/Render_Main_B.png",
+          "content/local/Models/Sponza/Render_Main_C.png",
+          "content/local/Models/Sponza/Render_Main_D.png",
+          "content/local/Models/Sponza/Render_Main_E.png",
+          "content/local/Models/Sponza/Render_Main_E_Fix.png",
+          "content/local/Models/Sponza/Render_Main_E_USD_Fix.png",
+          "content/local/Models/Sponza/Render_Main_F.png",
+          "content/local/Models/Sponza/credits_license.txt",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Normal.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughnessarch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughnessbrickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughnessbrickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughnesscol_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscol_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscolumn_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughnesscol_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughnesscol_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughnesscol_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Normal.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Roughness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_blue_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_green_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_red_BaseColor.png",
+          "content/local/Models/Sponza/textures/desktop.ini",
+          "content/local/Models/Sponza/textures/dirt_decal_01.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_alpha.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_gltf_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_invmask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_gltf.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_usd.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughnessdoor_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughnessdoor_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughnessfloor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/kloppenheim_05_4k.hdr",
+          "content/local/Models/Sponza/textures/lionhead_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Normal.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughnesslionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughnessmetal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Normal.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughnessornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughnessroof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Normal.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughnessstone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughnessstone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughnessstone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Normal.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughnessstones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Normal.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughnesswindow_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughnesswood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughnesswood_tile_01_Metalness.png"
+        ],
+        "license": "See retained Models/Sponza/credits_license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Sponza/NewSponza_Main_Yup_003.fbx"
+      },
+      "models/sponza/newsponza_main_zup_003.fbx": {
+        "depends": [],
+        "entry": "content/local/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+        "files": [
+          "content/local/Models/Sponza/NewSponza_Main_USD_003.max",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Yup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.bin",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.gltf",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.max",
+          "content/local/Models/Sponza/Render_Main_A.png",
+          "content/local/Models/Sponza/Render_Main_B.png",
+          "content/local/Models/Sponza/Render_Main_C.png",
+          "content/local/Models/Sponza/Render_Main_D.png",
+          "content/local/Models/Sponza/Render_Main_E.png",
+          "content/local/Models/Sponza/Render_Main_E_Fix.png",
+          "content/local/Models/Sponza/Render_Main_E_USD_Fix.png",
+          "content/local/Models/Sponza/Render_Main_F.png",
+          "content/local/Models/Sponza/credits_license.txt",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Normal.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughnessarch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughnessbrickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughnessbrickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughnesscol_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscol_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscolumn_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughnesscol_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughnesscol_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughnesscol_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Normal.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Roughness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_blue_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_green_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_red_BaseColor.png",
+          "content/local/Models/Sponza/textures/desktop.ini",
+          "content/local/Models/Sponza/textures/dirt_decal_01.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_alpha.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_gltf_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_invmask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_gltf.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_usd.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughnessdoor_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughnessdoor_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughnessfloor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/kloppenheim_05_4k.hdr",
+          "content/local/Models/Sponza/textures/lionhead_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Normal.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughnesslionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughnessmetal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Normal.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughnessornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughnessroof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Normal.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughnessstone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughnessstone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughnessstone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Normal.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughnessstones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Normal.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughnesswindow_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughnesswood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughnesswood_tile_01_Metalness.png"
+        ],
+        "license": "See retained Models/Sponza/credits_license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Sponza/NewSponza_Main_Zup_003.fbx"
+      },
+      "models/sponza/textures/kloppenheim_05_4k.hdr": {
+        "depends": [],
+        "entry": "content/local/Models/Sponza/textures/kloppenheim_05_4k.hdr",
+        "files": [
+          "content/local/Models/Sponza/NewSponza_Main_USD_003.max",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Yup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+          "content/local/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.bin",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.gltf",
+          "content/local/Models/Sponza/NewSponza_Main_glTF_003.max",
+          "content/local/Models/Sponza/Render_Main_A.png",
+          "content/local/Models/Sponza/Render_Main_B.png",
+          "content/local/Models/Sponza/Render_Main_C.png",
+          "content/local/Models/Sponza/Render_Main_D.png",
+          "content/local/Models/Sponza/Render_Main_E.png",
+          "content/local/Models/Sponza/Render_Main_E_Fix.png",
+          "content/local/Models/Sponza/Render_Main_E_USD_Fix.png",
+          "content/local/Models/Sponza/Render_Main_F.png",
+          "content/local/Models/Sponza/credits_license.txt",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Normal.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughnessarch_stone_wall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_01_Roughnessbrickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Normal.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughness.png",
+          "content/local/Models/Sponza/textures/brickwall_02_Roughnessbrickwall_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Metalness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Normal.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughness.png",
+          "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughnessceiling_plaster_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_1stfloor_Roughnesscol_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Normal.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscol_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscolumn_brickwall_01_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_1stfloor_Roughnesscol_head_1stfloor_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughnesscol_head_2ndfloor_02_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_BaseColor.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Normal.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughness.png",
+          "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughnesscol_head_2ndfloor_03_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Metalness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Normal.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_Roughness.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_blue_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_green_BaseColor.png",
+          "content/local/Models/Sponza/textures/curtain_fabric_red_BaseColor.png",
+          "content/local/Models/Sponza/textures/desktop.ini",
+          "content/local/Models/Sponza/textures/dirt_decal_01.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_alpha.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_gltf_alpha_dirt_decal_Opacity.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_invmask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_gltf.png",
+          "content/local/Models/Sponza/textures/dirt_decal_01_mask_usd.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_01_Roughnessdoor_stoneframe_01_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Normal.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughness.png",
+          "content/local/Models/Sponza/textures/door_stoneframe_02_Roughnessdoor_stoneframe_02_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/floor_tiles_01_Roughnessfloor_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/kloppenheim_05_4k.hdr",
+          "content/local/Models/Sponza/textures/lionhead_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Normal.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughness.png",
+          "content/local/Models/Sponza/textures/lionhead_01_Roughnesslionhead_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/metal_door_01_Roughnessmetal_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/ornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Normal.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughness.png",
+          "content/local/Models/Sponza/textures/ornament_01_Roughnessornament_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Normal.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughness.png",
+          "content/local/Models/Sponza/textures/roof_tiles_01_Roughnessroof_tiles_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Normal.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_01_tile_Roughnessstone_01_tile_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_01_Roughnessstone_trims_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_BaseColor.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Normal.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughness.png",
+          "content/local/Models/Sponza/textures/stone_trims_02_Roughnessstone_trims_02_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Normal.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughness.png",
+          "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughnessstones_2ndfloor_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Normal.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughness.png",
+          "content/local/Models/Sponza/textures/window_frame_01_Roughnesswindow_frame_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_door_01_Roughnesswood_door_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_BaseColor.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Metalness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Normal.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughness.png",
+          "content/local/Models/Sponza/textures/wood_tile_01_Roughnesswood_tile_01_Metalness.png"
+        ],
+        "license": "See retained Models/Sponza/credits_license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Sponza/textures/kloppenheim_05_4k.hdr"
+      },
+      "models/tencent/tencent.glb": {
+        "depends": [],
+        "entry": "content/local/Models/Tencent/tencent.glb",
+        "files": [
+          "content/local/Models/Tencent/tencent.glb"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Models/Tencent/tencent.glb"
+      },
+      "models/test/test.gltf": {
+        "depends": [],
+        "entry": "content/local/Models/Test/test.gltf",
+        "files": [
+          "content/local/Models/Test/gltf_test_pbr_material.zip",
+          "content/local/Models/Test/license.txt",
+          "content/local/Models/Test/scene.bin",
+          "content/local/Models/Test/test.gltf",
+          "content/local/Models/Test/textures/ground_baseColor.png",
+          "content/local/Models/Test/textures/mat_alphaMask_2_doubleSided_baseColor.png",
+          "content/local/Models/Test/textures/mat_brown_texture_baseColor.png",
+          "content/local/Models/Test/textures/mat_emissive_tex1_emissive.png",
+          "content/local/Models/Test/textures/mat_leaf_doubleSided_baseColor.png",
+          "content/local/Models/Test/textures/mat_metallic_tex_1_metallicRoughness.png",
+          "content/local/Models/Test/textures/mat_metallic_tex_2_metallicRoughness.png",
+          "content/local/Models/Test/textures/mat_normal_1_normal.png",
+          "content/local/Models/Test/textures/mat_occlusion_2_metallicRoughness.png",
+          "content/local/Models/Test/textures/mat_roughness_tex_1_metallicRoughness.png",
+          "content/local/Models/Test/textures/mat_roughness_tex_2_metallicRoughness.png",
+          "content/local/Models/Test/textures/mat_vertexColor_1_baseColor.png",
+          "content/local/Models/Test/textures/text_doubleSided_baseColor.png"
+        ],
+        "license": "See retained Models/Test/license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Models/Test/test.gltf"
+      },
+      "models/testscene/testscene.glb": {
+        "depends": [],
+        "entry": "content/local/Models/TestScene/testscene.glb",
+        "files": [
+          "content/local/Models/TestScene/testscene.glb"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Models/TestScene/testscene.glb"
+      },
+      "scenes/debug/living_room_interior/scene.gltf": {
+        "depends": [],
+        "entry": "content/local/Scenes/Debug/living_room_interior/scene.gltf",
+        "files": [
+          "content/local/Scenes/Debug/living_room_interior/license.txt",
+          "content/local/Scenes/Debug/living_room_interior/scene.bin",
+          "content/local/Scenes/Debug/living_room_interior/scene.gltf",
+          "content/local/Scenes/Debug/living_room_interior/textures/8_20260512190452_baseColor.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.001_baseColor.jpeg",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.001_normal.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.002_baseColor.jpeg",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.004_baseColor.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.004_normal.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.006_normal.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.008_baseColor.jpeg",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.008_normal.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.009_baseColor.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.009_normal.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.011_baseColor.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.011_normal.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.012_baseColor.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/Material.012_normal.png",
+          "content/local/Scenes/Debug/living_room_interior/textures/material_normal.png"
+        ],
+        "license": "See retained Scenes/Debug/living_room_interior/license.txt; source terms preserved without reinterpretation",
+        "origin": "Existing Anygine local development input; original relative path Scenes/Debug/living_room_interior/scene.gltf"
+      },
+      "textures/skybox/default_skybox_1.exr": {
+        "depends": [],
+        "entry": "content/local/Textures/Skybox/default_skybox_1.exr",
+        "files": [
+          "content/local/Textures/Skybox/default_skybox_1.exr",
+          "content/local/Textures/Skybox/default_skybox_1.hdr",
+          "content/local/Textures/Skybox/default_skybox_2.hdr"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Textures/Skybox/default_skybox_1.exr"
+      },
+      "textures/skybox/default_skybox_1.hdr": {
+        "depends": [],
+        "entry": "content/local/Textures/Skybox/default_skybox_1.hdr",
+        "files": [
+          "content/local/Textures/Skybox/default_skybox_1.exr",
+          "content/local/Textures/Skybox/default_skybox_1.hdr",
+          "content/local/Textures/Skybox/default_skybox_2.hdr"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Textures/Skybox/default_skybox_1.hdr"
+      },
+      "textures/skybox/default_skybox_2.hdr": {
+        "depends": [],
+        "entry": "content/local/Textures/Skybox/default_skybox_2.hdr",
+        "files": [
+          "content/local/Textures/Skybox/default_skybox_1.exr",
+          "content/local/Textures/Skybox/default_skybox_1.hdr",
+          "content/local/Textures/Skybox/default_skybox_2.hdr"
+        ],
+        "license": "NOASSERTION; no license record found in this local package; external metadata only",
+        "origin": "Existing Anygine local development input; original relative path Textures/Skybox/default_skybox_2.hdr"
+      }
+    },
+    "collections": {
+      "all": [
+        "bots/demo/demo_rover.glb",
+        "bots/demo/demo_rover.gltf",
+        "bots/demo/demo_rover.robot.json",
+        "models/abeautifulgame/abeautifulgame.glb",
+        "models/abeautifulgame/abeautifulgame.gltf",
+        "models/cart/cart.glb",
+        "models/cart/demo_rover.glb",
+        "models/chronographwatch/chronographwatch.glb",
+        "models/pazhou/all.glb",
+        "models/porsche/1975_porsche_911_930_turbo.glb",
+        "models/porsche/1975_porsche_911_930_turbo.gltf",
+        "models/sponza/newsponza_main_gltf_003.gltf",
+        "models/sponza/newsponza_main_usd_yup_003.usda",
+        "models/sponza/newsponza_main_usd_zup_003.usda",
+        "models/sponza/newsponza_main_yup_003.fbx",
+        "models/sponza/newsponza_main_zup_003.fbx",
+        "models/sponza/textures/kloppenheim_05_4k.hdr",
+        "models/tencent/tencent.glb",
+        "models/test/test.gltf",
+        "models/testscene/testscene.glb",
+        "scenes/debug/living_room_interior/scene.gltf",
+        "textures/skybox/default_skybox_1.exr",
+        "textures/skybox/default_skybox_1.hdr",
+        "textures/skybox/default_skybox_2.hdr"
+      ],
+      "benchmarks": [
+        "models/abeautifulgame/abeautifulgame.glb",
+        "models/chronographwatch/chronographwatch.glb",
+        "models/sponza/newsponza_main_gltf_003.gltf"
+      ],
+      "robots": [
+        "bots/demo/demo_rover.glb",
+        "bots/demo/demo_rover.gltf",
+        "bots/demo/demo_rover.robot.json"
+      ]
+    },
+    "schema": 1
+  },
+  "files": [
+    {
+      "lfs": false,
+      "path": "content/local/Bots/Demo/demo_rover.bin",
+      "sha256": "e683261004a93fa90245db4a540538138942d3432df142f41373e8140708eafd",
+      "size": 199760
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Bots/Demo/demo_rover.glb",
+      "sha256": "966994f74042a05a891350c0b1195ca2455a3297ec3bebef362da3a31c9715b3",
+      "size": 241452
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Bots/Demo/demo_rover.gltf",
+      "sha256": "65452bd8a9dd63113164b6041d36b21f396a409db99eda27c19f60550ca9b234",
+      "size": 6692
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Bots/Demo/demo_rover.robot.json",
+      "sha256": "12652cd1abc9bb8444e089dbeb9400089a53832f5829b913f746705c37d3631f",
+      "size": 7049
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/ABeautifulGame.bin",
+      "sha256": "045438a9566f52c7cedab01f6a41b56e31b6f38b1ed4d556a62354d950439f06",
+      "size": 15991892
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/ABeautifulGame.glb",
+      "sha256": "bd7133b4b322aae97c589b8839dae8155ad2546acb35ae32a127e722a959d007",
+      "size": 42977928
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/ABeautifulGame.gltf",
+      "sha256": "de25b1097ef9e03d036024041d5bef458cc1675e62d4c30528c2b4498ff62344",
+      "size": 32268
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_0.jpg",
+      "sha256": "f1df1e4b755e95741a4170c73281fb5532394026f2683e5bd5478af053a4c40a",
+      "size": 361127
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_1.jpg",
+      "sha256": "ffe7997b80f831d099d386483fe195beeee1ff37a11e5e95dad5a830975ec312",
+      "size": 673915
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_10.jpg",
+      "sha256": "9e9630daee38e7eb3e7188540a1a7be1f49187a13cd4b72588ec709f53ce0cea",
+      "size": 961725
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_11.jpg",
+      "sha256": "a9b0bde70cc75d7763dd658a2d5f26f9edb2739f453a88291071e20111b4581c",
+      "size": 822486
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_12.jpg",
+      "sha256": "26132e8fb23808295c7d77fedf1e760730d097d138e66a5947e0cc3a7f9302ed",
+      "size": 295346
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_13.jpg",
+      "sha256": "b2dfb93933b47ff4589eca6acd8c96b9b17521e024060e7e0fca1a7f95a9401e",
+      "size": 777060
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_14.jpg",
+      "sha256": "4df982f977eae6da3239e9e7a02534633f07473010025cd742d55ad4d85976ca",
+      "size": 741172
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_15.jpg",
+      "sha256": "2cc4b5295ff58d920cc23c13ee089821e193f6006c966af395824fc1c94ce4e0",
+      "size": 309191
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_16.jpg",
+      "sha256": "5270859cd49784272da97b92d9aeef4d6008033d654014b34328c7ea961cb282",
+      "size": 662916
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_17.jpg",
+      "sha256": "07fba609ee23a02ea22a3d1f6d76df87a0cfa8eca5bc38ddbe7a1258d7448b33",
+      "size": 709227
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_18.jpg",
+      "sha256": "31a0a9e3d82958f310ec6c817f13968bdddab4efe5b612d471b1c6177156a0a6",
+      "size": 529405
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_19.jpg",
+      "sha256": "b496ad48f281a4ccbcf2b08378ac4693f21c3942e34340e9cbcd8bec18765bc1",
+      "size": 727372
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_2.jpg",
+      "sha256": "08fa51b364f6a4484bec3c9e1e3ce8cd0371d0959f38799acbde06e9b910806d",
+      "size": 622771
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_20.jpg",
+      "sha256": "18c357a7aa4beac43c604ebd73dca129e0db505adc74c19dfd3767f8df3d51c5",
+      "size": 582751
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_21.jpg",
+      "sha256": "c1e2e201efcdc9184da793f6fe98bc54dace592274842dd7e42427a9294277c3",
+      "size": 750313
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_22.jpg",
+      "sha256": "bb7ac27d4b650cf533e398e0477c9fbf129846d566e706d76146cdb947c3f17a",
+      "size": 792174
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_23.jpg",
+      "sha256": "46153b809dfcc35f1a3c3508310a25dc423062204e95b328dddd420cb3d60952",
+      "size": 303807
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_24.jpg",
+      "sha256": "e3a42ac61d090cf23b5722e20b8b993f087ca09689500b74dde61c8a28899e26",
+      "size": 315179
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_25.jpg",
+      "sha256": "025fdde8ae3a97c8d430e1ca2539acc36d071886ed4ff7c0396751094031b479",
+      "size": 394527
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_26.jpg",
+      "sha256": "91342101f6e3fdced973c247165d4e244c4410e647a524d23a763b122e9881ed",
+      "size": 491396
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_27.jpg",
+      "sha256": "1e00bd2b6cc122da8fb77f4bf5db590ec10cea609719a334518b6cae7f416d0c",
+      "size": 1371413
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_28.jpg",
+      "sha256": "56aa97849639f9e5def51dd55edd1550038ec31cdd3a362060258ffa526b60ca",
+      "size": 334252
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_29.jpg",
+      "sha256": "68db3a457ad7d7e2c6ef19320614cb0976038a9b5d10dc596ef9fa8e0efe71ff",
+      "size": 244999
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_3.jpg",
+      "sha256": "3ebe3fe7859d6ae50327033fd4cb61253e81f2441baa3ae752edf309b7491973",
+      "size": 403990
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_30.jpg",
+      "sha256": "28d817c0e3179b1bd76c99a8b634ab17cbdd55b9594ef4ec5843ff8cb2811f9f",
+      "size": 215780
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_31.jpg",
+      "sha256": "64db87cfd2c2b31400248035817da7fc6e88e58f27ee02b540283e3aa38afc8e",
+      "size": 350946
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_32.jpg",
+      "sha256": "89ab1100fce0e724249e433cdf4089a3edfdcd4d9aec9f14ba44f83b7284181e",
+      "size": 395645
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_4.jpg",
+      "sha256": "243ed45b4e752f1dd6aa67673239afc8d54ce821ce081d1c8f8d8b877f4c5a3c",
+      "size": 850400
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_5.jpg",
+      "sha256": "2e02bf8975c9d0585b1b0a4fbb0448b99a20ce888b8065d37d71d2a6bb26a869",
+      "size": 630950
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_6.jpg",
+      "sha256": "68d65ffad3ddae474e17a7c028c0ec65af0a15b0a46a5fb03b856eb40f8fe725",
+      "size": 366216
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_7.jpg",
+      "sha256": "2fdf5d40f38cac95175f2e685476e28f12c7e0555fb4345df34cc05420cef66e",
+      "size": 764089
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_8.jpg",
+      "sha256": "e77a83078879b7068420d2f7ad76a02c3fc78bcf752e82e037754a242895f3da",
+      "size": 782417
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/Image_9.jpg",
+      "sha256": "f64a03112150d2e55bf716b11467a18cf30cab799f9081c2236b8f4ff668fa53",
+      "size": 395138
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ABeautifulGame/README.md",
+      "sha256": "0eba21b35b4d5ea8621c53be57eade53ecdb56ea3c3aaa7a4e5f90119d27ab46",
+      "size": 323
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Cart/Cart.glb",
+      "sha256": "455a1c2a44a3e92954d78b66140af18e1527fc091b5ad4588611f945c666cd79",
+      "size": 204632
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Cart/demo_rover.glb",
+      "sha256": "eea0613d07087897dd2ef13100b40701a21abba414047e27c0e7e6634f66d0c0",
+      "size": 204632
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/ChronographWatch/ChronographWatch.glb",
+      "sha256": "8e875fcd83efb433afed9ef1c18b2c2b2e075e2bf48371cadfd2a3cf529f1aef",
+      "size": 7446368
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Pazhou/all.glb",
+      "sha256": "5790b23cb7bd065ee3a7f5c8f947e49f6affdc0a373cbfad9c404d32e6b4a7e4",
+      "size": 905961320
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/1975_porsche_911_930_turbo.glb",
+      "sha256": "b5e142b4b9ffabe3959fe64ba38470618733c2a4436b6e9fe5d1c6ce4983ff3c",
+      "size": 74151648
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/1975_porsche_911_930_turbo.gltf",
+      "sha256": "e46e51895ed0f4010a552ee0c3158fb4daf7a29f9f5215cfa900398d5e45b6b2",
+      "size": 152000
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/free_1975_porsche_911_930_turbo.zip",
+      "sha256": "cc42cc70a8a3a43f089e91989b899615259490f89035dda99a2ef01b4b040729",
+      "size": 70243066
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/license.txt",
+      "sha256": "8ae97c491345a3bb4e9d58aa081e715adc40ac8db30b245e29a97d0d2f17fc5d",
+      "size": 768
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/scene.bin",
+      "sha256": "36db5a9592f2e4f30be9624ff59eeb7dbeb5b744cd0ac1daa944b2a49e6b398f",
+      "size": 8820304
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_chromes_baseColor.png",
+      "sha256": "06646bfb17dfb1e548f1e7d61b9f20bd07e11deed77a56cf8febfdbf42433988",
+      "size": 782212
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_chromes_metallicRoughness.png",
+      "sha256": "ecdffed774d269183f3273801b6db2e5bf9ce3da99985df4b2cac8fd1e377f1c",
+      "size": 1071445
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_lights_baseColor.png",
+      "sha256": "c16c763150df9f6f934d51b22705b66e1c52b3d3448219a686ca42b71b559d27",
+      "size": 3162716
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_lights_metallicRoughness.png",
+      "sha256": "866197794f9eabda288cc5d28a54fe6a33e33bb8e2c726742d477cca7e9af8e1",
+      "size": 1948
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_lights_normal.png",
+      "sha256": "cd6e2ab71bfa5221de12ae3442652c9e0e79f435efe000e895135db4a4f3653b",
+      "size": 1709547
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_plastics_baseColor.png",
+      "sha256": "19057ba7f0a6a5b3905c5332ec1592e8087a2643bd2884ffd13d77455a7ad7ac",
+      "size": 2715386
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_plastics_metallicRoughness.png",
+      "sha256": "805e02cdd0d693df4c73cd30b36ba8cba0a34bf3608a037d4ddaf548b2aa6577",
+      "size": 1848923
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_rim_baseColor.png",
+      "sha256": "590b7500444996bd9760bc021169a295d150899bf100d1d8692cce96ae4aa67e",
+      "size": 1075764
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_rim_metallicRoughness.png",
+      "sha256": "27413fe1b950fdb79aaacefd154b591aa77102d3cb03545c9fb91fac379a7a2c",
+      "size": 15740109
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_rim_normal.png",
+      "sha256": "21625b2133edb298a83c19651e6a3af0a8e76211dd1b4fa317f908d7b1c4f409",
+      "size": 79811
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_stickers_baseColor.png",
+      "sha256": "8eb1b054987e1f1275a2d98b1bfcad12840466c7777af52afef9f4e1297d26b3",
+      "size": 636003
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_tire_baseColor.png",
+      "sha256": "a70a326fa0700130d10358777310fb0171790b88677c9cf9e61da8a305d5f6fc",
+      "size": 3485313
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_tire_metallicRoughness.png",
+      "sha256": "5390fd31bfc75b190b3854bb4f8d0900089f0df36c44de9800d86d7164a38959",
+      "size": 5614807
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_tire_normal.png",
+      "sha256": "e3fd2599aae6204eb3f44736cad89062180f95c3ce5f61ee315fc55239cf395e",
+      "size": 4174822
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_wunderbaum_baseColor.png",
+      "sha256": "cef411532794ebf78c65b4a194bd77793582023c09d71aa426110f1e839c977a",
+      "size": 324664
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/930_wunderbaum_metallicRoughness.png",
+      "sha256": "2f4e14a501e04724ef8867d0a7bf55a2379485dc0c5a085df7ca4c963d99d3f5",
+      "size": 19677
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/coat_baseColor.png",
+      "sha256": "749625ceb741f2dd674505af7fab9fff5976f7175b5ff1a4a6a781fb0f9cb010",
+      "size": 2496465
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/coat_metallicRoughness.png",
+      "sha256": "fa8f041d1b01787a1b7cdd8add3947857b37618f33f6f1124f16b80e74b4dbe4",
+      "size": 3620309
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/glass_baseColor.png",
+      "sha256": "30d47294626f7f8a140822744b865dc30271b412f518f1814caf58f4a9953681",
+      "size": 588274
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/glass_metallicRoughness.png",
+      "sha256": "91f2ce3bd37bbd87dfaf80959577a8ddc3b2d1d10bd0c0828b0593926b3d16f4",
+      "size": 1473620
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/material_0_baseColor.png",
+      "sha256": "b337bda64647ea1e5fa15683c726a82b5b3fd23c5a731b11e43305c7b084411d",
+      "size": 549031
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/paint_clearcoat.png",
+      "sha256": "4a2f022e9e0904eb54d5d43ea4a32961eba8ae5831e1667bad6a8d67f26b6ca6",
+      "size": 1315781
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/paint_clearcoat_normal.png",
+      "sha256": "abcfeec5ef2ea608f6fcbec010e04e0accebf42430a934e6b07f8b85964ea85a",
+      "size": 4231062
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/paint_clearcoat_roughness.png",
+      "sha256": "fa8f041d1b01787a1b7cdd8add3947857b37618f33f6f1124f16b80e74b4dbe4",
+      "size": 3620309
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/paint_metallicRoughness.png",
+      "sha256": "a520b03cff89bdcf94fef44a4e497283f0a4da2608342ad9354d594840a8668e",
+      "size": 4845021
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/plate_baseColor.png",
+      "sha256": "80f2cb2040668c76f945aecc3962e4341e6bea0d0ccb87f54e2ff7382a1e8e99",
+      "size": 30656
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Porsche/textures/plate_normal.png",
+      "sha256": "e2a54e7d1d2f9158eb7dc0942eca91d431a55e06b400aca2aaa0c7b472a21998",
+      "size": 28063
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/NewSponza_Main_USD_003.max",
+      "sha256": "4790c4e9208dda5da63d39098b27a8233f37639762f7f55a17b8f9bea952f88e",
+      "size": 495408004
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/NewSponza_Main_USD_Yup_003.usda",
+      "sha256": "3220a79e1b541fa801116fa8f6aed94ad02b50902e0276f023dfdfa2daf31f2e",
+      "size": 436512954
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+      "sha256": "10e7689b8db6966f6b818d20c915f9cb90f596179a61296f360bd0a6f67b0184",
+      "size": 436512485
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+      "sha256": "3d44613b1040a1079d550fd0c9cbd9f02dd0677df89a36e67b7f67d803ed1a19",
+      "size": 929301382
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+      "sha256": "0b9ef098706c13f5815a26e3f061d30b21dd19623d672da20fd404b1e2e42034",
+      "size": 929297471
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/NewSponza_Main_glTF_003.bin",
+      "sha256": "903d443b46b51c8397c25b65286d9f9e111121f12a3e0e303f19019982568d6b",
+      "size": 139973456
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/NewSponza_Main_glTF_003.gltf",
+      "sha256": "e04c4c540c74bdddcbd3f590a85c14119bfd5839702246a23b3a737c0cce2400",
+      "size": 691352
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/NewSponza_Main_glTF_003.max",
+      "sha256": "6210da6b04f0a52fbf92c67763718aefe93033eaee479cb5ea110cdefcf6e6c1",
+      "size": 495424590
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/Render_Main_A.png",
+      "sha256": "92dff8bf065d2124f1f549362c615329c89e812b7ac68cd869d4b55113ea59a7",
+      "size": 10446570
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/Render_Main_B.png",
+      "sha256": "d84f055ea38fa3d9f9467ed3a93dc9b89b27085d76d32f02b429094bc6f46bf2",
+      "size": 10283291
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/Render_Main_C.png",
+      "sha256": "77e0e68fdbf9fc5764aba83d4b2b1dfc0433581e063ad7da3a080d1c8f5461de",
+      "size": 10393572
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/Render_Main_D.png",
+      "sha256": "e0f96ffec483d242f8e8c51285d4149f9c10998dfdb0d27b3277141f91766f55",
+      "size": 10320899
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/Render_Main_E.png",
+      "sha256": "c1c9f58909be1adff635b2f6304730ace834149d99d88cc912932c42cb22b5e1",
+      "size": 10446633
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/Render_Main_E_Fix.png",
+      "sha256": "1525c188b277eeed629fcf139a9292cfe64435af361fe6c156bdac7703d5d31e",
+      "size": 11428617
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/Render_Main_E_USD_Fix.png",
+      "sha256": "5917518e9351c93a33e97c17dbe546d47e38d7ea7425c34c76b0b6c5353bbf7f",
+      "size": 11527748
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/Render_Main_F.png",
+      "sha256": "625d7b28e8f53fa68c3b7b11afb3eb2ab182d420ccf1ea7a51c342c21413b4de",
+      "size": 10560790
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/credits_license.txt",
+      "sha256": "3f981e31f8de04f3754e63d7c259a0a78f71db8f01b5155c58cac52fb79cc2b9",
+      "size": 15921
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/arch_stone_wall_01_BaseColor.png",
+      "sha256": "61a34f79b8485262fc8253f9965d042a3f0a1437bddf97de854777981d19ac61",
+      "size": 35737734
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/arch_stone_wall_01_Metalness.png",
+      "sha256": "6383f2a6c4a9dfdc1c3b225e8d2b7850bda27c88433798a57c6980d68bdcd064",
+      "size": 10371189
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/arch_stone_wall_01_Normal.png",
+      "sha256": "b29aed67732fe1817c70e8b74d60a47b6d5269e157c5ac1bb975a282bd2cd560",
+      "size": 42110440
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughness.png",
+      "sha256": "f42b2367b17fdd8c258aaad5ddd67d00d4cf77abc18041ecdbb7b950c7ca7e2b",
+      "size": 13541018
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/arch_stone_wall_01_Roughnessarch_stone_wall_01_Metalness.png",
+      "sha256": "c0c9565c93dd57dd917f6a4b9e6652c5e1673c288a0bc1753ddce8323b54fd1d",
+      "size": 34742458
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_01_BaseColor.png",
+      "sha256": "45b77509983b55fb20884cdd9535dfe7655b4bcd9ef6889486164bbc48078373",
+      "size": 38692304
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_01_Metalness.png",
+      "sha256": "3e8643b8dc0aed606083984582aeadfc52fc85fdb135632a36e016b13cf0d9e5",
+      "size": 9821191
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_01_Normal.png",
+      "sha256": "9d15c9c3c761d4e96323fc89990086c41a7b29154ae42d4afcc786891b3b89dc",
+      "size": 26797469
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_01_Roughness.png",
+      "sha256": "04fa9c7f6e29cdaab31aa0a14216d588ea35f6819af6baed86ee1d3aef0005cb",
+      "size": 13971416
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_01_Roughnessbrickwall_01_Metalness.png",
+      "sha256": "c3e81274de0fd9d8c7350d74d09f28a63ab5ad7a323cbe9aa7df20612e9e07cb",
+      "size": 32871501
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_02_BaseColor.png",
+      "sha256": "151ed7a0aba6706be294d237724b8ba4b2ff985df7f7e6098afbe13b3a07d1d1",
+      "size": 26862892
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_02_Metalness.png",
+      "sha256": "36ef015a7f18ce511af5fdc41852b641c9a49d4e13c9e4fe45b52a6e61349716",
+      "size": 8758321
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_02_Normal.png",
+      "sha256": "02a761f7e55d6295eb7a443185e5831e6d4b6d83d76404c2f08b2c6243660c81",
+      "size": 39535404
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_02_Roughness.png",
+      "sha256": "49f65b0ebdc604d9a877f18eed26c46e4c7a0ee5dbaf6d9405d48a2810eb0e8f",
+      "size": 13061477
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/brickwall_02_Roughnessbrickwall_02_Metalness.png",
+      "sha256": "0042fc6c6e39274ad536de97a26a4221844b6cf4a3371f208a72f8af7b4a307c",
+      "size": 32147114
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_01_BaseColor.png",
+      "sha256": "daf6e0cb4bf2a3bed93ec25c8c633c85946cf31fcf235b0a65fff305f624324a",
+      "size": 21568178
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_01_Metalness.png",
+      "sha256": "f790625c24510389aba626a3b4ea80806ad5012b1f838bfbee3b69dd87e3a70e",
+      "size": 16411
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_01_Normal.png",
+      "sha256": "78edc1059f6239d5ca756613dd0a2d0d458d33c30d5de11ec76b7942b2a29727",
+      "size": 32803563
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughness.png",
+      "sha256": "42991b6e1051f18345c7dc59914dbbf990cb3b8335594b705c04d9d2af4cdbd1",
+      "size": 8536573
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_01_Roughnessceiling_plaster_01_Metalness.png",
+      "sha256": "cac9b07016c6f40f679197fcf989eeebbaad34ee5b7bb8f479d35d1c5bfee665",
+      "size": 13877096
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_02_BaseColor.png",
+      "sha256": "1002691be7f95b374120860b5e17cf5cac37fd909b96d27fd701b0dbb69a0e03",
+      "size": 19215255
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_02_Metalness.png",
+      "sha256": "f790625c24510389aba626a3b4ea80806ad5012b1f838bfbee3b69dd87e3a70e",
+      "size": 16411
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_02_Normal.png",
+      "sha256": "475b3326f541aea86d7b7164489dd20d27a1d6736a5ea5e76c631b27a74b7c28",
+      "size": 25524597
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughness.png",
+      "sha256": "3b5b2f54f15e515b333228132006637c16d21e40b234b1fc148ebf684aaa3ebc",
+      "size": 8917186
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ceiling_plaster_02_Roughnessceiling_plaster_01_Metalness.png",
+      "sha256": "64a10e86c72e078c1d37c6be823f06da5abbb7ae6dd08b1a2ed2a7ee9b6e9a4e",
+      "size": 15614161
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_1stfloor_BaseColor.png",
+      "sha256": "27e2901a976c250529fd3cda673bd6060effa67a2f2e4b07a94cf6ca0b5a56f3",
+      "size": 34891146
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_1stfloor_Metalness.png",
+      "sha256": "c37ec5f4c4f7a3da4f84af6e56ef2605cdd5b4d4964fe9de56a0ed1b67937c0a",
+      "size": 8860962
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_1stfloor_Normal.png",
+      "sha256": "5badcadb1d80411bfa29fd84b4479080139a0424b6ead762242f3e2ee19bc2df",
+      "size": 41534760
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_1stfloor_Roughness.png",
+      "sha256": "60fac2a7d7530505aebb9e1bee5a978488f50e422fdb6a989f751c8d695ff7a2",
+      "size": 12966965
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_1stfloor_Roughnesscol_1stfloor_Metalness.png",
+      "sha256": "02562f29c5066234f3a8c217ec1daad904c1b8cea0fd9a005e8b37f4c9638608",
+      "size": 32047927
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_brickwall_01_BaseColor.png",
+      "sha256": "b153506c7fbd3fe8c79f1bf7560171a7e228d7d830e0cf8100c3e7c7902f2860",
+      "size": 31362090
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_brickwall_01_Metalness.png",
+      "sha256": "bcc82bdc5515096cc6721d22662d9023d9dd2e0d2c6e3c7645f8e57ba33094da",
+      "size": 8190500
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_brickwall_01_Normal.png",
+      "sha256": "abfa77fd113ccadc19a308e247d682f668de17efd3b8c061aaa0ce659a9c3879",
+      "size": 24056073
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_brickwall_01_Roughness.png",
+      "sha256": "2d2ed2af19a95ca287dd1518c1503dce94175a45aad8a1bb5347bb5601f41c31",
+      "size": 12307843
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscol_brickwall_01_Metalness.png",
+      "sha256": "544bc2b8d42cfac282e23e00322a844a257a7334ede24d7ebb22223f5b525b3c",
+      "size": 32114234
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_brickwall_01_Roughnesscolumn_brickwall_01_Metalness.png",
+      "sha256": "544bc2b8d42cfac282e23e00322a844a257a7334ede24d7ebb22223f5b525b3c",
+      "size": 32114234
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_1stfloor_BaseColor.png",
+      "sha256": "f05f193a2adcc1ab8d62c2444301890605ac0ea67c3ab43893976f4f9f8e2c64",
+      "size": 23570912
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_1stfloor_Metalness.png",
+      "sha256": "7c5915bc0f9736fbd44409120546d62333b0edcad18168ff22b4685dc855ffba",
+      "size": 5810746
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_1stfloor_Normal.png",
+      "sha256": "5990dfae5608cfd5bc93e6b045dec8196e4d3eaeacb7abf0d63aa5929d1e8cb3",
+      "size": 26736777
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_1stfloor_Roughness.png",
+      "sha256": "5ed3aff2338a82a981caebe59df65dfc9067395028df2db11f0f6ecb6d4d699b",
+      "size": 8406431
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_1stfloor_Roughnesscol_head_1stfloor_Metalness.png",
+      "sha256": "846654bda0801839cc0a60ad03c12a713fcab03c3adeabe898aa611edf4ca708",
+      "size": 20208981
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_02_BaseColor.png",
+      "sha256": "8db34c7a193cd5e7c0f2bd8421d80df3ef6f57a5ef94d296df24942623388cf1",
+      "size": 24197215
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Metalness.png",
+      "sha256": "159e749df6a647594ef3c13968fc2e6a90e88df6811a7d32c273ded338b2d892",
+      "size": 6273301
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Normal.png",
+      "sha256": "d5b1835f18bdc02c7c1b0c63a0cc1b0f9a28d5c1750fd91b3bb41523a507c1d4",
+      "size": 31716684
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughness.png",
+      "sha256": "18bebd6d0390550583ccc54518d8b5e5a71223a2940be1cbabd55cfd13523fe4",
+      "size": 8208093
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_02_Roughnesscol_head_2ndfloor_02_Metalness.png",
+      "sha256": "12e4a23aba5cc6a1b3832e4382d9a0c0be3989917398de221c1af9dbca3053a4",
+      "size": 21411341
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_03_BaseColor.png",
+      "sha256": "51912aadb380a04d2c2428ac8953c9bc1f7c8178dd4e486adde59e6f40446bb7",
+      "size": 19200795
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Metalness.png",
+      "sha256": "8655e7d64d27af418eb10f0012d11007e3e34abb763f0cf526db2fa78dfa97b1",
+      "size": 5032018
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Normal.png",
+      "sha256": "5b2e76e76d711fd8232355fe120ec1a670a2f7998f55552ed8e3ea33edf58faf",
+      "size": 32266281
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughness.png",
+      "sha256": "5f1be3011b88a40fe20d0e009c614796c40481346cdea7bd091c72f2bd3aa183",
+      "size": 7680012
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/col_head_2ndfloor_03_Roughnesscol_head_2ndfloor_03_Metalness.png",
+      "sha256": "4c1b0a6a93b42b2f39c07695dc811e8165dc006cee7e6efd34e81332e9f76f46",
+      "size": 18343731
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/curtain_fabric_Metalness.png",
+      "sha256": "86616dfd971d46f73b0719a7b008a36769285b07bd282bef54d5591641041412",
+      "size": 2852036
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/curtain_fabric_Normal.png",
+      "sha256": "19195ec835958a053fd40c0fef593f5e11a87560d962f49ef3d2c61a9c359919",
+      "size": 45198462
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/curtain_fabric_Roughness.png",
+      "sha256": "a9e0387efa000c6a83d86e6864be0088b2fbc6ef7a4bc24fb42972754999bf55",
+      "size": 8414019
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/curtain_fabric_blue_BaseColor.png",
+      "sha256": "f0d5ffa41776c87b244a1c9680a67cc6ec0f66de414d468ba37a155ce89255b4",
+      "size": 17869201
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/curtain_fabric_green_BaseColor.png",
+      "sha256": "6bdbc84c52e07dbee4a68afe608505e65b9b8cd27157c8b4f9e4f6238e260233",
+      "size": 18734493
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/curtain_fabric_red_BaseColor.png",
+      "sha256": "6a5a092f51f0a680341e5694c2409056dfb8b7d78af84839219600c4c1559910",
+      "size": 18157344
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/desktop.ini",
+      "sha256": "cd32ed95efc093041b2e9122fc506f4d1007cd55e3a5e5ebd7b980711860b5ca",
+      "size": 244
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/dirt_decal_01.png",
+      "sha256": "9df06f4b43c77a10b55e3aa57fa6d8545533c3689b8c7a0ff865fd7178ba3790",
+      "size": 15464374
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/dirt_decal_01_alpha.png",
+      "sha256": "c5719497db6f7f3734ea26576ca3651cc57f6083cd616a859d10f516dbbdb28b",
+      "size": 28975718
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_alpha_dirt_decal_Opacity.png",
+      "sha256": "706109ee310eb2923c8eaafc98c8ce15b55be63a410cc9df848c9e49e9feb27b",
+      "size": 34601463
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_gltf_alpha_dirt_decal_Opacity.png",
+      "sha256": "37f9653b25e5cf3300ae4c2a05850a89ddca64a5be66a1ab91f53be634581f09",
+      "size": 34601463
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/dirt_decal_01_invmask.png",
+      "sha256": "72954b65dc8eb3f426706381320301a6ca84f91a49f5999011b869cc66542a33",
+      "size": 19484366
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/dirt_decal_01_mask.png",
+      "sha256": "8d78a88ba15be85e976509a330433c42d0a0e5ebfb1037d399917d5e72268bb6",
+      "size": 15432429
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/dirt_decal_01_mask_gltf.png",
+      "sha256": "15949c11926c8b099dd5d4d6605a574fc25971eabe725d26fc6cad944d260b38",
+      "size": 19484571
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/dirt_decal_01_mask_usd.png",
+      "sha256": "999e7e394c5fb33a0c32d3ffd63f1856362bcea5eee6d3b1a1cabe3577ddf281",
+      "size": 19420850
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_01_BaseColor.png",
+      "sha256": "71304dc830cd3c36a2710a1ee612ed9c561a1268086578723852b7ebd4644af7",
+      "size": 25845899
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_01_Metalness.png",
+      "sha256": "23d252ccc1b0ea289b62081f2351f3f2eb232ed65098ded60534f9dff15662f8",
+      "size": 6716758
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_01_Normal.png",
+      "sha256": "577d59df35802e8165fc99747ee5b1ef6dce9ee598dc5d14e58407de0fb9d118",
+      "size": 33853371
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_01_Roughness.png",
+      "sha256": "e0255280a903ab83c90c2b02b6343b780d61d9b2b4329a759a20f91ffcf6b587",
+      "size": 10041295
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_01_Roughnessdoor_stoneframe_01_Metalness.png",
+      "sha256": "dd46e911c5a840862fdb5f8189791853d5febb74e4ea9dacb81009b83619ea68",
+      "size": 26735989
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_02_BaseColor.png",
+      "sha256": "b94bd19b543f54873d582cc7774b8eecd3affb323c7566927ad284c587b16576",
+      "size": 23413335
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_02_Metalness.png",
+      "sha256": "59ccd9e04bc87f410e2bd0395b92afb6e0298670f40d715af09efae9f343eec6",
+      "size": 4579192
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_02_Normal.png",
+      "sha256": "d568eafb6dc9218f2301543b95202b1b9b9e59c2f47d905742c2faa87ea0c446",
+      "size": 30916761
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_02_Roughness.png",
+      "sha256": "224154cc2085b8e8d567cefbc01f75c614eca8a4fb8a7deb9e32db10762cb23c",
+      "size": 7588960
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/door_stoneframe_02_Roughnessdoor_stoneframe_02_Metalness.png",
+      "sha256": "9d9aa73edf18d1af63161353541a84356653f909e3bcb6121476cfc0812cd7c0",
+      "size": 19433242
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/floor_tiles_01_BaseColor.png",
+      "sha256": "803484416f5db14596e2e9d8ae5405cf983ee0e4a5c13203c2bf2b8febddaaa4",
+      "size": 28032361
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/floor_tiles_01_Metalness.png",
+      "sha256": "909eb7ab6ed58ee7997f7b50502acd1cdcc5ddafa81f9463ebce2d8c7ab82b73",
+      "size": 3260802
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/floor_tiles_01_Normal.png",
+      "sha256": "239ee8ba53340f0ef43c8349e2335a3deb0675c25bfc1ede8e4ed9ccab532710",
+      "size": 28292581
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/floor_tiles_01_Roughness.png",
+      "sha256": "a54b29fefca5ba0e533bc1ac633f20853bc08852c66f70a141d03acf4550cf46",
+      "size": 12153466
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/floor_tiles_01_Roughnessfloor_tiles_01_Metalness.png",
+      "sha256": "44f30dfa6c8fa9b098911455b94e3baed9ce58c8f7997869e7c1b399af7f97e9",
+      "size": 25837532
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/kloppenheim_05_4k.hdr",
+      "sha256": "da7bc90e8bb1dd13e6e3c57d7fba27662bb487a3def5229f371dd99af1459d25",
+      "size": 23441531
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/lionhead_01_BaseColor.png",
+      "sha256": "b2297d1e079dfdf449aaebccf144b6077966093474c9be3b62512d72cd30f86b",
+      "size": 21273971
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/lionhead_01_Metalness.png",
+      "sha256": "14e78611186d02f7288405e6d93247be5d36df58a05445802f3101b1816fa09a",
+      "size": 5529093
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/lionhead_01_Normal.png",
+      "sha256": "d525ccd8d3137265180be5dce8fb201dce45441e4b4690ea4617e04f712bbdc5",
+      "size": 33399781
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/lionhead_01_Roughness.png",
+      "sha256": "2751d2610dd45377577d12dc693bd7c66499375015fd061570dae0d0732d428e",
+      "size": 8876732
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/lionhead_01_Roughnesslionhead_01_Metalness.png",
+      "sha256": "85b00baa60c96672f46faeb3c69ffe4d25c84e00cb4f50041072e78ea3e9a8f6",
+      "size": 24807157
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/metal_door_01_BaseColor.png",
+      "sha256": "b87e0c482d153b7adb7b113b612cb7695c0f9f42a94bfaec7d533726094ba331",
+      "size": 11159561
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/metal_door_01_Metalness.png",
+      "sha256": "8bbb48946071bd14241bc207e629df3990471ce3574e66b6e39e47612ac0c1bd",
+      "size": 6236469
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/metal_door_01_Normal.png",
+      "sha256": "05a9ba86641e1e8abb3b0ac8f8eeaf6e332734d0d7caa8ca2f0bd953aa8b91f9",
+      "size": 30755637
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/metal_door_01_Roughness.png",
+      "sha256": "b234dbdde232be602a38b341d295775446713e61d58e2b5b240cc3956aa651c5",
+      "size": 11048346
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/metal_door_01_Roughnessmetal_door_01_Metalness.png",
+      "sha256": "b5123a6db0ebc505adfd01372cf4ba31fb05f14e7f445232a1355e5e08868962",
+      "size": 27828983
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ornament_01_BaseColor.png",
+      "sha256": "2d38691430aa98b24d20b740d1038591d7c0afa2e7662a752f5e5235b95cb522",
+      "size": 23755809
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ornament_01_Metalness.png",
+      "sha256": "29713913bdd371ce2b964ba0f719cce3f09c2a4fccc60f0bf04859af37fd6e83",
+      "size": 8337358
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ornament_01_Normal.png",
+      "sha256": "1f50c1f03dce342b8c90f8aa71b0259891376558d21ffa29648bb19a3082fad5",
+      "size": 36536810
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ornament_01_Roughness.png",
+      "sha256": "bf17918ac6a93554f81c7a675d711760145a8f071c184feea2ed6c547b145788",
+      "size": 11248116
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/ornament_01_Roughnessornament_01_Metalness.png",
+      "sha256": "831636eab731cabd5c08b24630e331d091a520401007bd58f3b05aed0467134a",
+      "size": 29821854
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/roof_tiles_01_BaseColor.png",
+      "sha256": "3310a7cd14ed82f56bc00cf88d36289a73d743e4594a0e72d4e21f68c2110cf8",
+      "size": 29975234
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/roof_tiles_01_Metalness.png",
+      "sha256": "f790625c24510389aba626a3b4ea80806ad5012b1f838bfbee3b69dd87e3a70e",
+      "size": 16411
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/roof_tiles_01_Normal.png",
+      "sha256": "b53ced4773abee823cc79a9b69b36ee30536a0d75dbd356eab31f0cc46bda2d8",
+      "size": 34828471
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/roof_tiles_01_Roughness.png",
+      "sha256": "f36f53362fb13aa190f5988561b433b90b3a1fa5a52e53ddbd8fca3eca48ce0c",
+      "size": 10354151
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/roof_tiles_01_Roughnessroof_tiles_01_Metalness.png",
+      "sha256": "9903f3399804b1dc43d95d51fce58f2fcd3e13aa463335b7445d649beb6c3bba",
+      "size": 18053456
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_01_tile_BaseColor.png",
+      "sha256": "1cbccc0e08994ab43ae9e32b6c2be1eff3d790748e2d8fa35e36d2e56ae8b9f4",
+      "size": 34744042
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_01_tile_Metalness.png",
+      "sha256": "5c1d9269c64f2f2ca49615e58b401642903dc48536578b86242042de239d0827",
+      "size": 7627656
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_01_tile_Normal.png",
+      "sha256": "cfe8e849c51fd863ed2239c8fc2f7c0f71b5c19cd06ac5536aa547ca1246f253",
+      "size": 43351777
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_01_tile_Roughness.png",
+      "sha256": "b23554510a468e9f6dea6c57aebd405c11d8ba087c01046d1724ddb9deb23837",
+      "size": 13717595
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_01_tile_Roughnessstone_01_tile_Metalness.png",
+      "sha256": "17f2a4afac1e759ba1cd3b88f3a076b4d89a9808b4468707e92f2e68981fa6c5",
+      "size": 30831478
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_01_BaseColor.png",
+      "sha256": "bc276c7c84e46dcda5001dfe5c09d10b98ca6dcdbab3f0f65227f650f7af0ca8",
+      "size": 27305064
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_01_Metalness.png",
+      "sha256": "7fb1d63488c77303cde2eb2fc3ed544ceaa7080b53c34ef5bf43b20da8bbc40e",
+      "size": 7803502
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_01_Normal.png",
+      "sha256": "07bccadd4e7f5510ddbdfef02ed4bd97ce333b6fd920cb052c27a7e1638db73c",
+      "size": 32550555
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_01_Roughness.png",
+      "sha256": "ec870480ecb6ac997545c78f9e1bed5de8502b9312f152c8f36897847615cda5",
+      "size": 10041919
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_01_Roughnessstone_trims_01_Metalness.png",
+      "sha256": "3789e7710017bc24b2ab89327097eb3d551bb03b72f496d7b37cecf6bcbd81a2",
+      "size": 27287773
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_02_BaseColor.png",
+      "sha256": "d2275ed38589952af8972da830a3f66eaf6214677d2e4d3ff7bd9b0c580bd864",
+      "size": 36495875
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_02_Metalness.png",
+      "sha256": "74778863469622aa3bf8cbfd66659b71a4c9dd0db3996dd1fb080a5e8d7cd7df",
+      "size": 7598880
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_02_Normal.png",
+      "sha256": "34ae39f63c0515b966cc74ef3f0fe31c2b0c5d1b3363f1139ee03641fe40ab3b",
+      "size": 37892205
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_02_Roughness.png",
+      "sha256": "9d887cbf12b5f2ee31e3248f2c41510ad6edc015fccb67ddf430f733ca386bc5",
+      "size": 11786273
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stone_trims_02_Roughnessstone_trims_02_Metalness.png",
+      "sha256": "6ac5252dd527729e30a9ded7b3658f3cc1a37b87ab9a9021cad2c5261166ee77",
+      "size": 28139741
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stones_2ndfloor_01_BaseColor.png",
+      "sha256": "a07df76e5b18af060e48ecafbcf9c17e691da96f2d1a627bdc7a8b3d11d14fc0",
+      "size": 33443827
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stones_2ndfloor_01_Metalness.png",
+      "sha256": "208ab1d2f9d0e89753f43c7487133a70b51c09a0727ac7cdbc2a4eda6b92a11c",
+      "size": 8146433
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stones_2ndfloor_01_Normal.png",
+      "sha256": "cdffc711a0df454908e2773386d92b2fa6651958665e1058509710dcdfbda66b",
+      "size": 34937509
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughness.png",
+      "sha256": "a69afeddbfa10056eb9f60968e39648dacb2aa08d5d3922ae8feb201aa732c0d",
+      "size": 11173810
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/stones_2ndfloor_01_Roughnessstones_2ndfloor_01_Metalness.png",
+      "sha256": "795a355a740a96f6a9d01af8f7a1d58c5d71767bc75dff21e620a66e0f5ad9ac",
+      "size": 29434189
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/window_frame_01_BaseColor.png",
+      "sha256": "b7247bf0ba8f9226a00319bb9d493edd19e6033ca0824a58e6edcdbfb0ff133a",
+      "size": 23746260
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/window_frame_01_Metalness.png",
+      "sha256": "b30fcbc20859f019798b7e2c4dfe5ef2cd9747191cc9f2e203dfff3b3b5ea662",
+      "size": 7089615
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/window_frame_01_Normal.png",
+      "sha256": "3272fccb95461f82be978fe9a7a77cf89a5c7fcd91966d670f956b0201288987",
+      "size": 26902854
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/window_frame_01_Roughness.png",
+      "sha256": "3d2c40dd1c771ca7a8474cf45dead620d05af87b91f83d07ca56fe286b60bffb",
+      "size": 9289303
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/window_frame_01_Roughnesswindow_frame_01_Metalness.png",
+      "sha256": "3739ec622316b1480d3b6f0889c64690d31ec30f57fbfbdda381401d4e5118de",
+      "size": 24755110
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_door_01_BaseColor.png",
+      "sha256": "fcbc484ebf6e707701ee1fec35c4840f8c00f400270210150d2a05dda8a8a22c",
+      "size": 15731270
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_door_01_Metalness.png",
+      "sha256": "f0ed8cfc04147c0fb3853e3c99fc295fe5a36c7f5bd1a47d490744736e69d5e4",
+      "size": 928999
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_door_01_Normal.png",
+      "sha256": "44dbcb4fdc30cedb13be03053a4b8544956210e673ddc5c3166318ecb633a140",
+      "size": 24843384
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_door_01_Roughness.png",
+      "sha256": "dd14f56ce0f149edeba4e3a31eef824440d251ec2d7fd1b34b065d41e7bc6f0e",
+      "size": 7266265
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_door_01_Roughnesswood_door_01_Metalness.png",
+      "sha256": "4fe0c71901e18ca48d148f11d9aa090c8531d030dee6b1f8accb5e75d1b8b358",
+      "size": 15146782
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_tile_01_BaseColor.png",
+      "sha256": "72f382ab0b4c82d83a2cefee9a6215b5b1bae4c9437e0ae765b5859623eb1998",
+      "size": 27421348
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_tile_01_Metalness.png",
+      "sha256": "f790625c24510389aba626a3b4ea80806ad5012b1f838bfbee3b69dd87e3a70e",
+      "size": 16411
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_tile_01_Normal.png",
+      "sha256": "67a3fad9dba914099374c3c2ddb61d25a610140193d0a70e917f44d1502eb56b",
+      "size": 32443840
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_tile_01_Roughness.png",
+      "sha256": "039ced97477b05c44b0676b3e1fb238c74a2b73a5952b8f0e970d8417370f673",
+      "size": 10291852
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Sponza/textures/wood_tile_01_Roughnesswood_tile_01_Metalness.png",
+      "sha256": "00288a65379887b75a3641330c43f4f78fccc8ea40cab603c90b2c605257ac69",
+      "size": 18366778
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Tencent/tencent.glb",
+      "sha256": "0f2ec59458ac256f54f71c4f8bdfda57f01fb303400b28d67c836dd8d66ce553",
+      "size": 79751964
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/gltf_test_pbr_material.zip",
+      "sha256": "c12326751bdb2b4e3110cf53191f92c5fd83a989c2a3a374ac891d1b37dba7d6",
+      "size": 494365
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/license.txt",
+      "sha256": "1ae91585843869e174bb2a4b92b078b3794fac72974dfd349cbd93c6fcb9be58",
+      "size": 708
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/scene.bin",
+      "sha256": "02ed65865b10f5e5370dcac6d6b25e94f91da819a4a2ece75f8be9960ce23222",
+      "size": 248216
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/test.gltf",
+      "sha256": "22f25ae064569dc10edef55fd4ed3722e289e6274fafe5bc27ae0cd0dd93966a",
+      "size": 90618
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/ground_baseColor.png",
+      "sha256": "a3d4a4eadc42d27ceb5b994422e60ffee749c44e084b04e3fc82438cadfba5a8",
+      "size": 36023
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_alphaMask_2_doubleSided_baseColor.png",
+      "sha256": "a540bc93fe083068e6c975be190629bd35ae62d75a2cc06c1250c9b20e5e62ce",
+      "size": 117503
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_brown_texture_baseColor.png",
+      "sha256": "e20183ff1cdd8bafb13c979b86d71ebf30f4a44b7acc43f20c51a4778ff24b29",
+      "size": 550
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_emissive_tex1_emissive.png",
+      "sha256": "2af083a36b0cd4403cad8e69535a887049e6f5fbec926170dcb509376853b235",
+      "size": 550
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_leaf_doubleSided_baseColor.png",
+      "sha256": "28ba36ad950ed3da4a4b8a11b42657fb8ef13a0b200a639858a381c2e83976b1",
+      "size": 41030
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_metallic_tex_1_metallicRoughness.png",
+      "sha256": "40cfda50bda3b2d33eb9825f5834d9be632cf1500ea8228b192015686d4ece13",
+      "size": 550
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_metallic_tex_2_metallicRoughness.png",
+      "sha256": "ab7c2426e251cff53fe8cb18b4b93391b35c24659f44ccafe185c924d7659dd5",
+      "size": 98977
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_normal_1_normal.png",
+      "sha256": "615540df902f06c39e53e2f5968190214c0a7bc84ee41346247d9ad9b7aea00e",
+      "size": 2220
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_occlusion_2_metallicRoughness.png",
+      "sha256": "0a59dcec6c40f90f5ab53b83d430213dcce8cc371445e346ae9e2986b328d160",
+      "size": 27560
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_roughness_tex_1_metallicRoughness.png",
+      "sha256": "80da2358959e9cad1257320cda2cca9efc44ec08ac3bf519c4e5ef7a6bfcb82e",
+      "size": 550
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_roughness_tex_2_metallicRoughness.png",
+      "sha256": "708e5efd8837562f96dc6d132ac5910181de68b35f565b6f7c8d67dc4d50e408",
+      "size": 98977
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/mat_vertexColor_1_baseColor.png",
+      "sha256": "b88ba995721046df92af31546cb20fabfac2bb575c355896f8d1de72ec6ab86c",
+      "size": 2099
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/Test/textures/text_doubleSided_baseColor.png",
+      "sha256": "eb9071ffd10cfb4d81e3e87188a8cfb2be3cac468fcbbb5fefcb560eb2bb0ebc",
+      "size": 23152
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Models/TestScene/testscene.glb",
+      "sha256": "6c21bef7858a6a932fd246df1a404ef882197621243af8a05695f5bc069e5ade",
+      "size": 386824
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/license.txt",
+      "sha256": "fc46fd91d0dbc3c67f8c09f8354c30da2c7c8dd74938ee0eba3253c96077c886",
+      "size": 427
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/scene.bin",
+      "sha256": "6770ddf8becfaf397098811ac0e9691fd05a6e6cab1e46366cb3f24067a0fcf9",
+      "size": 2432496
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/scene.gltf",
+      "sha256": "5979d1733e7acf9ed8f686e90700a1c8f62706bf792e893aa1df0d935baf3780",
+      "size": 51135
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/8_20260512190452_baseColor.png",
+      "sha256": "e923c305d8656d2cb6379f0ee82105df988209460a36c710730827aa9e96b494",
+      "size": 28780
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.001_baseColor.jpeg",
+      "sha256": "c378a42609e716ad09ec0aedc11e07f4b709f44d779afde22332f2ab15092b63",
+      "size": 641967
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.001_normal.png",
+      "sha256": "4d19532f17238fb704dff1fa9da786d712affb83e65543c30aa7c41ec967aa79",
+      "size": 1111334
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.002_baseColor.jpeg",
+      "sha256": "fc276641f974e59075d750c6aac78087bb28e629cd4b2cc212c82513fa329421",
+      "size": 229825
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.004_baseColor.png",
+      "sha256": "5bde3879d83b4ccd0f56840f77bd92e40ebca5e4d7eb017117d005e9a9116539",
+      "size": 1775565
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.004_normal.png",
+      "sha256": "24b16e60f4d37fe1c111f73e5b670ce401023e1b326b041e60f118321e0c41b3",
+      "size": 765435
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.006_normal.png",
+      "sha256": "810db64df6ea61a5a2ee4017b8e50cabd0ca43fe4e205f13fdc39bf631b76bfd",
+      "size": 1559531
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.008_baseColor.jpeg",
+      "sha256": "1deee20586055f6ed205c3469fbdcf39e9501527272b40b915ee7b70b7a3279e",
+      "size": 127914
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.008_normal.png",
+      "sha256": "f8876e7fec4d47d4a4f8e0c634672cb0aa83ac4555f71e020ab55083eaa54cb5",
+      "size": 1884107
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.009_baseColor.png",
+      "sha256": "a2aa0338dbe91e2884ef273408bf21da0c32d396a2054331d8b381baf48e187e",
+      "size": 1692038
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.009_normal.png",
+      "sha256": "c5e32a0dc4cf1c3b9fdaa21c036c9e9ffa24770f628488fade7c192418026dc2",
+      "size": 724785
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.011_baseColor.png",
+      "sha256": "7c628e3993987cc2139dcb00094db0bfb35f68cf6027437daf26c29ecab7acce",
+      "size": 1789436
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.011_normal.png",
+      "sha256": "0653461b2a4f8535401a09b9c92247128f61b1a2904e36505b69f57f82595d35",
+      "size": 819147
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.012_baseColor.png",
+      "sha256": "61c8a642940e99262423061da62a6757f8dd0ce4b9b10f0819c0a0a6441a5737",
+      "size": 1292401
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/Material.012_normal.png",
+      "sha256": "2c9b7f194a53f64e53834e80c6a819ffbe3f053d4f3b04e4a3a827fce0ad1c74",
+      "size": 445775
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Scenes/Debug/living_room_interior/textures/material_normal.png",
+      "sha256": "04785a13b76033e4346a6302cf21d2af540338406df2552944d0ed6d0f570db6",
+      "size": 525216
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Textures/Skybox/default_skybox_1.exr",
+      "sha256": "8bfe91e0bc4400118c7b443dab42acc1dddac2c50f07c34450e8836966737142",
+      "size": 96362265
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Textures/Skybox/default_skybox_1.hdr",
+      "sha256": "9ce1e510b75d60c838a8fdb5f71a0a5e7c199fa2eeb9c7deade24a39be792eb4",
+      "size": 26034847
+    },
+    {
+      "lfs": false,
+      "path": "content/local/Textures/Skybox/default_skybox_2.hdr",
+      "sha256": "d5bd90316896c6f9619f19752590f1ccac7b7190032aea28b808ccdbbc3b590e",
+      "size": 21248671
+    }
+  ],
+  "id": "anygine-local",
+  "revision": "48b31dac543e5d0d12b17a8d43687134a1680826c36bb88fcc1abfb2adcffeba",
+  "schema": 1,
+  "version": "2026-09-08-v1"
+}

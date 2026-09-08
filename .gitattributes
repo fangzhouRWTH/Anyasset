@@ -10,3 +10,6 @@ content/**/*.blend filter=lfs diff=lfs merge=lfs -text
 content/**/*.psd filter=lfs diff=lfs merge=lfs -text
 content/**/*.wav filter=lfs diff=lfs merge=lfs -text
 content/**/*.zip filter=lfs diff=lfs merge=lfs -text
+# Preserve the upstream license bytes pinned by the LTC manifest, including its original whitespace.
+content/anygine/Assets/Textures/LtcGgx/LICENSE.selfshadow-ltc-code.txt -text whitespace=-blank-at-eol
+content/**/*.rgba16f -text

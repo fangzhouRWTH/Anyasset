@@ -1,0 +1,154 @@
+{
+  "schema": "anygine.outdoor-terrain-material-library.v1",
+  "license": "CC0-1.0",
+  "source": "Poly Haven",
+  "source_url": "https://polyhaven.com/textures",
+  "default_set": "forest-ground-05",
+  "sets": [
+    {
+      "id": "forest-ground-05",
+      "display_name": "Forest Ground 05",
+      "source_asset": "forest_ground_05",
+      "source_url": "https://polyhaven.com/a/forest_ground_05",
+      "authors": [
+        "Charlotte Baglioni"
+      ],
+      "physical_size_meters": [
+        2.0,
+        2.0
+      ],
+      "recommended_role": "compact-soil",
+      "base_color": "Textures/forest_ground_05_1k/textures/forest_ground_05_diff_1k.jpg",
+      "normal_gl": "Textures/forest_ground_05_1k/textures/forest_ground_05_nor_gl_1k.jpg",
+      "roughness": "Textures/forest_ground_05_1k/textures/forest_ground_05_rough_1k.jpg",
+      "height": "Textures/forest_ground_05_1k/textures/forest_ground_05_disp_1k.png"
+    },
+    {
+      "id": "forest-ground-06",
+      "display_name": "Forest Ground 06",
+      "source_asset": "forest_ground_06",
+      "source_url": "https://polyhaven.com/a/forest_ground_06",
+      "authors": [
+        "Charlotte Baglioni"
+      ],
+      "physical_size_meters": [
+        2.11,
+        2.11
+      ],
+      "recommended_role": "rough-soil",
+      "base_color": "Textures/forest_ground_06_1k/textures/forest_ground_06_diff_1k.jpg",
+      "normal_gl": "Textures/forest_ground_06_1k/textures/forest_ground_06_nor_gl_1k.jpg",
+      "roughness": "Textures/forest_ground_06_1k/textures/forest_ground_06_rough_1k.jpg",
+      "height": "Textures/forest_ground_06_1k/textures/forest_ground_06_disp_1k.png"
+    },
+    {
+      "id": "forest-leaves-02",
+      "display_name": "Forest Leaves 02",
+      "source_asset": "forest_leaves_02",
+      "source_url": "https://polyhaven.com/a/forest_leaves_02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "physical_size_meters": [
+        3.001,
+        3.001
+      ],
+      "recommended_role": "broad-leaf-litter",
+      "base_color": "Textures/forest_leaves_02_1k/textures/forest_leaves_02_diffuse_1k.jpg",
+      "normal_gl": "Textures/forest_leaves_02_1k/textures/forest_leaves_02_nor_gl_1k.jpg",
+      "roughness": "Textures/forest_leaves_02_1k/textures/forest_leaves_02_rough_1k.jpg",
+      "height": "Textures/forest_leaves_02_1k/textures/forest_leaves_02_disp_1k.png"
+    },
+    {
+      "id": "forest-leaves-03",
+      "display_name": "Forest Leaves 03",
+      "source_asset": "forest_leaves_03",
+      "source_url": "https://polyhaven.com/a/forest_leaves_03",
+      "authors": [
+        "Rob Tuytel",
+        "Dimitrios Savva"
+      ],
+      "physical_size_meters": [
+        2.3,
+        2.3
+      ],
+      "recommended_role": "dry-leaf-litter",
+      "base_color": "Textures/forest_leaves_03_1k/textures/forest_leaves_03_diff_1k.jpg",
+      "normal_gl": "Textures/forest_leaves_03_1k/textures/forest_leaves_03_nor_gl_1k.jpg",
+      "roughness": "Textures/forest_leaves_03_1k/textures/forest_leaves_03_rough_1k.jpg",
+      "height": "Textures/forest_leaves_03_1k/textures/forest_leaves_03_disp_1k.png"
+    },
+    {
+      "id": "forest-ground-01",
+      "display_name": "Forest Ground 01",
+      "source_asset": "forrest_ground_01",
+      "source_url": "https://polyhaven.com/a/forrest_ground_01",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "physical_size_meters": [
+        2.0,
+        2.0
+      ],
+      "recommended_role": "mixed-forest-floor",
+      "base_color": "Textures/forrest_ground_01_1k/textures/forrest_ground_01_diff_1k.jpg",
+      "normal_gl": "Textures/forrest_ground_01_1k/textures/forrest_ground_01_nor_gl_1k.jpg",
+      "roughness": "Textures/forrest_ground_01_1k/textures/forrest_ground_01_rough_1k.jpg",
+      "height": "Textures/forrest_ground_01_1k/textures/forrest_ground_01_disp_1k.png"
+    },
+    {
+      "id": "leafy-grass",
+      "display_name": "Leafy Grass",
+      "source_asset": "leafy_grass",
+      "source_url": "https://polyhaven.com/a/leafy_grass",
+      "authors": [
+        "Charlotte Baglioni"
+      ],
+      "physical_size_meters": [
+        2.0,
+        2.0
+      ],
+      "recommended_role": "grass-leaf-cover",
+      "base_color": "Textures/leafy_grass_1k/textures/leafy_grass_diff_1k.jpg",
+      "normal_gl": "Textures/leafy_grass_1k/textures/leafy_grass_nor_gl_1k.jpg",
+      "roughness": "Textures/leafy_grass_1k/textures/leafy_grass_rough_1k.jpg",
+      "height": "Textures/leafy_grass_1k/textures/leafy_grass_disp_1k.png"
+    },
+    {
+      "id": "rocks-ground-05",
+      "display_name": "Rocks Ground 05",
+      "source_asset": "rocks_ground_05",
+      "source_url": "https://polyhaven.com/a/rocks_ground_05",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "physical_size_meters": [
+        3.0,
+        3.0
+      ],
+      "recommended_role": "slope-exposed-rock",
+      "base_color": "Textures/rocks_ground_05_1k/textures/rocks_ground_05_diff_1k.jpg",
+      "normal_gl": "Textures/rocks_ground_05_1k/textures/rocks_ground_05_nor_gl_1k.jpg",
+      "roughness": "Textures/rocks_ground_05_1k/textures/rocks_ground_05_rough_1k.jpg",
+      "height": "Textures/rocks_ground_05_1k/textures/rocks_ground_05_disp_1k.png"
+    },
+    {
+      "id": "rocks-ground-06",
+      "display_name": "Rocks Ground 06",
+      "source_asset": "rocks_ground_06",
+      "source_url": "https://polyhaven.com/a/rocks_ground_06",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "physical_size_meters": [
+        3.0,
+        3.0
+      ],
+      "recommended_role": "high-elevation-layered-rock",
+      "base_color": "Textures/rocks_ground_06_1k/textures/rocks_ground_06_diff_1k.jpg",
+      "normal_gl": "Textures/rocks_ground_06_1k/textures/rocks_ground_06_nor_gl_1k.jpg",
+      "roughness": "Textures/rocks_ground_06_1k/textures/rocks_ground_06_rough_1k.jpg",
+      "height": "Textures/rocks_ground_06_1k/textures/rocks_ground_06_disp_1k.png"
+    }
+  ]
+}

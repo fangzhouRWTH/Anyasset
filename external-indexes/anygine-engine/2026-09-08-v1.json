@@ -1,0 +1,121 @@
+{
+  "catalog": {
+    "assets": {
+      "models/grass_medium_01_1k": {
+        "depends": [],
+        "entry": "content/engine/Assets/Models/grass_medium_01_1k/grass_medium_01_1k.blend",
+        "files": [
+          "content/engine/Assets/Models/grass_medium_01_1k/grass_medium_01_1k.blend",
+          "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_alpha_1k.png",
+          "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_diff_1k.jpg",
+          "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_dry_diff_1k.png",
+          "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_nor_gl_1k.exr",
+          "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_rough_1k.exr"
+        ],
+        "license": "NOASSERTION; local source has no per-package license record",
+        "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Models/grass_medium_01_1k"
+      },
+      "models/rock_moss_set_02_1k": {
+        "depends": [],
+        "entry": "content/engine/Assets/Models/rock_moss_set_02_1k/rock_moss_set_02_1k.blend",
+        "files": [
+          "content/engine/Assets/Models/rock_moss_set_02_1k/rock_moss_set_02_1k.blend",
+          "content/engine/Assets/Models/rock_moss_set_02_1k/textures/rock_moss_set_02_diff_1k.jpg",
+          "content/engine/Assets/Models/rock_moss_set_02_1k/textures/rock_moss_set_02_nor_gl_1k.exr",
+          "content/engine/Assets/Models/rock_moss_set_02_1k/textures/rock_moss_set_02_rough_1k.jpg"
+        ],
+        "license": "NOASSERTION; local source has no per-package license record",
+        "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Models/rock_moss_set_02_1k"
+      },
+      "textures/checkered-pattern": {
+        "depends": [],
+        "entry": "content/engine/Assets/Textures/Black_and_white_checkered_pattern.jpg",
+        "files": [
+          "content/engine/Assets/Textures/Black_and_white_checkered_pattern.jpg"
+        ],
+        "license": "NOASSERTION; source attribution and redistribution grant not recorded",
+        "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Textures/Black_and_white_checkered_pattern.jpg"
+      }
+    },
+    "collections": {
+      "all": [
+        "models/grass_medium_01_1k",
+        "models/rock_moss_set_02_1k",
+        "textures/checkered-pattern"
+      ]
+    },
+    "schema": 1
+  },
+  "files": [
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/grass_medium_01_1k/grass_medium_01_1k.blend",
+      "sha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "size": 1832028
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_alpha_1k.png",
+      "sha256": "711a8e49af758d6a6ce1f610db858899a27be19da6d1866bd35c13bc7b8ffeff",
+      "size": 648718
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_diff_1k.jpg",
+      "sha256": "71495bd6a11fddcab0aaff38246fea1a7b802a705483f1c7cbca53955daa8050",
+      "size": 395673
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_dry_diff_1k.png",
+      "sha256": "da85639d6eb8f029b50e7920aaf7e649940541bb24fe6ad239dbae7400af2eb2",
+      "size": 2167830
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_nor_gl_1k.exr",
+      "sha256": "7e9c4ca6dfca96b67e799a268493a6871ffaa215624dd1ade8b09044095f2a1d",
+      "size": 2021011
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/grass_medium_01_1k/textures/grass_medium_01_rough_1k.exr",
+      "sha256": "79a4d6ac2b567c4b7a394a11e1a57c7823730c02878f792153ce5a41dfacedee",
+      "size": 900132
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/rock_moss_set_02_1k/rock_moss_set_02_1k.blend",
+      "sha256": "f4f975d41f2df5f3502544f6e9027af3557805391fb5573ccc8d00abdefeeb50",
+      "size": 2470540
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/rock_moss_set_02_1k/textures/rock_moss_set_02_diff_1k.jpg",
+      "sha256": "91dd2cc77d5198b067d77e5bdb3fa8ee7b8950aeff5aec2c1ccaddb76dcca481",
+      "size": 194307
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/rock_moss_set_02_1k/textures/rock_moss_set_02_nor_gl_1k.exr",
+      "sha256": "be4d20e2a470b15205d30d5b3c2e98cea7532734a0c02bc949b2e99830c6d0c8",
+      "size": 1858156
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Models/rock_moss_set_02_1k/textures/rock_moss_set_02_rough_1k.jpg",
+      "sha256": "12252219a98a560940359973e83af831abdcfab0ead3f0a2a7b135a0143105f1",
+      "size": 146226
+    },
+    {
+      "lfs": false,
+      "path": "content/engine/Assets/Textures/Black_and_white_checkered_pattern.jpg",
+      "sha256": "477887142752922a6837b0a4b3360fb2e283050f79b494a86b646709d8be74df",
+      "size": 1146764
+    }
+  ],
+  "id": "anygine-engine",
+  "revision": "32ac61a45bce638c674b45351c29f000b6106edaf43f0efc33af81e3f26fcc22",
+  "schema": 1,
+  "version": "2026-09-08-v1"
+}

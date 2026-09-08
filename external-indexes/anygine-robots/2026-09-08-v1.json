@@ -1,0 +1,3613 @@
+{
+  "catalog": {
+    "assets": {
+      "catalog/presets": {
+        "depends": [
+          "packages/robots/menagerie/aloha",
+          "packages/robots/menagerie/franka_emika_panda",
+          "packages/robots/menagerie/pal_tiago_dual",
+          "packages/robots/menagerie/unitree_go2",
+          "packages/robots/directdrive/tita",
+          "packages/robots/directdrive/titatit",
+          "packages/policies/directdrive/tita",
+          "packages/policies/directdrive/titarough",
+          "packages/policies/directdrive/titatit",
+          "packages/policies/go2joystickpolicy",
+          "packages/policies/go2joystickpolicymjlabomniv1",
+          "packages/policies/go2joystickpolicymjlabomniv2headingholdu2400",
+          "packages/policies/go2joystickpolicymjlabomniv2speedcalibratedu2400",
+          "packages/policies/go2joystickpolicymjlabomniv2trackingu2400",
+          "packages/policies/go2joystickpolicymjlabphase2cmildblindv10u2660",
+          "packages/policies/go2joystickpolicymjlabphase2cv16u3100slopestandv1probe",
+          "robot.menagerie.unitree_go2.scene",
+          "robot.menagerie.unitree_go2.model",
+          "robot.menagerie.franka_emika_panda.scene",
+          "robot.menagerie.franka_emika_panda.model",
+          "robot.menagerie.aloha.scene",
+          "robot.menagerie.aloha.model",
+          "robot.menagerie.pal_tiago_dual.position_scene",
+          "robot.menagerie.pal_tiago_dual.position_model",
+          "policy.go2.joystick.template",
+          "policy.go2.joystick.velocity_flat",
+          "robot.direct_drive.tita.urdf",
+          "robot.direct_drive.tita.mjcf",
+          "robot.direct_drive.titatit.urdf",
+          "robot.direct_drive.titatit.training_urdf",
+          "policy.direct_drive.tita.checkpoint",
+          "policy.direct_drive.tita.onnx",
+          "policy.direct_drive.tita.rough.onnx",
+          "policy.direct_drive.titatit.checkpoint",
+          "policy.direct_drive.titatit.onnx"
+        ],
+        "entry": "content/robot-data/Catalog/PresetIndex.json",
+        "files": [
+          "content/robot-data/Catalog/PresetIndex.json"
+        ],
+        "license": "NOASSERTION; Anygine authored catalog, underlying assets retain their own terms",
+        "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Data/Catalog/PresetIndex.json"
+      },
+      "packages/policies/directdrive/tita": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/DirectDrive/Tita/manifest.json",
+        "files": [
+          "content/robot-data/Policies/DirectDrive/Tita/FSMState_RL.upstream.cpp",
+          "content/robot-data/Policies/DirectDrive/Tita/LICENSE",
+          "content/robot-data/Policies/DirectDrive/Tita/SOURCE.json",
+          "content/robot-data/Policies/DirectDrive/Tita/SOURCE.training.json",
+          "content/robot-data/Policies/DirectDrive/Tita/action.json",
+          "content/robot-data/Policies/DirectDrive/Tita/command.json",
+          "content/robot-data/Policies/DirectDrive/Tita/controller.json",
+          "content/robot-data/Policies/DirectDrive/Tita/controllers.upstream.yaml",
+          "content/robot-data/Policies/DirectDrive/Tita/flat.onnx",
+          "content/robot-data/Policies/DirectDrive/Tita/manifest.json",
+          "content/robot-data/Policies/DirectDrive/Tita/observation.json",
+          "content/robot-data/Policies/DirectDrive/Tita/tita_example_10000.pt"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/tita_rl.git@77abbc367a2db3a2036a53e38930e80620e9f915"
+      },
+      "packages/policies/directdrive/titarough": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/DirectDrive/TitaRough/manifest.json",
+        "files": [
+          "content/robot-data/Policies/DirectDrive/TitaRough/EXPORT_VERIFICATION.json",
+          "content/robot-data/Policies/DirectDrive/TitaRough/SOURCE.json",
+          "content/robot-data/Policies/DirectDrive/TitaRough/action.json",
+          "content/robot-data/Policies/DirectDrive/TitaRough/command.json",
+          "content/robot-data/Policies/DirectDrive/TitaRough/controller.json",
+          "content/robot-data/Policies/DirectDrive/TitaRough/manifest.json",
+          "content/robot-data/Policies/DirectDrive/TitaRough/observation.json",
+          "content/robot-data/Policies/DirectDrive/TitaRough/rough.onnx"
+        ],
+        "license": "MIT",
+        "origin": "https://github.com/DDTRobot/tita_rl.git@77abbc367a2db3a2036a53e38930e80620e9f915"
+      },
+      "packages/policies/directdrive/titatit": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/DirectDrive/Titatit/manifest.json",
+        "files": [
+          "content/robot-data/Policies/DirectDrive/Titatit/FSMState_RL.upstream.cpp",
+          "content/robot-data/Policies/DirectDrive/Titatit/LICENSE",
+          "content/robot-data/Policies/DirectDrive/Titatit/SOURCE.json",
+          "content/robot-data/Policies/DirectDrive/Titatit/SOURCE.training.json",
+          "content/robot-data/Policies/DirectDrive/Titatit/action.json",
+          "content/robot-data/Policies/DirectDrive/Titatit/command.json",
+          "content/robot-data/Policies/DirectDrive/Titatit/controller.json",
+          "content/robot-data/Policies/DirectDrive/Titatit/controllers.upstream.yaml",
+          "content/robot-data/Policies/DirectDrive/Titatit/manifest.json",
+          "content/robot-data/Policies/DirectDrive/Titatit/model_6000.pt",
+          "content/robot-data/Policies/DirectDrive/Titatit/observation.json",
+          "content/robot-data/Policies/DirectDrive/Titatit/test_cylinder_1027_open_source.onnx"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git@4ba7d2d72b96f2bf64efe793c49497feedf2e6de"
+      },
+      "packages/policies/go2joystickpolicy": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicy/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicy/README.md",
+          "content/robot-data/Policies/Go2JoystickPolicy/action.json",
+          "content/robot-data/Policies/Go2JoystickPolicy/command.json",
+          "content/robot-data/Policies/Go2JoystickPolicy/controller.json",
+          "content/robot-data/Policies/Go2JoystickPolicy/manifest.json",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_2.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_3.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_4.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/calf_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/calf_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/calf_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/calf_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/foot.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/hip_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/hip_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/thigh_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/thigh_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/thigh_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/assets/thigh_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/go2.xml",
+          "content/robot-data/Policies/Go2JoystickPolicy/model/scene.xml",
+          "content/robot-data/Policies/Go2JoystickPolicy/observation.json",
+          "content/robot-data/Policies/Go2JoystickPolicy/policy/SOURCE.json",
+          "content/robot-data/Policies/Go2JoystickPolicy/policy/deploy.yaml",
+          "content/robot-data/Policies/Go2JoystickPolicy/policy/policy.onnx",
+          "content/robot-data/Policies/Go2JoystickPolicy/policy/policy.onnx.data"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "packages/policies/go2joystickpolicymjlabomniv1": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/README.md",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/action.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/command.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/controller.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/manifest.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_2.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_3.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_4.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/calf_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/calf_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/calf_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/calf_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/foot.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/hip_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/hip_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/thigh_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/thigh_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/thigh_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/thigh_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/go2.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/scene.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/observation.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/policy/SOURCE.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/policy/policy.onnx"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "packages/policies/go2joystickpolicymjlabomniv2headingholdu2400": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/README.md",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/action.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/command.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/controller.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/manifest.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_2.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_3.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_4.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/calf_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/calf_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/calf_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/calf_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/foot.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/hip_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/hip_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/thigh_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/thigh_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/thigh_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/thigh_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/go2.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/scene.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/observation.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/policy/SOURCE.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/policy/policy.onnx"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "packages/policies/go2joystickpolicymjlabomniv2speedcalibratedu2400": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/README.md",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/action.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/command.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/controller.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/manifest.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_2.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_3.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_4.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/calf_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/calf_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/calf_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/calf_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/foot.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/hip_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/hip_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/thigh_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/thigh_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/thigh_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/thigh_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/go2.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/scene.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/observation.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/policy/SOURCE.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/policy/policy.onnx"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "packages/policies/go2joystickpolicymjlabomniv2trackingu2400": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/README.md",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/action.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/command.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/controller.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/manifest.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_2.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_3.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_4.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/calf_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/calf_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/calf_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/calf_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/foot.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/hip_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/hip_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/thigh_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/thigh_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/thigh_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/thigh_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/go2.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/scene.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/observation.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/policy/SOURCE.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/policy/policy.onnx"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "packages/policies/go2joystickpolicymjlabphase2cmildblindv10u2660": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/README.md",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/action.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/command.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/controller.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/manifest.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_2.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_3.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_4.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/calf_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/calf_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/calf_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/calf_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/foot.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/hip_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/hip_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/thigh_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/thigh_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/thigh_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/thigh_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/go2.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/scene.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/observation.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/policy/SOURCE.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/policy/policy.onnx"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "packages/policies/go2joystickpolicymjlabphase2cv16u3100slopestandv1probe": {
+        "depends": [],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/README.md",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/action.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/command.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/controller.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/manifest.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_2.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_3.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_4.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/calf_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/calf_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/calf_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/calf_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/foot.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/hip_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/hip_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/thigh_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/thigh_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/thigh_mirror_0.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/thigh_mirror_1.obj",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/go2.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/scene.xml",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/observation.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/policy/SOURCE.json",
+          "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/policy/policy.onnx"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "packages/robots/directdrive/tita": {
+        "depends": [],
+        "entry": "content/robot-data/Robots/DirectDrive/Tita/mujoco/robot.motion.xml",
+        "files": [
+          "content/robot-data/Robots/DirectDrive/Tita/LICENSE",
+          "content/robot-data/Robots/DirectDrive/Tita/SOURCE.json",
+          "content/robot-data/Robots/DirectDrive/Tita/SOURCE.training.json",
+          "content/robot-data/Robots/DirectDrive/Tita/UPSTREAM_README.md",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/base_link.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/left_leg_1.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/left_leg_2.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/left_leg_3.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/left_leg_4.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/right_leg_1.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/right_leg_2.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/right_leg_3.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/meshes/right_leg_4.STL",
+          "content/robot-data/Robots/DirectDrive/Tita/mujoco/robot.motion.xml",
+          "content/robot-data/Robots/DirectDrive/Tita/mujoco/robot.upstream.xml",
+          "content/robot-data/Robots/DirectDrive/Tita/mujoco/scene.motion.xml",
+          "content/robot-data/Robots/DirectDrive/Tita/mujoco/scene.upstream.xml",
+          "content/robot-data/Robots/DirectDrive/Tita/urdf/tita_description.urdf",
+          "content/robot-data/Robots/DirectDrive/Tita/visual-materials.json"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/tita_rl.git@77abbc367a2db3a2036a53e38930e80620e9f915"
+      },
+      "packages/robots/directdrive/titatit": {
+        "depends": [],
+        "entry": "content/robot-data/Robots/DirectDrive/Titatit/LICENSE",
+        "files": [
+          "content/robot-data/Robots/DirectDrive/Titatit/LICENSE",
+          "content/robot-data/Robots/DirectDrive/Titatit/SOURCE.json",
+          "content/robot-data/Robots/DirectDrive/Titatit/SOURCE.training.json",
+          "content/robot-data/Robots/DirectDrive/Titatit/UPSTREAM_README.md",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/base_link.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/left_leg_1.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/left_leg_2.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/left_leg_3.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/left_leg_4.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/right_leg_1.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/right_leg_2.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/right_leg_3.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/meshes/right_leg_4.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_battery.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_calf.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_foot.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_hip.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_thigh.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_battery.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_calf.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_foot.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_hip.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_thigh.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_battery.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_calf.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_foot.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_hip.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_thigh.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_battery.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_calf.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_foot.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_hip.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_thigh.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/base.STL",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/urdf/wheeled_titatit_mujoco.urdf",
+          "content/robot-data/Robots/DirectDrive/Titatit/training/urdf/wheeled_titatit_rl.upstream.urdf",
+          "content/robot-data/Robots/DirectDrive/Titatit/urdf/robot.upstream.xacro",
+          "content/robot-data/Robots/DirectDrive/Titatit/urdf/single_robot.upstream.xacro",
+          "content/robot-data/Robots/DirectDrive/Titatit/urdf/titatit_deployment_mujoco.urdf",
+          "content/robot-data/Robots/DirectDrive/Titatit/visual-materials.json"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git@4ba7d2d72b96f2bf64efe793c49497feedf2e6de"
+      },
+      "packages/robots/menagerie/aloha": {
+        "depends": [],
+        "entry": "content/robot-data/Robots/Menagerie/aloha/aloha.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/aloha/CHANGELOG.md",
+          "content/robot-data/Robots/Menagerie/aloha/LICENSE",
+          "content/robot-data/Robots/Menagerie/aloha/README.md",
+          "content/robot-data/Robots/Menagerie/aloha/aloha.png",
+          "content/robot-data/Robots/Menagerie/aloha/aloha.xml",
+          "content/robot-data/Robots/Menagerie/aloha/aloha_wrist.png",
+          "content/robot-data/Robots/Menagerie/aloha/assets/angled_extrusion.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/corner_bracket.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/d405_solid.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_1000.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_1220.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_150.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_2040_1000.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_2040_880.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_600.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/interbotix_black.png",
+          "content/robot-data/Robots/Menagerie/aloha/assets/overhead_mount.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/small_meta_table_diffuse.png",
+          "content/robot-data/Robots/Menagerie/aloha/assets/tablelegs.obj",
+          "content/robot-data/Robots/Menagerie/aloha/assets/tabletop.obj",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_1_base.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_2_shoulder.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_3_upper_arm.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_4_upper_forearm.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_5_lower_forearm.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_6_wrist.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_bar.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_camera.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_prop.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_prop_bar.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_wrist_mount.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_8_custom_finger_left.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_8_custom_finger_right.stl",
+          "content/robot-data/Robots/Menagerie/aloha/assets/wormseye_mount.stl",
+          "content/robot-data/Robots/Menagerie/aloha/filtered_cartesian_actuators.xml",
+          "content/robot-data/Robots/Menagerie/aloha/joint_position_actuators.xml",
+          "content/robot-data/Robots/Menagerie/aloha/keyframe_ctrl.xml",
+          "content/robot-data/Robots/Menagerie/aloha/keyframe_no_act.xml",
+          "content/robot-data/Robots/Menagerie/aloha/mjx_aloha.patch",
+          "content/robot-data/Robots/Menagerie/aloha/mjx_filtered_cartesian_actuators.patch",
+          "content/robot-data/Robots/Menagerie/aloha/mjx_scene.patch",
+          "content/robot-data/Robots/Menagerie/aloha/scene.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "packages/robots/menagerie/franka_emika_panda": {
+        "depends": [],
+        "entry": "content/robot-data/Robots/Menagerie/franka_emika_panda/hand.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/CHANGELOG.md",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/LICENSE",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/README.md",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/finger_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/finger_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand.stl",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_3.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_4.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0.stl",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_10.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_11.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_3.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_4.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_5.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_7.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_8.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_9.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link1.stl",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link2.stl",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3.stl",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3_2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3_3.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4.stl",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4_2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4_3.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_collision_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_collision_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_collision_2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6.stl",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_10.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_11.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_12.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_13.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_14.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_15.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_16.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_3.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_4.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_5.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_6.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_7.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_8.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_9.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7.stl",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_0.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_1.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_2.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_3.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_4.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_5.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_6.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_7.obj",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/hand.xml",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_hand.xml",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_panda.xml",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_panda_nohand.xml",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_scene.xml",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_single_cube.xml",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/panda.png",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/panda.xml",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/panda_nohand.xml",
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/scene.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "packages/robots/menagerie/pal_tiago_dual": {
+        "depends": [],
+        "entry": "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_motor.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/CHANGELOG.md",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/LICENSE",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/README.md",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_1.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_2.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_3.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_4.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_5-wrist-2017.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_6-wrist-2017.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/base/base_antena_link.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/base/base_dock_link.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/base/base_link.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/dock/dock.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/dock/dock_collision.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/gripper/gripper_finger_link.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/gripper/gripper_link.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/head/head_1.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/head/head_2.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/objects/antenna.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/objects/cover.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/sensors/sick_tim551.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/torso/torso_fix.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/torso/torso_lift_dual_arm.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/wheels/wheel_link.stl",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_motor.xml",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_position.xml",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_velocity.xml",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual.png",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual.xml",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual_motor.xml",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual_position.xml",
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual_velocity.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "packages/robots/menagerie/unitree_go2": {
+        "depends": [],
+        "entry": "content/robot-data/Robots/Menagerie/unitree_go2/go2.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/unitree_go2/CHANGELOG.md",
+          "content/robot-data/Robots/Menagerie/unitree_go2/LICENSE",
+          "content/robot-data/Robots/Menagerie/unitree_go2/README.md",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_0.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_1.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_2.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_3.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_4.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/calf_0.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/calf_1.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/calf_mirror_0.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/calf_mirror_1.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/foot.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/hip_0.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/hip_1.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/thigh_0.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/thigh_1.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/thigh_mirror_0.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/assets/thigh_mirror_1.obj",
+          "content/robot-data/Robots/Menagerie/unitree_go2/go2.png",
+          "content/robot-data/Robots/Menagerie/unitree_go2/go2.xml",
+          "content/robot-data/Robots/Menagerie/unitree_go2/go2_mjx.png",
+          "content/robot-data/Robots/Menagerie/unitree_go2/go2_mjx.xml",
+          "content/robot-data/Robots/Menagerie/unitree_go2/scene.xml",
+          "content/robot-data/Robots/Menagerie/unitree_go2/scene_mjx.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "policy.direct_drive.tita.checkpoint": {
+        "depends": [
+          "packages/policies/directdrive/tita"
+        ],
+        "entry": "content/robot-data/Policies/DirectDrive/Tita/tita_example_10000.pt",
+        "files": [
+          "content/robot-data/Policies/DirectDrive/Tita/tita_example_10000.pt"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/tita_rl.git@77abbc367a2db3a2036a53e38930e80620e9f915"
+      },
+      "policy.direct_drive.tita.onnx": {
+        "depends": [
+          "packages/policies/directdrive/tita"
+        ],
+        "entry": "content/robot-data/Policies/DirectDrive/Tita/manifest.json",
+        "files": [
+          "content/robot-data/Policies/DirectDrive/Tita/manifest.json"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/tita_rl.git@77abbc367a2db3a2036a53e38930e80620e9f915"
+      },
+      "policy.direct_drive.tita.rough.onnx": {
+        "depends": [
+          "packages/policies/directdrive/titarough"
+        ],
+        "entry": "content/robot-data/Policies/DirectDrive/TitaRough/manifest.json",
+        "files": [
+          "content/robot-data/Policies/DirectDrive/TitaRough/manifest.json"
+        ],
+        "license": "MIT",
+        "origin": "https://github.com/DDTRobot/tita_rl.git@77abbc367a2db3a2036a53e38930e80620e9f915"
+      },
+      "policy.direct_drive.titatit.checkpoint": {
+        "depends": [
+          "packages/policies/directdrive/titatit"
+        ],
+        "entry": "content/robot-data/Policies/DirectDrive/Titatit/model_6000.pt",
+        "files": [
+          "content/robot-data/Policies/DirectDrive/Titatit/model_6000.pt"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git@4ba7d2d72b96f2bf64efe793c49497feedf2e6de"
+      },
+      "policy.direct_drive.titatit.onnx": {
+        "depends": [
+          "packages/policies/directdrive/titatit"
+        ],
+        "entry": "content/robot-data/Policies/DirectDrive/Titatit/manifest.json",
+        "files": [
+          "content/robot-data/Policies/DirectDrive/Titatit/manifest.json"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git@4ba7d2d72b96f2bf64efe793c49497feedf2e6de"
+      },
+      "policy.go2.joystick.template": {
+        "depends": [
+          "packages/policies/go2joystickpolicy"
+        ],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicy/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicy/manifest.json"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "policy.go2.joystick.velocity_flat": {
+        "depends": [
+          "packages/policies/go2joystickpolicy"
+        ],
+        "entry": "content/robot-data/Policies/Go2JoystickPolicy/manifest.json",
+        "files": [
+          "content/robot-data/Policies/Go2JoystickPolicy/manifest.json"
+        ],
+        "license": "NOASSERTION; no complete package redistribution license recorded",
+        "origin": "Existing Anygine application policy data; retained SOURCE records and configuration identify inputs"
+      },
+      "robot.direct_drive.tita.mjcf": {
+        "depends": [
+          "packages/robots/directdrive/tita"
+        ],
+        "entry": "content/robot-data/Robots/DirectDrive/Tita/mujoco/scene.motion.xml",
+        "files": [
+          "content/robot-data/Robots/DirectDrive/Tita/mujoco/scene.motion.xml"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/tita_rl.git@77abbc367a2db3a2036a53e38930e80620e9f915"
+      },
+      "robot.direct_drive.tita.urdf": {
+        "depends": [
+          "packages/robots/directdrive/tita"
+        ],
+        "entry": "content/robot-data/Robots/DirectDrive/Tita/urdf/tita_description.urdf",
+        "files": [
+          "content/robot-data/Robots/DirectDrive/Tita/urdf/tita_description.urdf"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/tita_rl.git@77abbc367a2db3a2036a53e38930e80620e9f915"
+      },
+      "robot.direct_drive.titatit.training_urdf": {
+        "depends": [
+          "packages/robots/directdrive/titatit"
+        ],
+        "entry": "content/robot-data/Robots/DirectDrive/Titatit/training/urdf/wheeled_titatit_mujoco.urdf",
+        "files": [
+          "content/robot-data/Robots/DirectDrive/Titatit/training/urdf/wheeled_titatit_mujoco.urdf"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git@4ba7d2d72b96f2bf64efe793c49497feedf2e6de"
+      },
+      "robot.direct_drive.titatit.urdf": {
+        "depends": [
+          "packages/robots/directdrive/titatit"
+        ],
+        "entry": "content/robot-data/Robots/DirectDrive/Titatit/urdf/titatit_deployment_mujoco.urdf",
+        "files": [
+          "content/robot-data/Robots/DirectDrive/Titatit/urdf/titatit_deployment_mujoco.urdf"
+        ],
+        "license": "MIT; upstream-package-license-undeclared; customer-commissioned-experimental-use",
+        "origin": "https://github.com/DDTRobot/ddt_ros2_control.git@63e9e6e625357802ea982b99edc62a29de42afe8; https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git@4ba7d2d72b96f2bf64efe793c49497feedf2e6de"
+      },
+      "robot.menagerie.aloha.model": {
+        "depends": [
+          "packages/robots/menagerie/aloha"
+        ],
+        "entry": "content/robot-data/Robots/Menagerie/aloha/aloha.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/aloha/aloha.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "robot.menagerie.aloha.scene": {
+        "depends": [
+          "packages/robots/menagerie/aloha"
+        ],
+        "entry": "content/robot-data/Robots/Menagerie/aloha/scene.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/aloha/scene.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "robot.menagerie.franka_emika_panda.model": {
+        "depends": [
+          "packages/robots/menagerie/franka_emika_panda"
+        ],
+        "entry": "content/robot-data/Robots/Menagerie/franka_emika_panda/panda.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/panda.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "robot.menagerie.franka_emika_panda.scene": {
+        "depends": [
+          "packages/robots/menagerie/franka_emika_panda"
+        ],
+        "entry": "content/robot-data/Robots/Menagerie/franka_emika_panda/scene.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/franka_emika_panda/scene.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "robot.menagerie.pal_tiago_dual.position_model": {
+        "depends": [
+          "packages/robots/menagerie/pal_tiago_dual"
+        ],
+        "entry": "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual_position.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual_position.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "robot.menagerie.pal_tiago_dual.position_scene": {
+        "depends": [
+          "packages/robots/menagerie/pal_tiago_dual"
+        ],
+        "entry": "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_position.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_position.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "robot.menagerie.unitree_go2.model": {
+        "depends": [
+          "packages/robots/menagerie/unitree_go2"
+        ],
+        "entry": "content/robot-data/Robots/Menagerie/unitree_go2/go2.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/unitree_go2/go2.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      },
+      "robot.menagerie.unitree_go2.scene": {
+        "depends": [
+          "packages/robots/menagerie/unitree_go2"
+        ],
+        "entry": "content/robot-data/Robots/Menagerie/unitree_go2/scene.xml",
+        "files": [
+          "content/robot-data/Robots/Menagerie/unitree_go2/scene.xml"
+        ],
+        "license": "See retained per-package LICENSE files",
+        "origin": "https://github.com/google-deepmind/mujoco_menagerie; exact input hashes and per-model LICENSE retained"
+      }
+    },
+    "collections": {
+      "all": [
+        "catalog/presets"
+      ],
+      "direct-drive": [
+        "packages/robots/directdrive/tita",
+        "packages/robots/directdrive/titatit",
+        "packages/policies/directdrive/tita",
+        "packages/policies/directdrive/titarough",
+        "packages/policies/directdrive/titatit",
+        "robot.direct_drive.tita.urdf",
+        "robot.direct_drive.tita.mjcf",
+        "robot.direct_drive.titatit.urdf",
+        "robot.direct_drive.titatit.training_urdf",
+        "policy.direct_drive.tita.checkpoint",
+        "policy.direct_drive.tita.onnx",
+        "policy.direct_drive.tita.rough.onnx",
+        "policy.direct_drive.titatit.checkpoint",
+        "policy.direct_drive.titatit.onnx"
+      ],
+      "menagerie": [
+        "packages/robots/menagerie/aloha",
+        "packages/robots/menagerie/franka_emika_panda",
+        "packages/robots/menagerie/pal_tiago_dual",
+        "packages/robots/menagerie/unitree_go2"
+      ]
+    },
+    "schema": 1
+  },
+  "files": [
+    {
+      "lfs": false,
+      "path": "content/robot-data/Catalog/PresetIndex.json",
+      "sha256": "b78576741b2da0d431b4584d0ecd25da3b974ea3236e636b98528ec2665530fa",
+      "size": 13850
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/FSMState_RL.upstream.cpp",
+      "sha256": "115157976e3d8de3db85abdbab20ec568abae5f435c23b6b0792923a93d05412",
+      "size": 11637
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/LICENSE",
+      "sha256": "12926be7004cc445e8b52867972190bca1f2ceeb639c124c2c068236af43923c",
+      "size": 1080
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/SOURCE.json",
+      "sha256": "c26ccbaa5e8b21dc74cd6e207ed0411ffd8aa6f396bfaa89131bb0f45710f065",
+      "size": 1494
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/SOURCE.training.json",
+      "sha256": "6ea9be9b38e2b104fee2c102ade85c783d2d2d722e49dfb259d79cc79811df04",
+      "size": 578
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/action.json",
+      "sha256": "7f2239f1fca285c5807383abe8e8c043567feafd39c6c6ce707f628ab1465c0e",
+      "size": 350
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/command.json",
+      "sha256": "24938c26ef5e2df9cb73655921fac9c5463e859d1aa1036fe2d8b9d0b66714ef",
+      "size": 270
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/controller.json",
+      "sha256": "d270cfdaf44233775590fc2140ed425ca527f082739a4b878539750a09007127",
+      "size": 352
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/controllers.upstream.yaml",
+      "sha256": "9298b8d030b22b405490c1e14bb9b78ae0151366ffb46d1ddc3463c514644d91",
+      "size": 3337
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/flat.onnx",
+      "sha256": "d5544c14df8030995e0ab554bfa98b4373a0da2bb76a812ab481925d90a016fd",
+      "size": 2246321
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/manifest.json",
+      "sha256": "21e37b0daba6b10e58328d3fa626c695a9e5d8782245c95073ccb48cab3e6401",
+      "size": 1101
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/observation.json",
+      "sha256": "345aff7d7e093cd9df3bac3c6dda24ae8ab1b126e253363a1c6e0294b3935c56",
+      "size": 496
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Tita/tita_example_10000.pt",
+      "sha256": "a721c810e561c290c96753ff85ca36a7341bf138bf0ac311b4db8be1883ce4c3",
+      "size": 13075360
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/TitaRough/EXPORT_VERIFICATION.json",
+      "sha256": "7618d49b27bfa0f69877e4d3252f48792eeb8f9b5eb97fa07786dead708865c8",
+      "size": 4422
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/TitaRough/SOURCE.json",
+      "sha256": "3c69d7979ee7651d90d73217ad5cd3b6aa23a521dcf76858d6bb34500b8e3071",
+      "size": 722
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/TitaRough/action.json",
+      "sha256": "1ef38a7dc31f39ec50c90759daff715f05514ac22d5cfb619019f84cec3322e8",
+      "size": 437
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/TitaRough/command.json",
+      "sha256": "82dd52321ef7d57e8c4f695190ec68388a32db166d4c4bbf07a42e888e98b1ff",
+      "size": 405
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/TitaRough/controller.json",
+      "sha256": "3eb3845bfc31491fd676a1cbc50097553e357e4405faaef439e4238150f8da2e",
+      "size": 843
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/TitaRough/manifest.json",
+      "sha256": "e5ad0d75267068c3f454b64d1dad9672cb2d9ce1354a5b266bcd73d778cb40e6",
+      "size": 1513
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/TitaRough/observation.json",
+      "sha256": "1a5be9451b40ec3d090e7b6dd684a0dfee4ed737b91c5456d7f770dceb45e51f",
+      "size": 628
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/TitaRough/rough.onnx",
+      "sha256": "c4a9710c66c27d43540394bad047e9d81e459e4f37ddf9a0b17a4d1b170f7c32",
+      "size": 2142563
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/FSMState_RL.upstream.cpp",
+      "sha256": "115157976e3d8de3db85abdbab20ec568abae5f435c23b6b0792923a93d05412",
+      "size": 11637
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/LICENSE",
+      "sha256": "12926be7004cc445e8b52867972190bca1f2ceeb639c124c2c068236af43923c",
+      "size": 1080
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/SOURCE.json",
+      "sha256": "140f3a986e15c64c8782665c6890b2a2e8792617630c8d00b875ada1ef86c68e",
+      "size": 1523
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/SOURCE.training.json",
+      "sha256": "4620a19080ca537d35faf3dc3133147e43768860cc8af50aef09c0f2fb9e698c",
+      "size": 760
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/action.json",
+      "sha256": "4a50e555ba659b16ef29b94351d633235cfb11a83fc3eed8ece9fbd605b566ed",
+      "size": 904
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/command.json",
+      "sha256": "24938c26ef5e2df9cb73655921fac9c5463e859d1aa1036fe2d8b9d0b66714ef",
+      "size": 270
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/controller.json",
+      "sha256": "8d3f936c0da707859928ebb691cdc5a03ac0ff100e64952607cadd742a7508c7",
+      "size": 590
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/controllers.upstream.yaml",
+      "sha256": "e33499c7b89607cda5ceb15fc742914c573b03605eb79ca857c5b9c5c61c08b0",
+      "size": 4385
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/manifest.json",
+      "sha256": "38491c6f03ba6a22e9b6152e42250442535453024ae98dfbbd82278fcfa89933",
+      "size": 1155
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/model_6000.pt",
+      "sha256": "168ca16ede62fe465bcb6dd17f2f0599dc89c9764a041321038c7b2ca4e17f26",
+      "size": 13632493
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/observation.json",
+      "sha256": "e46c18e86e8ec1bd64cbd3b3e116db4fa8470e2706afb8dffaa084e85ce719c7",
+      "size": 504
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/DirectDrive/Titatit/test_cylinder_1027_open_source.onnx",
+      "sha256": "46aaf830da26d678e8d9b1d48113a065b8f8addfc21a9548ea6a5166bfb3beb9",
+      "size": 2091679
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/README.md",
+      "sha256": "a67d30dff7316405a1d8c8912800ce977b6d709955162bf6368af453f3b26f31",
+      "size": 2112
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/action.json",
+      "sha256": "fbb8a405a8c778765a1315e872151c4c1e807981c1152db889d0adc24a537db0",
+      "size": 885
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/command.json",
+      "sha256": "fbd0422c607f48541991731579ab5ed421fe71fd1771d4d84e41b8edb13617f5",
+      "size": 258
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/controller.json",
+      "sha256": "ca7bd41092c187bd1303832157d35faf01452c40c2551de4a1d250f292b89e57",
+      "size": 669
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/manifest.json",
+      "sha256": "888389aa05230f4ce52aac5573cedc84290fd0181e2a919a974407d47434b26c",
+      "size": 902
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/go2.xml",
+      "sha256": "979ae741437a8b6c22e9affc28acb25df09e0f054a9467cbb3a6b043f552611f",
+      "size": 11682
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/model/scene.xml",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "size": 816
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/observation.json",
+      "sha256": "3b5dc897279bbd88bf869ecc0c8efe8807ffe7ee9b1b232ce7275e9a2c7453c0",
+      "size": 600
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/policy/SOURCE.json",
+      "sha256": "2297a2e33d04d0fafe91fd30a5d1742abb7f1a0bfc1245362e4e86a7c97099ee",
+      "size": 530
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/policy/deploy.yaml",
+      "sha256": "a86582e599411ebaa011cb30f1711497a50a21230decf9c91bd02cb43d1e5300",
+      "size": 1392
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/policy/policy.onnx",
+      "sha256": "fbb8b61b12f2cd44dfc889f33566a8be2438124efee88b60c700b9605a94187a",
+      "size": 14196
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicy/policy/policy.onnx.data",
+      "sha256": "40474dd235917877d657085f3f0a2d485d10e947e3599cad5328337e32222a74",
+      "size": 757248
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/README.md",
+      "sha256": "afa8113cd33344dd924a1e88f807976f181b933cfcc30ef22bf9c2447cf76f57",
+      "size": 706
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/action.json",
+      "sha256": "8caf6ad877b2194ab7a8e0a5216f6bac92783df65eb90973c7c2e1dad5894da7",
+      "size": 628
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/command.json",
+      "sha256": "0f3176b5b427427f507fa263aba3690d48c12989678e132f7a31c2786c87c57c",
+      "size": 253
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/controller.json",
+      "sha256": "fbc244a28963da58f07f9b2b7633218ffe766ee124a6946824b2d419fa4d214b",
+      "size": 1093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/manifest.json",
+      "sha256": "02554d3a00e85426426e1f963443f284eb25df3f74ab0047705f7d412d9f4d88",
+      "size": 881
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/go2.xml",
+      "sha256": "878ce39d530563cb066616ed91b4c814c453d8072aa66ff8dbccd3f4f0ecac7a",
+      "size": 11498
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/model/scene.xml",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "size": 816
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/observation.json",
+      "sha256": "1fac4f76c47299ff348585ab5f9b97105319ca25a7749f4fe4cd7c09b07da249",
+      "size": 1205
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/policy/SOURCE.json",
+      "sha256": "ebbbec93dee1dd2c541735d259d41fec1b7707def544f089690431341887ff73",
+      "size": 1148
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV1/policy/policy.onnx",
+      "sha256": "8afbfc88d4405fba6773f2c5d14556681da6bcc3718ad14b277a4383106265d9",
+      "size": 765815
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/README.md",
+      "sha256": "12fae682a3ebd43cbbe41a18246fac5edaee9da9e99af35b035d5d193d3a5ce8",
+      "size": 1273
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/action.json",
+      "sha256": "8caf6ad877b2194ab7a8e0a5216f6bac92783df65eb90973c7c2e1dad5894da7",
+      "size": 628
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/command.json",
+      "sha256": "0f3176b5b427427f507fa263aba3690d48c12989678e132f7a31c2786c87c57c",
+      "size": 253
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/controller.json",
+      "sha256": "2ce37be73af2d683a3d2d9fa3280d022563ed1aa2cb14d710537490d0a547464",
+      "size": 1293
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/manifest.json",
+      "sha256": "7119f4b92ca9e2670ff6fc6b590447ff5d1408c91a296615df4e842045995683",
+      "size": 950
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/go2.xml",
+      "sha256": "878ce39d530563cb066616ed91b4c814c453d8072aa66ff8dbccd3f4f0ecac7a",
+      "size": 11498
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/model/scene.xml",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "size": 816
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/observation.json",
+      "sha256": "1fac4f76c47299ff348585ab5f9b97105319ca25a7749f4fe4cd7c09b07da249",
+      "size": 1205
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/policy/SOURCE.json",
+      "sha256": "e4c244be9689b4ee5d719cac27350b254bda36af48c401d6e4f2eae4bbeab2f8",
+      "size": 1172
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400/policy/policy.onnx",
+      "sha256": "84b2f9f12134edb92c7a0c0bb152f39bfd13526e0658c1da1dd25fafcc28aea3",
+      "size": 778740
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/README.md",
+      "sha256": "12fae682a3ebd43cbbe41a18246fac5edaee9da9e99af35b035d5d193d3a5ce8",
+      "size": 1273
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/action.json",
+      "sha256": "8caf6ad877b2194ab7a8e0a5216f6bac92783df65eb90973c7c2e1dad5894da7",
+      "size": 628
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/command.json",
+      "sha256": "0f3176b5b427427f507fa263aba3690d48c12989678e132f7a31c2786c87c57c",
+      "size": 253
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/controller.json",
+      "sha256": "b4cc8835158d73eac6c598615daa13eef7e9af53db3d4511bf6aab136ad50f2c",
+      "size": 1449
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/manifest.json",
+      "sha256": "63c863c10f4fd7e8b8870c7ce30edb666943dbf90da2ae4f09d7b6fdb2b289c4",
+      "size": 956
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/go2.xml",
+      "sha256": "878ce39d530563cb066616ed91b4c814c453d8072aa66ff8dbccd3f4f0ecac7a",
+      "size": 11498
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/model/scene.xml",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "size": 816
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/observation.json",
+      "sha256": "1fac4f76c47299ff348585ab5f9b97105319ca25a7749f4fe4cd7c09b07da249",
+      "size": 1205
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/policy/SOURCE.json",
+      "sha256": "e4c244be9689b4ee5d719cac27350b254bda36af48c401d6e4f2eae4bbeab2f8",
+      "size": 1172
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2SpeedCalibratedU2400/policy/policy.onnx",
+      "sha256": "84b2f9f12134edb92c7a0c0bb152f39bfd13526e0658c1da1dd25fafcc28aea3",
+      "size": 778740
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/README.md",
+      "sha256": "afa8113cd33344dd924a1e88f807976f181b933cfcc30ef22bf9c2447cf76f57",
+      "size": 706
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/action.json",
+      "sha256": "8caf6ad877b2194ab7a8e0a5216f6bac92783df65eb90973c7c2e1dad5894da7",
+      "size": 628
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/command.json",
+      "sha256": "0f3176b5b427427f507fa263aba3690d48c12989678e132f7a31c2786c87c57c",
+      "size": 253
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/controller.json",
+      "sha256": "fbc244a28963da58f07f9b2b7633218ffe766ee124a6946824b2d419fa4d214b",
+      "size": 1093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/manifest.json",
+      "sha256": "77a6171c5869dad852104bb520d967a3c66384d126d6b6afb59fd66aff5a96d7",
+      "size": 894
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/go2.xml",
+      "sha256": "878ce39d530563cb066616ed91b4c814c453d8072aa66ff8dbccd3f4f0ecac7a",
+      "size": 11498
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/model/scene.xml",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "size": 816
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/observation.json",
+      "sha256": "1fac4f76c47299ff348585ab5f9b97105319ca25a7749f4fe4cd7c09b07da249",
+      "size": 1205
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/policy/SOURCE.json",
+      "sha256": "e4c244be9689b4ee5d719cac27350b254bda36af48c401d6e4f2eae4bbeab2f8",
+      "size": 1172
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabOmniV2TrackingU2400/policy/policy.onnx",
+      "sha256": "84b2f9f12134edb92c7a0c0bb152f39bfd13526e0658c1da1dd25fafcc28aea3",
+      "size": 778740
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/README.md",
+      "sha256": "0283189f95a7fe86289a3ed11bc10a0540aafedbd62733fbcba21bdc54353d47",
+      "size": 2085
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/action.json",
+      "sha256": "8caf6ad877b2194ab7a8e0a5216f6bac92783df65eb90973c7c2e1dad5894da7",
+      "size": 628
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/command.json",
+      "sha256": "0f3176b5b427427f507fa263aba3690d48c12989678e132f7a31c2786c87c57c",
+      "size": 253
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/controller.json",
+      "sha256": "91b276073c0e34ea9a511e39ea128929fe572b4efcfda8991f9d72ea731aa3ec",
+      "size": 1341
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/manifest.json",
+      "sha256": "402cc2ad5d24ed73b5ffcbc90380a2c26c6a4ed9449ec0cabe559dc911f22fcf",
+      "size": 899
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/go2.xml",
+      "sha256": "668f73ff924d07b1aa8046e3bbb60b7473b43dc26e51a71e6adb11e3190bdb8b",
+      "size": 11499
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/model/scene.xml",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "size": 816
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/observation.json",
+      "sha256": "1fac4f76c47299ff348585ab5f9b97105319ca25a7749f4fe4cd7c09b07da249",
+      "size": 1205
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/policy/SOURCE.json",
+      "sha256": "a4160933a4313a34fa02e6a7ec9ae4bc3bdf90a597be8036a136be93ecfeeca1",
+      "size": 1509
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660/policy/policy.onnx",
+      "sha256": "4c2ee80235ebfaf506fcdbeafb7b19f24ce53a6d32cba8b2c7a858c50f0b9991",
+      "size": 778740
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/README.md",
+      "sha256": "0283189f95a7fe86289a3ed11bc10a0540aafedbd62733fbcba21bdc54353d47",
+      "size": 2085
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/action.json",
+      "sha256": "8caf6ad877b2194ab7a8e0a5216f6bac92783df65eb90973c7c2e1dad5894da7",
+      "size": 628
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/command.json",
+      "sha256": "0f3176b5b427427f507fa263aba3690d48c12989678e132f7a31c2786c87c57c",
+      "size": 253
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/controller.json",
+      "sha256": "b16a61ed11cf7d76196873dcfcf7044a7a71f82d9529c58febcc5b5cd52d93a6",
+      "size": 2720
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/manifest.json",
+      "sha256": "35e86dbd0d705deda072d8e770f49ed23cdd48bbe2e7d9732400e115d823242b",
+      "size": 907
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/go2.xml",
+      "sha256": "668f73ff924d07b1aa8046e3bbb60b7473b43dc26e51a71e6adb11e3190bdb8b",
+      "size": 11499
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/model/scene.xml",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "size": 816
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/observation.json",
+      "sha256": "1fac4f76c47299ff348585ab5f9b97105319ca25a7749f4fe4cd7c09b07da249",
+      "size": 1205
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/policy/SOURCE.json",
+      "sha256": "d1416404496ec995c750c894c25b65c5da4137bfbf6084a5f79d2b2933ecc8c6",
+      "size": 2879
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Policies/Go2JoystickPolicyMjlabPhase2CV16U3100SlopeStandV1Probe/policy/policy.onnx",
+      "sha256": "3a8f56a2544971b96ef5f0ee8740e260034f5e09dbfe136162651c655631249f",
+      "size": 784945
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/LICENSE",
+      "sha256": "12926be7004cc445e8b52867972190bca1f2ceeb639c124c2c068236af43923c",
+      "size": 1080
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/SOURCE.json",
+      "sha256": "42f439c262144aa67a396cc0a88f3d7aff8d6881d7b944e29e82351143aac931",
+      "size": 2284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/SOURCE.training.json",
+      "sha256": "2d79f1203fb5ac0ac967a9e88d3b207772910cd1c89619e2a6d892da8dc067fb",
+      "size": 1878
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/UPSTREAM_README.md",
+      "sha256": "586500382a70fd0e52bdfa555cf4b4b0c5c3740767ffb03421366ea7a2b90d75",
+      "size": 5481
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/base_link.STL",
+      "sha256": "355a0cf91d6db9b1c4aceeed175ca8eaf10fcf5689771599a1c291bae2336a26",
+      "size": 2835884
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/left_leg_1.STL",
+      "sha256": "5b8951d034a55ef0c3bc93a97c69be57e5af648e6a1fdd1d71651c6d62014e42",
+      "size": 289284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/left_leg_2.STL",
+      "sha256": "b3a158cb5148aec9f6ea84cc8a6d53f1c65d33cb210d4934314d4822e495ac41",
+      "size": 787784
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/left_leg_3.STL",
+      "sha256": "63385672ae563dd177f8e200d0ae8fbceac05e8db38fefbc64ee48c59d27093b",
+      "size": 271284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/left_leg_4.STL",
+      "sha256": "a1e7af6d3807e1e8db3ae49183c702e49015266d6ef95bd1b98d08ed99bb9934",
+      "size": 174684
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/right_leg_1.STL",
+      "sha256": "582ebfd532d2c22eb52a9f54bae410d22e19427f421df0b6dde95a29c072ab54",
+      "size": 289284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/right_leg_2.STL",
+      "sha256": "7cd576ae6fa7acf208daa9ad0bf0c99c2f79bd06df128e1e4e5e61773e4108cf",
+      "size": 791384
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/right_leg_3.STL",
+      "sha256": "de652fda5a6494bbff17e8dad0e37861a5cc1de33be43b9435188d80d7cf53c1",
+      "size": 271284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/meshes/right_leg_4.STL",
+      "sha256": "6cfe87353a8dc865732e0f89703bad00de8b4b7b25c767555eeb9d49ee9fe2ee",
+      "size": 174684
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/mujoco/robot.motion.xml",
+      "sha256": "92bf660f7816a8b7436f704bec192b0bfd43fd7b20ccf49c86f448afd7e2609c",
+      "size": 8932
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/mujoco/robot.upstream.xml",
+      "sha256": "b85b38c1495553d4289f84129bb5dec9290806b414935306a975a65f16638a0d",
+      "size": 8814
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/mujoco/scene.motion.xml",
+      "sha256": "e145c68ce56b172ded20e30b6313494b9d6baa0e640670d5d574c7364ce94392",
+      "size": 1518
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/mujoco/scene.upstream.xml",
+      "sha256": "d38b6e7b5c156233f1950e4e3dfb29fb779319400a2c5225c2f871313e27f8fe",
+      "size": 1475
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/urdf/tita_description.urdf",
+      "sha256": "57a34da0cfe94af3be05fbd02b96ea95e06c6daaaefd850f79b805c1a2f18cd9",
+      "size": 10798
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Tita/visual-materials.json",
+      "sha256": "d23583301606da10d4f871387e7baa6ddae3fdfc73dca1d868d5cc14729370ce",
+      "size": 1005
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/LICENSE",
+      "sha256": "12926be7004cc445e8b52867972190bca1f2ceeb639c124c2c068236af43923c",
+      "size": 1080
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/SOURCE.json",
+      "sha256": "14ed392419e4c35966739f1c587aeee8fab8999428a597bf2b240c6fbca273ba",
+      "size": 2162
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/SOURCE.training.json",
+      "sha256": "bf26cb6623b1d5ae9b348f128acc19d0d4099b772800db070fe6962eab4dfbd0",
+      "size": 942
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/UPSTREAM_README.md",
+      "sha256": "cfcf8dc29ae822b00c983447d280d035a61e0b1c74e801f6ef1d78afd24af80b",
+      "size": 1343
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/base_link.STL",
+      "sha256": "355a0cf91d6db9b1c4aceeed175ca8eaf10fcf5689771599a1c291bae2336a26",
+      "size": 2835884
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/left_leg_1.STL",
+      "sha256": "5b8951d034a55ef0c3bc93a97c69be57e5af648e6a1fdd1d71651c6d62014e42",
+      "size": 289284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/left_leg_2.STL",
+      "sha256": "b3a158cb5148aec9f6ea84cc8a6d53f1c65d33cb210d4934314d4822e495ac41",
+      "size": 787784
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/left_leg_3.STL",
+      "sha256": "63385672ae563dd177f8e200d0ae8fbceac05e8db38fefbc64ee48c59d27093b",
+      "size": 271284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/left_leg_4.STL",
+      "sha256": "a1e7af6d3807e1e8db3ae49183c702e49015266d6ef95bd1b98d08ed99bb9934",
+      "size": 174684
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/right_leg_1.STL",
+      "sha256": "582ebfd532d2c22eb52a9f54bae410d22e19427f421df0b6dde95a29c072ab54",
+      "size": 289284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/right_leg_2.STL",
+      "sha256": "7cd576ae6fa7acf208daa9ad0bf0c99c2f79bd06df128e1e4e5e61773e4108cf",
+      "size": 791384
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/right_leg_3.STL",
+      "sha256": "de652fda5a6494bbff17e8dad0e37861a5cc1de33be43b9435188d80d7cf53c1",
+      "size": 271284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/meshes/right_leg_4.STL",
+      "sha256": "6cfe87353a8dc865732e0f89703bad00de8b4b7b25c767555eeb9d49ee9fe2ee",
+      "size": 174684
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_battery.STL",
+      "sha256": "c849adb8ba90218237fffe5ad0624cc7aa62938fd395efd47e9fe0de122960d8",
+      "size": 479484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_calf.STL",
+      "sha256": "16c3388bfb87ab5a5aaa80ef7c4f3ceb086acb3024fbb51fbcf211a8578caa87",
+      "size": 1533984
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_foot.STL",
+      "sha256": "b5f98c439db058b48a5e091e9c7c5466d3cce75028d68f52c60b10af82b931d2",
+      "size": 3946184
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_hip.STL",
+      "sha256": "a840acce908c778eda41fc8ee5b832365c23d64c135f4c543cfbf3f69f6ed61e",
+      "size": 1852884
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FL_thigh.STL",
+      "sha256": "74d55ee8129bedf329deb6b7ebcc304b12e179877fd46a4c489b74800b28dc74",
+      "size": 7702584
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_battery.STL",
+      "sha256": "adcd2c9a50117bae6f97e9d9ae52197ab088ac1afb5a204bcac58bc485317866",
+      "size": 479484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_calf.STL",
+      "sha256": "0a99f830ceca4159fcce7c67c48f80ca7aba114b8aef22e93211f205ca16ff56",
+      "size": 1535784
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_foot.STL",
+      "sha256": "557d6c45412dc28f1522f3696e53d1d4a0d15079a0f6148e22859a7cd04845ab",
+      "size": 3909984
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_hip.STL",
+      "sha256": "17e95c217b325f669876caad1d04ec7ebe6ca9897f7a968d23ed44a62fb97b13",
+      "size": 1858284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/FR_thigh.STL",
+      "sha256": "55ec530b71a75f66bc827afeb0e679f1b17554647212e5affc0cc9b86efdeda3",
+      "size": 7697634
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_battery.STL",
+      "sha256": "911db729efab76f41908554fee12396d99d0f18ee102a7adb723040b20f6f944",
+      "size": 479484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_calf.STL",
+      "sha256": "27e8d57a36fecc006e5769a8832c0702de0040790e614da5c9c195b4e83eb448",
+      "size": 1535784
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_foot.STL",
+      "sha256": "6ff11f52e38dc2d23baf63452b32ddb05b3f3a19aa434eb37a70dbb7a6f28c67",
+      "size": 3909984
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_hip.STL",
+      "sha256": "9d3d61e957ebc0c088370ad64a4f8bc3ab85fb926595f8c9fb430d6bb9ac9aef",
+      "size": 1858284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RL_thigh.STL",
+      "sha256": "55ec530b71a75f66bc827afeb0e679f1b17554647212e5affc0cc9b86efdeda3",
+      "size": 7697634
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_battery.STL",
+      "sha256": "5e8a76ad3c1e022a8605816a3ea482ef78126cd94d64342179ff19fad3636a4f",
+      "size": 479484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_calf.STL",
+      "sha256": "a9369f9e92e1f6446b54a61b160b3fda667e9c286b229744e7663721bc4d182c",
+      "size": 1533984
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_foot.STL",
+      "sha256": "09f7d79a3f662e8f98cd0ec2c2bd78a4c693ea1b1403d87a425869d769786759",
+      "size": 3946184
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_hip.STL",
+      "sha256": "fde76f7eb152d39b6c514c30dbba26396442cfc8e3fbc177b161a01daad01f15",
+      "size": 1852884
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/RR_thigh.STL",
+      "sha256": "74d55ee8129bedf329deb6b7ebcc304b12e179877fd46a4c489b74800b28dc74",
+      "size": 7702584
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/meshes/base.STL",
+      "sha256": "bbdf2f81fadcd736cb5a4d9a8b9ddb0f364748da3fab5112f10095da958a4a22",
+      "size": 7681634
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/urdf/wheeled_titatit_mujoco.urdf",
+      "sha256": "4294f53dc1c64b60a38665332a1c836efc934f59a27f83d04ad0b68f8bedd6db",
+      "size": 21084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/training/urdf/wheeled_titatit_rl.upstream.urdf",
+      "sha256": "58431aa05c72227e9cef0ed87bd41bd314af44a35fce4d2a4789177419e1a0c2",
+      "size": 21517
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/urdf/robot.upstream.xacro",
+      "sha256": "106a2a8d8263d902c127c88576ae125e3c46d582d1058375cac23c103c20cf24",
+      "size": 1733
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/urdf/single_robot.upstream.xacro",
+      "sha256": "eed87e3520657cd9ab68306c3e709fc0a2fdb15ed34b3c43e009203f18bb7faf",
+      "size": 9987
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/urdf/titatit_deployment_mujoco.urdf",
+      "sha256": "cc7648c6ac0222ce5370d04b1edb9a0670a441c802f9b26a2d580b1f948fe150",
+      "size": 18679
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/DirectDrive/Titatit/visual-materials.json",
+      "sha256": "b566d411a61a918783b6bbc3dbd128ea8a5ea84409725ed8844c4e2c3dc9cb35",
+      "size": 1008
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/CHANGELOG.md",
+      "sha256": "0f5e46c3cbed97b80b18bb9bf56342b3ef17c5aef2dc55ad861e467567fde574",
+      "size": 138
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/LICENSE",
+      "sha256": "21868447315ac2b10e592d08958c1035b19a32cf39e9165b23033f68390098cb",
+      "size": 1502
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/README.md",
+      "sha256": "fd0c71740a6ae730f8a3c600c36c6a322178d5556aabaf9a5c197d2ab9bfb659",
+      "size": 2203
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/aloha.png",
+      "sha256": "821b9ba1baf427e4b4cef4279208614ebb4d705eb836bc3685317466554ce809",
+      "size": 1623426
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/aloha.xml",
+      "sha256": "68430b29719bda1b75e63f540953f81991bc3fd136bdf0a43bbe3e04393b78d3",
+      "size": 19150
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/aloha_wrist.png",
+      "sha256": "fa82875ea4f06b027c067659a55dccc62799b4f8509f5d0756790a6183e1f7d7",
+      "size": 1959369
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/angled_extrusion.stl",
+      "sha256": "10e6e10a1a5c1efcf743884f7f0dad14c6cc3e15790695bfe5b7038c43f8a4c4",
+      "size": 448184
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/corner_bracket.stl",
+      "sha256": "75e40b0b807f51d238638cd44e787413d8590c1fcd28dff7beaa549c126f1fd0",
+      "size": 234284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/d405_solid.stl",
+      "sha256": "8a9a84dd9c9a67687e5ad0b37a7ed334dbfea6b0f995fef28524cc8da5f21ed2",
+      "size": 1242284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_1000.stl",
+      "sha256": "7a8b99ef84ffd7e91382af9aa733f815a7747c207f64e0499c5889a58d58c8de",
+      "size": 40084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_1220.stl",
+      "sha256": "5b5203c92dfe03b94ed5a679c6cec1f61e48d6d202b5fa03abb032d63313676e",
+      "size": 40084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_150.stl",
+      "sha256": "39029c2f95faef3dab1340e4beec221d6866e694e4df0b22795eed6f00b5f893",
+      "size": 40084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_2040_1000.stl",
+      "sha256": "acaff3be15f686064b6ec8b985758866b2bf51aed0a9b793d8c8242dde43ee0a",
+      "size": 84084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_2040_880.stl",
+      "sha256": "3bb04a77ca20a14178aa59f8ef1ef50d26695e748639677b24f0be11efc016d8",
+      "size": 84084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/extrusion_600.stl",
+      "sha256": "25c87bd6a975f1a561e547e8c490ffe4b59d8a962634548242b1f4a5c6607268",
+      "size": 40084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/interbotix_black.png",
+      "sha256": "4cd224156bbaab1ddf1b92b90d46c54835a8b41f61bc258b2f216c2618e062cf",
+      "size": 1994
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/overhead_mount.stl",
+      "sha256": "54d031aae8599f7ae69adaa834bd5435928484e5815ce4acce964522a115c2db",
+      "size": 1899284
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/small_meta_table_diffuse.png",
+      "sha256": "25b1b7e25fb1066686a15538d6f01caba168a888e5be29679533f789e3da745d",
+      "size": 339701
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/tablelegs.obj",
+      "sha256": "2514d9d8cd8974e29d95116d9f5b50c1beba5e746e3955f6ccb5ccb594ac6796",
+      "size": 10174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/tabletop.obj",
+      "sha256": "3d88abdc152ebe3dabec44100fcbcbb179c132b1b903c97220225a8ba0232687",
+      "size": 4702
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_1_base.stl",
+      "sha256": "d100cafe656671ca8fde98fb6a4cf2d1b746995c51c61c25ad9ea2715635d146",
+      "size": 99984
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_2_shoulder.stl",
+      "sha256": "139745a74055cb0b23430bb5bc032bf68cf7bea5e4975c8f4c04107ae005f7f0",
+      "size": 63884
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_3_upper_arm.stl",
+      "sha256": "900f236320dd3d500870c5fde763b2d47502d51e043a5c377875e70237108729",
+      "size": 102984
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_4_upper_forearm.stl",
+      "sha256": "4104fc54bbfb8a9b533029f1e7e3ade3d54d638372b3195daa0c98f57e0295b5",
+      "size": 49584
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_5_lower_forearm.stl",
+      "sha256": "66814e27fa728056416e25e02e89eb7d34c51d51c51e7c3df873829037ddc6b8",
+      "size": 99884
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_6_wrist.stl",
+      "sha256": "90eb145c85627968c3776ae6de23ccff7e112c9dd713c46bc9acdfdaa859a048",
+      "size": 70784
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper.stl",
+      "sha256": "786c1077bfd226f14219581b11d5f19464ca95b17132e0bb7532503568f5af90",
+      "size": 450084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_bar.stl",
+      "sha256": "b76420544e84102b1cd30745f3c6c2675f9bf08a656808101f32b6466a33f2ee",
+      "size": 723384
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_camera.stl",
+      "sha256": "2c6e9cbe7ea071b375255bc2bb21e0bbb3fcdf021148d30caaccb3a0cbb4943e",
+      "size": 673384
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_prop.stl",
+      "sha256": "4536e8975278953841f25391dccef10907859e69c71b9f06f794fef6dfc5959c",
+      "size": 456684
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_prop_bar.stl",
+      "sha256": "4405d670c359652c5d373af9d90326c143b57b0860c3046f7d831826dc1d5b4d",
+      "size": 1625384
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_7_gripper_wrist_mount.stl",
+      "sha256": "50c54e0486d3e349785163dbce209313f7b4b3feadc252ab2e2c9e55a5d0e7ef",
+      "size": 2314484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_8_custom_finger_left.stl",
+      "sha256": "5853af5b66dd9fc954b6705a883d8569c96536d86775d094f3670befaff67a93",
+      "size": 1531384
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/vx300s_8_custom_finger_right.stl",
+      "sha256": "9a1bbd942b887f27e2680b4c99dd3b3d2f73578fa9a87cc0f4dd1da3cf88b2e2",
+      "size": 1530484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/assets/wormseye_mount.stl",
+      "sha256": "0c939865a1adfc8a148817d6e12d8a04541a192ab9b6af37c94e3cae8330aa64",
+      "size": 1955684
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/filtered_cartesian_actuators.xml",
+      "sha256": "f18eac9b529779eaff7623c81e8a0c6fa04d3c7a7fc6eff19c076bca7313b8ff",
+      "size": 3117
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/joint_position_actuators.xml",
+      "sha256": "ce843cf0cfecea5ec1f117eb4257d4249dc2296e92e5f2ffb40f2e0178109bc6",
+      "size": 1155
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/keyframe_ctrl.xml",
+      "sha256": "960481d23320fb45cd1cdaa75fb48ec69fa0dec46851dabcfac7f00a583c8a45",
+      "size": 227
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/keyframe_no_act.xml",
+      "sha256": "78985655e7c3d0362317bee4e5529e7bb5b4b9bcf9f5c4293d2ff078576e2130",
+      "size": 156
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/mjx_aloha.patch",
+      "sha256": "cc398214b7371ec24cccc8fca0eaea45ae6bf8ecf9f254e5057bbc1510a36a28",
+      "size": 8367
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/mjx_filtered_cartesian_actuators.patch",
+      "sha256": "df72e84c4f887e80b68f6608ef0d909b9d8b9d8eba20f3fe97be86470aead03e",
+      "size": 1534
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/mjx_scene.patch",
+      "sha256": "0a03dee954a2d96e7324b1fb525f7854647bef5998f179a5257248b953b68971",
+      "size": 1663
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/aloha/scene.xml",
+      "sha256": "7331d72cb821561d8fa3ed03d920babb3cf7faaed3a25fe3f2046bcfe2406e0f",
+      "size": 5330
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/CHANGELOG.md",
+      "sha256": "164a6ec704aa1714b1311f8b1538e20b4223b6ef08b7d3cb03edc26192892f67",
+      "size": 235
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "size": 10173
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/README.md",
+      "sha256": "e12684556d0154bdf2a9e77e7009ed680cd06ca89904f9e6303050f9fe59300c",
+      "size": 2908
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/finger_0.obj",
+      "sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+      "size": 87872
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/finger_1.obj",
+      "sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44",
+      "size": 64651
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand.stl",
+      "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "size": 10084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_0.obj",
+      "sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+      "size": 9091
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_1.obj",
+      "sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+      "size": 121863
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_2.obj",
+      "sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+      "size": 596001
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_3.obj",
+      "sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+      "size": 902145
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/hand_4.obj",
+      "sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+      "size": 151988
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0.stl",
+      "sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+      "size": 10084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_0.obj",
+      "sha256": "6b9f41a4c203540daaeb7a33cc3d0d6c6a32dc8bba187074eeaf97b3e36b3f9c",
+      "size": 296497
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_1.obj",
+      "sha256": "57673d2ee2a9db2e10c8986ae57c56a7c39c012b60fd26d7d8549553b664a5ed",
+      "size": 103978
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_10.obj",
+      "sha256": "c9198b9d8534d628d097b0f2b239bb30343353182df098ce0d9db6bc13326848",
+      "size": 343308
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_11.obj",
+      "sha256": "f0adec78d6677b7799d25121981270e8bfe119b5c18d08a91ee37a54ad75f65c",
+      "size": 22295
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_2.obj",
+      "sha256": "1ca435a2a87a9608a146a47955724d43dd7ce10fc3dd3018800aa98f8ba86e05",
+      "size": 590892
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_3.obj",
+      "sha256": "3e9c6334d2b3b47944af3458ee5f20519abc20fe7ee23063bb53405ccab28046",
+      "size": 47588
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_4.obj",
+      "sha256": "215d25789704936120f119c0bc1cc7f68516dd3f8f1df61457b71acac3873f26",
+      "size": 211200
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_5.obj",
+      "sha256": "9361b104e93743045107aa5b15fb1a0835ba9c1f355aae71f56403cf6a9c33f6",
+      "size": 17023
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_7.obj",
+      "sha256": "2dc0b8ebbbc80e4c065d71e195adbc384f673438641fac82b07b801b4d2837cb",
+      "size": 30699
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_8.obj",
+      "sha256": "3b8c436999db5586b8eb47bed2b0aa7de6993868b2681b4c04246eeac42fdb7a",
+      "size": 3263194
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link0_9.obj",
+      "sha256": "45178f97d2b5da6bce11f610212c4ef7d08c73db33a4fc38e1b7f66b93d023f5",
+      "size": 105629
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link1.obj",
+      "sha256": "51091e776b16babdbe2f3849b5c041f921d1f11dd94ac19a0f1c81abf496fbae",
+      "size": 3274995
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link1.stl",
+      "sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+      "size": 15084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link2.obj",
+      "sha256": "5c9f8e715de52c3eb71b475de35993b3b96081e02abea9f28c414768877fc59b",
+      "size": 3295608
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link2.stl",
+      "sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+      "size": 15084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3.stl",
+      "sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+      "size": 15084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3_0.obj",
+      "sha256": "ce2da87f51708e11b189249d41401065dabe89a06e251185a06cef4d5ff27178",
+      "size": 3046804
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3_1.obj",
+      "sha256": "2880b7753a7173f38fa87ee21da4dfc7fa7be46fbe07bac5aef9e128513cb118",
+      "size": 65260
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3_2.obj",
+      "sha256": "670cff81ae84693769ca4ae658c154cf909d81167e7c8d22b70ea977f2504efa",
+      "size": 83591
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link3_3.obj",
+      "sha256": "30ede0c812efd0e0b767d134a4eae0b84e0fa407bb6325a5a555e0569b3a3ffd",
+      "size": 457684
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4.stl",
+      "sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+      "size": 15084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4_0.obj",
+      "sha256": "443bf6d178177cf347951ecf107ccd10ca444e605e375b67304579e5f948806f",
+      "size": 83486
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4_1.obj",
+      "sha256": "ca935ec7cc8b3f0e86aa079c76b0b3bf593b1e9830bab0fa7131ac51577c74f0",
+      "size": 3148001
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4_2.obj",
+      "sha256": "c89caf26d379c35bb9e191ee2d91d09ab29ecc792b48d8bc10b39e5b38222175",
+      "size": 455522
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link4_3.obj",
+      "sha256": "1495d17f45bdb230cf58b0beef9da4e8c9cfe76a3d2d38da89017efe5e093136",
+      "size": 67497
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_0.obj",
+      "sha256": "a3238b8f2af0f2eb66d9fe63dc5d41ac52d5d38507241b5ed10e3cb019ab3e71",
+      "size": 824158
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_1.obj",
+      "sha256": "9d994bbf83ec241e301b5197a6846da13f2a4a0582edb2c0f76962c5549649d6",
+      "size": 63174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_2.obj",
+      "sha256": "83b4ffe9f772cd7fe182e98640650eebc899aaf01842656574b0416c90dd40a4",
+      "size": 3856621
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_collision_0.obj",
+      "sha256": "3e5aa75fb13f193555c3dfb999df91d81df25006a5c3af5338297d78137c129b",
+      "size": 3861
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_collision_1.obj",
+      "sha256": "87cd8f621071df010f774cbde789282b8463840dfe704f8bdfa2e29be0142e15",
+      "size": 2412
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link5_collision_2.obj",
+      "sha256": "823ab6c8f7b1d79e0844fa071d82a03499ff68e34fddb1ba3451032c22736040",
+      "size": 3786
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6.stl",
+      "sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+      "size": 10084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_0.obj",
+      "sha256": "0504c70ebf1b284ee8faae7dcb896b8830bc672a6552015dd5dbd121fa031fb9",
+      "size": 157563
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_1.obj",
+      "sha256": "45f7ca77695198b6d86ec2417ad4e42e6275044f0f96266699ee8e1057757ac1",
+      "size": 27106
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_10.obj",
+      "sha256": "365f26c21d10332cab8d8704645cb46930c30b3085956f2d097498c793f24db4",
+      "size": 368502
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_11.obj",
+      "sha256": "8ae61e08b3ad064f25bbf03b22e59cc15d65883b5a7ce92711aff29df2493901",
+      "size": 32653
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_12.obj",
+      "sha256": "f28d1bfd62b0244ffd19fb35fe9edefdf583d3c9167db944e87185d919e1d021",
+      "size": 3894
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_13.obj",
+      "sha256": "0a55fa92dccb261d07200e6565fca4c850fd17f0c1ecf38821c0b97d51796c7d",
+      "size": 3798
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_14.obj",
+      "sha256": "750ae3ee4781e62e3a045c662195247b03f6642b05aa93104f08258e5f6eba26",
+      "size": 444469
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_15.obj",
+      "sha256": "5999c1c2497a004a7c4bbe034cdf13744f839d85ae7a11b1bc386c48a3e642e6",
+      "size": 668552
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_16.obj",
+      "sha256": "551d7a8b37c53e7a152d008b4e36992e5b5abe74a4be18b57ee6319c27def09f",
+      "size": 3675358
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_2.obj",
+      "sha256": "e54eee4d8232947ee8af65afd5a067e09dac2da6e7e585cb1dccb65496457da0",
+      "size": 9916
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_3.obj",
+      "sha256": "d4f6a25ef32fa1fa4734146981994ee760232cb077c80fea6487d78a077c7f27",
+      "size": 11943
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_4.obj",
+      "sha256": "be353480fe71d46f7a96f0a3cbb7e112caaf8d88368826f321a36a253c8749b2",
+      "size": 13846
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_5.obj",
+      "sha256": "7c87664623c3e1a6cb330db273227a69626dc5e53b4caff1d4ee7911eb3340c6",
+      "size": 11841
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_6.obj",
+      "sha256": "8fbc031e0d07b795ebf99115c75223141caaba317cab569159f3d477a7821681",
+      "size": 12597
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_7.obj",
+      "sha256": "7dc5ebb799fe281aab27d6e84e7a4efa0a8e42da2369ec83de3ea3f206f62d73",
+      "size": 4382
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_8.obj",
+      "sha256": "e3f77381817a341030f9dcc4c4aa7c559f80411b453fd87eb0fefecca82151bf",
+      "size": 9131
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link6_9.obj",
+      "sha256": "25a56ea9b02a03b6cb5a81f31c54f54d0185e1a0b3937c37e4289d896e50215a",
+      "size": 17616
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7.stl",
+      "sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+      "size": 10084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_0.obj",
+      "sha256": "04586b0bde011715cfc22072ac72fe0717eb4d4817bcf665987ce6cd88eb2b93",
+      "size": 1362355
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_1.obj",
+      "sha256": "c3f72289f394c9d6749a4a327fb11f05b203c37c95032c92f28019b40ebe7e00",
+      "size": 121358
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_2.obj",
+      "sha256": "d2faecedb304d0989040d082410378dc949dbbda23bd18c05134f08aae984db5",
+      "size": 208907
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_3.obj",
+      "sha256": "b62d87c4d4bdb7b281ed341d347c39dad0e50bf36aed8ac11d050073701d5f70",
+      "size": 123684
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_4.obj",
+      "sha256": "cb78ccb61fd4ad6c7bff4c4d2e6cb41e1964a5a3e1a28e67c0c6202371cfc018",
+      "size": 85732
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_5.obj",
+      "sha256": "099071d3090b51471ba52f4f90814fd3089f4975d196e4d488117073d0bfe491",
+      "size": 226402
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_6.obj",
+      "sha256": "99469e2d95ab74ce0292f2f16954c87a8a7dc16652e62e970fe37c94330a81bb",
+      "size": 99900
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/assets/link7_7.obj",
+      "sha256": "426c3db8a19373f3dc73d4bec672e948121b2914c10e2e7b9c7ea80643a19e54",
+      "size": 792162
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/hand.xml",
+      "sha256": "d2a6539d0fd7c55c75c14f11c78f04505ee33f31d93e6112e3ad7120e5ee786a",
+      "size": 4547
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_hand.xml",
+      "sha256": "cf1d16467d4bd5c69f77cdcc5af2e7e1ad957416661f20d3c4029b73622b4068",
+      "size": 4222
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_panda.xml",
+      "sha256": "8c0f15b755f686a09f04a2cae4afa3b8444d61d3318ea36cee87cc8bb98f9098",
+      "size": 14387
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_panda_nohand.xml",
+      "sha256": "92a6ff0be23a90f3a5888e57067f0ecad1b2bda95c58aa30c4284750da97d075",
+      "size": 10468
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_scene.xml",
+      "sha256": "7877363e91409da51973cc042209b34257354c17c8e7b4eccde8353e88398af7",
+      "size": 1163
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/mjx_single_cube.xml",
+      "sha256": "333997ddcb065ff94871247fb2b96e1847119549bfba7a6db645fdb6cdc5199b",
+      "size": 1180
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/panda.png",
+      "sha256": "d6ad5fcfc60237f0f006cf22d6e0b70febb559f609d915cd4316e9f1ad383c2d",
+      "size": 2192427
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/panda.xml",
+      "sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273",
+      "size": 14438
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/panda_nohand.xml",
+      "sha256": "e7090a5e2384b18a223ef532d98bf914f7f9a6b74dc8bc9f74c8291201074071",
+      "size": 11246
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/franka_emika_panda/scene.xml",
+      "sha256": "4b08c2e5108f0ed67fa689e096e58850210130c3e6ef889b1e22822d369fd8c3",
+      "size": 819
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/CHANGELOG.md",
+      "sha256": "6a6b6a355d2c7c895647dbcb7a899acfc31e38d15c2bb7e0411dd88fb3666690",
+      "size": 140
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size": 11357
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/README.md",
+      "sha256": "e4af626e6831e975667318c372bcb4f03efaae08d7c25dd9f31e70ef6c706cc4",
+      "size": 2065
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_1.stl",
+      "sha256": "a98a1becdaa0f17182ae242cbf829c327a108f11bb7dbdf1554ec76d7364c599",
+      "size": 240384
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_2.stl",
+      "sha256": "df8df6ed235678f8e0b48f99024cb5cd9cea83c0ca6963275fe704f07433f508",
+      "size": 988384
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_3.stl",
+      "sha256": "7894bc60a7c2b68cdeaa991e9ad03f48abcb5e72f8ffb5a50b1f4edadfb417e9",
+      "size": 491084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_4.stl",
+      "sha256": "12db11cef0bb9b743ce350946b08124e98890f30592516307a17c5b7c3582ea5",
+      "size": 407534
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_5-wrist-2017.stl",
+      "sha256": "ad75b9064ed916360342c78cad139beed42e9f1429986efcad6ea1ad71578c28",
+      "size": 187984
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/arm/arm_6-wrist-2017.stl",
+      "sha256": "b3599f60d6c1c6df30266e2eee48b3bf1d1d59ded41a7acb134ee2917176be3e",
+      "size": 140184
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/base/base_antena_link.stl",
+      "sha256": "736b08ffb56bb2d461209bce857b9a0ad0411e49447329ff8d0d8fa7310b92be",
+      "size": 75084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/base/base_dock_link.stl",
+      "sha256": "d13ab33c5a39f9daa7f34a1b728c6b8afa2b105671846af29eb9f2d8c617cd0c",
+      "size": 73084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/base/base_link.stl",
+      "sha256": "851d2e87fdbd320585385a6a1f8f2a1addd9a234cd3782c00fb724d6410d2761",
+      "size": 2130734
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/dock/dock.stl",
+      "sha256": "75416458fa16f4a7cd6129a9a4b43a984ad7e0d88aef88cca3fa1a534546867f",
+      "size": 10484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/dock/dock_collision.stl",
+      "sha256": "75416458fa16f4a7cd6129a9a4b43a984ad7e0d88aef88cca3fa1a534546867f",
+      "size": 10484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/gripper/gripper_finger_link.stl",
+      "sha256": "49c43b68c72d3d510e231ec5b42ffe99de6b164874e5f79a7ab66d634373bb58",
+      "size": 71634
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/gripper/gripper_link.stl",
+      "sha256": "a9ffd5ec40eeef1dfd15697d21851dc1e32f424e6ba94eee2a89ff2c701b59f7",
+      "size": 349634
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/head/head_1.stl",
+      "sha256": "da15ef00f276d4692df912889dc49561fc6b7958bf925aada017f52a15036721",
+      "size": 80884
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/head/head_2.stl",
+      "sha256": "8cc0b5fc791d313670f5d857cc83df415de6435a7c83d407b112dc6334a33158",
+      "size": 144884
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/objects/antenna.stl",
+      "sha256": "5dcf4914afdaec9c4682a0ad2f9b2b0b25d120cdbed470026267d843bf7d5119",
+      "size": 197484
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/objects/cover.stl",
+      "sha256": "2dbc2c811a92a181436735be72a0eee89ab1d249d953195129cd0d687093055c",
+      "size": 434784
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/sensors/sick_tim551.stl",
+      "sha256": "9e0184e01a67754bce3a008fb1f52b292dbda69857ed9092909d211817915cf2",
+      "size": 100084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/torso/torso_fix.stl",
+      "sha256": "bd4c521a648e041a8112ddb9cd94987e410cd53eddb6d81869057403e8fc5545",
+      "size": 57084
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/torso/torso_lift_dual_arm.stl",
+      "sha256": "75bb6a3fd9a46c3790f35d1e528dac1f2c170708bf1366fb4326af6791e1a57c",
+      "size": 961784
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/assets/wheels/wheel_link.stl",
+      "sha256": "6e444ff63f1d29662db4a601ec3bf7be8f9565d393045957db8c2a98e807632a",
+      "size": 250034
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_motor.xml",
+      "sha256": "2d48d996caa63373d6252a56fa9a2d1a3c9a2a967bc8ac2389c516c9de36f32f",
+      "size": 928
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_position.xml",
+      "sha256": "4be40a22f1bef0ef2952534da396c80b97942a43ab4a5e3a37deffd8e52e0880",
+      "size": 934
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/scene_velocity.xml",
+      "sha256": "ad1602c9d3cc565b6f60b9dd41225281f88582a46de2d40569a54740ea786d72",
+      "size": 934
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual.png",
+      "sha256": "053575a60a95145d19cdd69357bc6a9f3766b20b11563f9c22402220793fd3ba",
+      "size": 388210
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual.xml",
+      "sha256": "b20f7fc5a208f029ecde7e7932d4bb6c0172c3b3edee36db72f8b7661285bb58",
+      "size": 15077
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual_motor.xml",
+      "sha256": "72e962891364e0a991319e8af26f36312959fdec10da2a80ce08affdb3d11775",
+      "size": 2415
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual_position.xml",
+      "sha256": "5a4947ec2521840219c1a67c08c52447666c77bed4f6b86d8b8404ec2d3cfede",
+      "size": 3587
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/pal_tiago_dual/tiago_dual_velocity.xml",
+      "sha256": "f4acd79147e3ac53bf7a204764cb9ff6dcf6ee7c5f961753cb2319859e63ba3c",
+      "size": 2792
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/CHANGELOG.md",
+      "sha256": "202433fe3b98beb29fa07b8b7257defcfc8fcb9e1c0d69d8ff92be68c54fcbfd",
+      "size": 238
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/LICENSE",
+      "sha256": "7e2dfda59b98e38d123f539b59ecb637ffd8908d19e09f7765884a309f010d40",
+      "size": 1537
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/README.md",
+      "sha256": "b1384664f8bd60ef4333e340aa06c6f2b1175a5329e3ea9345da3dde20362069",
+      "size": 2435
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/go2.png",
+      "sha256": "838924da23e5034f7210a14e3540194750ab1469110c6d3832909dc55968a5e9",
+      "size": 1896586
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/go2.xml",
+      "sha256": "979ae741437a8b6c22e9affc28acb25df09e0f054a9467cbb3a6b043f552611f",
+      "size": 11682
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/go2_mjx.png",
+      "sha256": "6f2cdfa110b0826122b296bc7db4fd5212f688b177ea70d65a9331bee11ca469",
+      "size": 540342
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/go2_mjx.xml",
+      "sha256": "6fc39071b3d4e9e8a28dd75dd181e2b3d385cf93192bd42bf5b8ba119d8a9449",
+      "size": 13770
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/scene.xml",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "size": 816
+    },
+    {
+      "lfs": false,
+      "path": "content/robot-data/Robots/Menagerie/unitree_go2/scene_mjx.xml",
+      "sha256": "e6754ed3a6e7fbf031edfdffbcc70583a3c46f10d2510f0ac9314789573acf21",
+      "size": 820
+    }
+  ],
+  "id": "anygine-robots",
+  "revision": "b039613333e20f5256e3d08af661fda7a923bd2fcca839be9e6d12f6ee892343",
+  "schema": 1,
+  "version": "2026-09-08-v1"
+}

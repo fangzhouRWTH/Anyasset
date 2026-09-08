@@ -1,0 +1,18 @@
+#usda 1.0
+(
+    defaultPrim = "TestTriangle"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "TestTriangle"
+{
+    def Mesh "TestTriangleMesh"
+    {
+        int[] faceVertexCounts = [3]
+        int[] faceVertexIndices = [0, 1, 2]
+        point3f[] points = [(0, 0, 0), (1, 0, 0), (0, 1, 0)]
+        normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1)]
+        texCoord2f[] primvars:st = [(0, 0), (1, 0), (0, 1)]
+    }
+}

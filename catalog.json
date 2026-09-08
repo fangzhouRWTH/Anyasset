@@ -1,24 +1,242 @@
 {
-  "schema": 1,
   "assets": {
     "defaults/checker": {
-      "entry": "content/defaults/checker.png",
-      "files": ["content/defaults/checker.png"],
       "depends": [],
+      "entry": "content/defaults/checker.png",
+      "files": [
+        "content/defaults/checker.png"
+      ],
       "license": "CC0-1.0",
       "origin": "Procedurally generated 2x2 checker fixture for Anyasset"
     },
-    "tests/triangle": {
-      "entry": "content/tests/triangle.obj",
-      "files": ["content/tests/triangle.obj"],
+    "renderer/anygine/ltc-ggx": {
       "depends": [],
+      "entry": "content/anygine/Assets/Textures/LtcGgx/manifest.json",
+      "files": [
+        "content/anygine/Assets/Textures/LtcGgx/LICENSE.selfshadow-ltc-code.txt",
+        "content/anygine/Assets/Textures/LtcGgx/README.md",
+        "content/anygine/Assets/Textures/LtcGgx/ltc-amplitude.rgba16f",
+        "content/anygine/Assets/Textures/LtcGgx/ltc-matrix.rgba16f",
+        "content/anygine/Assets/Textures/LtcGgx/manifest.json"
+      ],
+      "license": "LicenseRef-selfshadow-ltc-code",
+      "origin": "https://github.com/selfshadow/ltc_code@31e5e96b54f98f33098f8503003119ba2231a1c6; exact license, paper attribution and conversion provenance retained in manifest"
+    },
+    "tests/anygine/test-triangle": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Interchange/TestTriangle.gltf",
+      "files": [
+        "content/anygine/Assets/Interchange/TestTriangle.bin",
+        "content/anygine/Assets/Interchange/TestTriangle.gltf"
+      ],
+      "license": "NOASSERTION; Anygine-authored fixture, no general asset license declared",
+      "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Interchange/TestTriangle.gltf"
+    },
+    "tests/anygine/testpreviewsurface-usd": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Interchange/TestPreviewSurface.usda",
+      "files": [
+        "content/anygine/Assets/Interchange/TestPreviewSurface.usda"
+      ],
+      "license": "NOASSERTION; Anygine-authored fixture, no general asset license declared",
+      "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Interchange/TestPreviewSurface.usda"
+    },
+    "tests/anygine/testtriangle-usd": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Interchange/TestTriangle.usda",
+      "files": [
+        "content/anygine/Assets/Interchange/TestTriangle.usda"
+      ],
+      "license": "NOASSERTION; Anygine-authored fixture, no general asset license declared",
+      "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Interchange/TestTriangle.usda"
+    },
+    "tests/anygine/transparent-swatch": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Interchange/TransparentSwatch/TransparentSwatch.gltf",
+      "files": [
+        "content/anygine/Assets/Interchange/TransparentSwatch/TransparentSwatch.bin",
+        "content/anygine/Assets/Interchange/TransparentSwatch/TransparentSwatch.gltf"
+      ],
+      "license": "NOASSERTION; Anygine-authored fixture, no general asset license declared",
+      "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Interchange/TransparentSwatch"
+    },
+    "tests/triangle": {
+      "depends": [],
+      "entry": "content/tests/triangle.obj",
+      "files": [
+        "content/tests/triangle.obj"
+      ],
       "license": "CC0-1.0",
       "origin": "Original minimal triangle fixture for Anyasset; meters, right-handed, Y-up"
+    },
+    "textures/anygine/checker": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/SandboxCheckerboard.png",
+      "files": [
+        "content/anygine/Assets/Textures/SandboxCheckerboard.png"
+      ],
+      "license": "NOASSERTION; Anygine project fixture, no general asset license declared",
+      "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Textures/SandboxCheckerboard.png"
+    },
+    "textures/terrain/forest-ground-01": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/forrest_ground_01_1k/textures/forrest_ground_01_diff_1k.jpg",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/forrest_ground_01_1k/textures/forrest_ground_01_diff_1k.jpg",
+        "content/anygine/Assets/Textures/forrest_ground_01_1k/textures/forrest_ground_01_disp_1k.png",
+        "content/anygine/Assets/Textures/forrest_ground_01_1k/textures/forrest_ground_01_nor_gl_1k.exr",
+        "content/anygine/Assets/Textures/forrest_ground_01_1k/textures/forrest_ground_01_nor_gl_1k.jpg",
+        "content/anygine/Assets/Textures/forrest_ground_01_1k/textures/forrest_ground_01_rough_1k.jpg"
+      ],
+      "license": "CC0-1.0",
+      "origin": "https://polyhaven.com/a/forrest_ground_01; authors: Rob Tuytel"
+    },
+    "textures/terrain/forest-ground-05": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/forest_ground_05_1k/textures/forest_ground_05_diff_1k.jpg",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/forest_ground_05_1k/textures/forest_ground_05_diff_1k.jpg",
+        "content/anygine/Assets/Textures/forest_ground_05_1k/textures/forest_ground_05_disp_1k.png",
+        "content/anygine/Assets/Textures/forest_ground_05_1k/textures/forest_ground_05_nor_gl_1k.exr",
+        "content/anygine/Assets/Textures/forest_ground_05_1k/textures/forest_ground_05_nor_gl_1k.jpg",
+        "content/anygine/Assets/Textures/forest_ground_05_1k/textures/forest_ground_05_rough_1k.exr",
+        "content/anygine/Assets/Textures/forest_ground_05_1k/textures/forest_ground_05_rough_1k.jpg"
+      ],
+      "license": "CC0-1.0",
+      "origin": "https://polyhaven.com/a/forest_ground_05; authors: Charlotte Baglioni"
+    },
+    "textures/terrain/forest-ground-06": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/forest_ground_06_1k/textures/forest_ground_06_diff_1k.jpg",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/forest_ground_06_1k/textures/forest_ground_06_diff_1k.jpg",
+        "content/anygine/Assets/Textures/forest_ground_06_1k/textures/forest_ground_06_disp_1k.png",
+        "content/anygine/Assets/Textures/forest_ground_06_1k/textures/forest_ground_06_nor_gl_1k.exr",
+        "content/anygine/Assets/Textures/forest_ground_06_1k/textures/forest_ground_06_nor_gl_1k.jpg",
+        "content/anygine/Assets/Textures/forest_ground_06_1k/textures/forest_ground_06_rough_1k.exr",
+        "content/anygine/Assets/Textures/forest_ground_06_1k/textures/forest_ground_06_rough_1k.jpg"
+      ],
+      "license": "CC0-1.0",
+      "origin": "https://polyhaven.com/a/forest_ground_06; authors: Charlotte Baglioni"
+    },
+    "textures/terrain/forest-leaves-02": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/forest_leaves_02_1k/textures/forest_leaves_02_diffuse_1k.jpg",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/forest_leaves_02_1k/textures/forest_leaves_02_diffuse_1k.jpg",
+        "content/anygine/Assets/Textures/forest_leaves_02_1k/textures/forest_leaves_02_disp_1k.png",
+        "content/anygine/Assets/Textures/forest_leaves_02_1k/textures/forest_leaves_02_nor_gl_1k.exr",
+        "content/anygine/Assets/Textures/forest_leaves_02_1k/textures/forest_leaves_02_nor_gl_1k.jpg",
+        "content/anygine/Assets/Textures/forest_leaves_02_1k/textures/forest_leaves_02_rough_1k.jpg"
+      ],
+      "license": "CC0-1.0",
+      "origin": "https://polyhaven.com/a/forest_leaves_02; authors: Rob Tuytel"
+    },
+    "textures/terrain/forest-leaves-03": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/forest_leaves_03_1k/textures/forest_leaves_03_diff_1k.jpg",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/forest_leaves_03_1k/textures/forest_leaves_03_diff_1k.jpg",
+        "content/anygine/Assets/Textures/forest_leaves_03_1k/textures/forest_leaves_03_disp_1k.png",
+        "content/anygine/Assets/Textures/forest_leaves_03_1k/textures/forest_leaves_03_nor_gl_1k.exr",
+        "content/anygine/Assets/Textures/forest_leaves_03_1k/textures/forest_leaves_03_nor_gl_1k.jpg",
+        "content/anygine/Assets/Textures/forest_leaves_03_1k/textures/forest_leaves_03_rough_1k.exr",
+        "content/anygine/Assets/Textures/forest_leaves_03_1k/textures/forest_leaves_03_rough_1k.jpg"
+      ],
+      "license": "CC0-1.0",
+      "origin": "https://polyhaven.com/a/forest_leaves_03; authors: Rob Tuytel, Dimitrios Savva"
+    },
+    "textures/terrain/leafy-grass": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/leafy_grass_1k/textures/leafy_grass_diff_1k.jpg",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/leafy_grass_1k/textures/leafy_grass_diff_1k.jpg",
+        "content/anygine/Assets/Textures/leafy_grass_1k/textures/leafy_grass_disp_1k.png",
+        "content/anygine/Assets/Textures/leafy_grass_1k/textures/leafy_grass_mask_1k.png",
+        "content/anygine/Assets/Textures/leafy_grass_1k/textures/leafy_grass_nor_gl_1k.exr",
+        "content/anygine/Assets/Textures/leafy_grass_1k/textures/leafy_grass_nor_gl_1k.jpg",
+        "content/anygine/Assets/Textures/leafy_grass_1k/textures/leafy_grass_rough_1k.exr",
+        "content/anygine/Assets/Textures/leafy_grass_1k/textures/leafy_grass_rough_1k.jpg"
+      ],
+      "license": "CC0-1.0",
+      "origin": "https://polyhaven.com/a/leafy_grass; authors: Charlotte Baglioni"
+    },
+    "textures/terrain/library": {
+      "depends": [
+        "textures/terrain/forest-ground-05",
+        "textures/terrain/forest-ground-06",
+        "textures/terrain/forest-leaves-02",
+        "textures/terrain/forest-leaves-03",
+        "textures/terrain/forest-ground-01",
+        "textures/terrain/leafy-grass",
+        "textures/terrain/rocks-ground-05",
+        "textures/terrain/rocks-ground-06"
+      ],
+      "entry": "content/anygine/Assets/Textures/OutdoorTerrain/terrain-material-library.v1.json",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/OutdoorTerrain/terrain-material-library.v1.json"
+      ],
+      "license": "CC0-1.0; engine manifest retains Poly Haven authors and map conventions",
+      "origin": "https://github.com/fangzhouRWTH/Anygine/tree/6739df7257335bc7adad01639a75033c87fc2c43/Assets/Textures/OutdoorTerrain"
+    },
+    "textures/terrain/rocks-ground-05": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/rocks_ground_05_1k/textures/rocks_ground_05_diff_1k.jpg",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/rocks_ground_05_1k/textures/rocks_ground_05_diff_1k.jpg",
+        "content/anygine/Assets/Textures/rocks_ground_05_1k/textures/rocks_ground_05_disp_1k.png",
+        "content/anygine/Assets/Textures/rocks_ground_05_1k/textures/rocks_ground_05_nor_gl_1k.exr",
+        "content/anygine/Assets/Textures/rocks_ground_05_1k/textures/rocks_ground_05_nor_gl_1k.jpg",
+        "content/anygine/Assets/Textures/rocks_ground_05_1k/textures/rocks_ground_05_rough_1k.jpg"
+      ],
+      "license": "CC0-1.0",
+      "origin": "https://polyhaven.com/a/rocks_ground_05; authors: Rob Tuytel"
+    },
+    "textures/terrain/rocks-ground-06": {
+      "depends": [],
+      "entry": "content/anygine/Assets/Textures/rocks_ground_06_1k/textures/rocks_ground_06_diff_1k.jpg",
+      "files": [
+        "content/anygine/Assets/Textures/OutdoorTerrain/LICENSE.md",
+        "content/anygine/Assets/Textures/rocks_ground_06_1k/textures/rocks_ground_06_diff_1k.jpg",
+        "content/anygine/Assets/Textures/rocks_ground_06_1k/textures/rocks_ground_06_disp_1k.png",
+        "content/anygine/Assets/Textures/rocks_ground_06_1k/textures/rocks_ground_06_nor_gl_1k.exr",
+        "content/anygine/Assets/Textures/rocks_ground_06_1k/textures/rocks_ground_06_nor_gl_1k.jpg",
+        "content/anygine/Assets/Textures/rocks_ground_06_1k/textures/rocks_ground_06_rough_1k.jpg"
+      ],
+      "license": "CC0-1.0",
+      "origin": "https://polyhaven.com/a/rocks_ground_06; authors: Rob Tuytel"
     }
   },
   "collections": {
-    "defaults": ["defaults/checker"],
-    "tests/model-import": ["tests/triangle"],
-    "smoke": ["defaults/checker", "tests/triangle"]
-  }
+    "anygine/core": [
+      "tests/anygine/test-triangle",
+      "tests/anygine/transparent-swatch",
+      "tests/anygine/testtriangle-usd",
+      "tests/anygine/testpreviewsurface-usd",
+      "textures/anygine/checker",
+      "renderer/anygine/ltc-ggx"
+    ],
+    "anygine/terrain": [
+      "textures/terrain/library"
+    ],
+    "defaults": [
+      "defaults/checker"
+    ],
+    "smoke": [
+      "defaults/checker",
+      "tests/triangle"
+    ],
+    "tests/model-import": [
+      "tests/triangle"
+    ]
+  },
+  "schema": 1
 }

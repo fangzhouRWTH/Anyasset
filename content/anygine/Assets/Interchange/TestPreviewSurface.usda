@@ -1,0 +1,38 @@
+#usda 1.0
+(
+    defaultPrim = "PreviewRoot"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "PreviewRoot"
+{
+    def Material "PreviewMaterial"
+    {
+        token outputs:surface.connect = </PreviewRoot/PreviewMaterial/PreviewSurface.outputs:surface>
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.8, 0.8, 0.8)
+            asset inputs:normal = @PreviewNormal.png@
+            float inputs:roughness = 0.45
+            float inputs:metallic = 0.0
+            token outputs:surface
+        }
+    }
+
+    def Mesh "NormalMappedQuad"
+    {
+        int[] faceVertexCounts = [4]
+        int[] faceVertexIndices = [0, 1, 2, 3]
+        point3f[] points = [(-0.5, -0.5, 0), (0.5, -0.5, 0), (0.5, 0.5, 0), (-0.5, 0.5, 0)]
+        normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
+            interpolation = "vertex"
+        )
+        texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (
+            interpolation = "vertex"
+        )
+        rel material:binding = </PreviewRoot/PreviewMaterial>
+    }
+}
