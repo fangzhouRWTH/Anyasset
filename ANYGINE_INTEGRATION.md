@@ -103,4 +103,15 @@ Cache the store within the same OS when useful. Re-run init/sync after restorati
 
 ## Local engine integration files
 
-Anygine_main contains Scripts/AI/anyasset.py, Scripts/AI/anyasset-requirements.txt, Doc/Development/Anyasset.md, and root requirements/lock files. These are a reviewable integration starting point, not an engine asset-system migration. Asset-tool changes are published to Anyasset; engine changes remain in their separate repository for review.
+Anygine's `asset_animation` branch now provides `Scripts/AI/setup-development-assets.py`,
+`stage-development-library.py`, `development-assets.py`, the shared `Scripts/lib/development_assets.py`
+adapter, and exact requirements/locks for core, benchmarks, robots and complete selections.
+See the engine's [development asset guide](https://github.com/fangzhouRWTH/Anygine/blob/asset_animation/Doc/DevelopmentAssets.md)
+and this repository's [adopted inventory](ANYGINE_LIBRARY.md).
+
+The engine pins tool code separately from catalog content: the initial delivery uses tool revision
+`8f874688c76467efcd8b7acb277ac3d7df517d7b` and content revision
+`92ac9a3bd26acb4e22bfde947de51464f729b5c3`. Fixture and benchmark flags opt into the adapter;
+AssetStudio receives its existing file argument. Native Manager, project-file imports and generated
+inputs do not depend on this tool. Browser/preset default migration remains engine follow-up work.
+Asset-tool/catalog changes and engine changes remain in their separate repositories.
