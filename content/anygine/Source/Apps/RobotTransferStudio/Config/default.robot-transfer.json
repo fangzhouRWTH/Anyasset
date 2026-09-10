@@ -1,0 +1,94 @@
+{
+  "schema": "anygine.robot_transfer.profile/v1",
+  "id": "unitree-go2.external-velocity-flat.conformance-v1",
+  "embodiment": "unitree_go2",
+  "purpose": "external-policy-sim-to-sim-conformance",
+  "capability_boundary": {
+    "training_enabled": false,
+    "policy_tuning_enabled": false,
+    "legacy_go2_runtime_allowed": false,
+    "source_model_mutation_allowed": false,
+    "engine_environment_overlay_enabled": false,
+    "actuator_authority": "disabled-until-observation-action-parity"
+  },
+  "isolation": {
+    "artifact_root": "Assets/Data/RobotTransferStudio",
+    "workspace_root": "build/RobotTransferStudio",
+    "forbidden_roots": [
+      "Tools/PolicyTrain",
+      "Source/Demo/MuJoCoRobotDemo/Data/Policies",
+      "Assets/Data/Policies",
+      "build/SimulationStudio",
+      "build/PolicyTrain"
+    ]
+  },
+  "source": {
+    "model": {
+      "path": "Assets/Data/RobotTransferStudio/Upstream/mujoco_menagerie/unitree_go2/scene.xml",
+      "repository": "https://github.com/google-deepmind/mujoco_menagerie.git",
+      "commit": "da76818e269b82289eba39808e2fb91d679d6994",
+      "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+      "included_model_sha256": "50adb09a4365293e2acdaf2010ae35a82b0f09fea18ae51806fef91e310ed04a",
+      "load_mode": "mujoco-source-exact",
+      "initial_keyframe": "home"
+    },
+    "policy": {
+      "path": "Assets/Data/RobotTransferStudio/ExternalPolicies/go2_velocity_flat/policy.onnx",
+      "external_data_path": "Assets/Data/RobotTransferStudio/ExternalPolicies/go2_velocity_flat/policy.onnx.data",
+      "deploy_path": "Assets/Data/RobotTransferStudio/ExternalPolicies/go2_velocity_flat/deploy.yaml",
+      "repository": "https://huggingface.co/diasAiMaster/unitree-go2-velocity-flat",
+      "commit": "9a723b7ab0784cd86abb942836aa1f208ddde891",
+      "sha256": "fbb8b61b12f2cd44dfc889f33566a8be2438124efee88b60c700b9605a94187a",
+      "external_data_sha256": "40474dd235917877d657085f3f0a2d485d10e947e3599cad5328337e32222a74",
+      "deploy_sha256": "a86582e599411ebaa011cb30f1711497a50a21230decf9c91bd02cb43d1e5300",
+      "format": "onnx-external-data",
+      "observation_size": 45,
+      "action_size": 12,
+      "physics_dt": 0.002,
+      "control_dt": 0.02,
+      "activation": "disabled-until-observation-action-parity"
+    }
+  },
+  "candidate": {
+    "physics_backend": "mujoco-native",
+    "model_mode": "source-exact-first",
+    "environment_mode": "source-baseline",
+    "contact_overrides": false,
+    "custom_environment": "reserved-after-baseline"
+  },
+  "robot_contract": {
+    "mujoco_actuator_order": [
+      "FL_hip", "FL_thigh", "FL_calf",
+      "FR_hip", "FR_thigh", "FR_calf",
+      "RL_hip", "RL_thigh", "RL_calf",
+      "RR_hip", "RR_thigh", "RR_calf"
+    ],
+    "policy_joint_order": [
+      "FR_hip", "FR_thigh", "FR_calf",
+      "FL_hip", "FL_thigh", "FL_calf",
+      "RR_hip", "RR_thigh", "RR_calf",
+      "RL_hip", "RL_thigh", "RL_calf"
+    ]
+  },
+  "input": {
+    "canonical_command": "vx-vy-yaw-rate",
+    "keyboard": {
+      "profile": "anygine.robot-transfer.keyboard-momentary/v1",
+      "forward_speed": 0.4,
+      "lateral_speed": 0.3,
+      "yaw_rate": 0.5,
+      "release_to_zero": true,
+      "mapping": "W/S forward, A/D lateral, Q/E yaw, Space stop"
+    },
+    "gamepad": "reserved-unitree-wireless-controller-adapter",
+    "ros": "reserved-disabled"
+  },
+  "render": {
+    "profile": "robot-transfer-review-v1",
+    "implementation": "reserved-after-active-policy-parity",
+    "msaa_samples": 4,
+    "taa": false,
+    "ssao": false,
+    "contact_debug_default": false
+  }
+}

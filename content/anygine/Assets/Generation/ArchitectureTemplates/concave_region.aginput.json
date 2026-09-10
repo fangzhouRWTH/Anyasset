@@ -1,0 +1,579 @@
+{
+  "fingerprint": "f5fd1cedbcc762bb",
+  "payload": {
+    "circulation": {
+      "diagnostics": {
+        "authorizedConstraintTraversalCount": 0,
+        "blockedRecordCount": 0,
+        "clearancePairEvaluationCount": 0,
+        "constraintClearanceOverlapAreaSquareMeters": 0.0,
+        "constraintClearanceViolationCount": 0,
+        "constraintProjectionFailureCount": 0,
+        "constraintRegionCount": 0,
+        "inputRecordCount": 1,
+        "intentionalEmptyRecordCount": 0,
+        "pathCount": 1,
+        "pathLengthMeters": 33.4995854037363,
+        "readyRecordCount": 1,
+        "servedRequiredCellCount": 1,
+        "surfaceAreaSquareMeters": 219.01316200000002,
+        "surfaceCount": 1,
+        "topologyEdgeCount": 1,
+        "topologyNodeCount": 2,
+        "unservedRequiredCellCount": 0
+      },
+      "parameters": {
+        "clipSurfacesToSiteBoundary": true,
+        "enforceConstraintClearance": true,
+        "generateIntentionalEmptyPedestrianAccess": true,
+        "lateralClearanceMeters": 0.5,
+        "maximumConstraintOverlapSquareMeters": 0.01,
+        "metersPerWorldUnit": 1.0,
+        "pedestrianWidthMeters": 1.8,
+        "previewElevationMeters": 0.06,
+        "requireEveryBuildSupportCellServed": true,
+        "sharedVehicleServiceWidthMeters": 4.5
+      },
+      "records": [
+        {
+          "blockerTags": [],
+          "clearanceEvidence": [],
+          "constraintRegions": [],
+          "disposition": "ready",
+          "edges": [
+            {
+              "id": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0:edge:0",
+              "lengthMeters": 33.4995854037363,
+              "role": "shared_vehicle_service",
+              "sourceNodeId": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0:node:0",
+              "sourcePathId": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0",
+              "targetNodeId": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0:node:1"
+            }
+          ],
+          "evidenceTags": [
+            "source_context:building_context_template:concave_region:site",
+            "source_scaffold_strategy:authored_template_committed_scaffold_v1",
+            "constraint_reference_count:0",
+            "committed_connector_geometry_realized"
+          ],
+          "highestFrontageRoadClass": "unspecified",
+          "id": "site-circulation:template:concave_region:site",
+          "nodes": [
+            {
+              "id": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0:node:0",
+              "position": [
+                0.0,
+                -35.0,
+                0.0
+              ],
+              "role": "public_access",
+              "sourceAnchorId": "template:concave_region:access",
+              "sourcePathId": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0",
+              "targetCellIds": []
+            },
+            {
+              "id": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0:node:1",
+              "position": [
+                -3.333333333333333,
+                -1.6666666666666679,
+                0.0
+              ],
+              "role": "cell_terminal",
+              "sourceAnchorId": "",
+              "sourcePathId": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0",
+              "targetCellIds": [
+                "template:concave_region:cell-0"
+              ]
+            }
+          ],
+          "paths": [
+            {
+              "centerline": [
+                [
+                  0.0,
+                  -35.0,
+                  0.0
+                ],
+                [
+                  -3.333333333333333,
+                  -1.6666666666666679,
+                  0.0
+                ]
+              ],
+              "evidenceTags": [
+                "authored_local_access_v1"
+              ],
+              "id": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0",
+              "lateralClearanceMeters": 0.5,
+              "lengthMeters": 33.4995854037363,
+              "role": "shared_vehicle_service",
+              "sourceAnchorId": "template:concave_region:access",
+              "sourceCandidateEvaluationCount": 0,
+              "sourceConnectorId": "template:concave_region:connector-0",
+              "sourcePathKind": "direct",
+              "sourceSiteIds": [
+                "template:concave_region:site"
+              ],
+              "targetCellIds": [
+                "template:concave_region:cell-0"
+              ],
+              "widthMeters": 6.0
+            }
+          ],
+          "sourceContextId": "building_context_template:concave_region:site",
+          "sourceParcelIds": [
+            "template:concave_region:parcel"
+          ],
+          "sourceScopeId": "template:concave_region:site",
+          "sourceSiteId": "template:concave_region:site",
+          "surfaces": [
+            {
+              "areaSquareMeters": 219.01316200000002,
+              "geometry": {
+                "holes": [],
+                "outer": {
+                  "points": [
+                    [
+                      -0.646,
+                      1.617
+                    ],
+                    [
+                      -6.617,
+                      1.02
+                    ],
+                    [
+                      -3.015,
+                      -35.0
+                    ],
+                    [
+                      3.015,
+                      -35.0
+                    ]
+                  ]
+                }
+              },
+              "id": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0:surface:0",
+              "role": "shared_vehicle_service",
+              "sourcePathId": "site-circulation:template:concave_region:site:path:template:concave_region:connector-0"
+            }
+          ]
+        }
+      ],
+      "sourceScaffoldStrategyId": "authored_template_committed_scaffold_v1",
+      "strategyId": "scaffold_guided_shared_access_v0"
+    },
+    "context": {
+      "diagnostics": {
+        "accessReachableBuildSupportCellCount": 1,
+        "blockedRecordCount": 0,
+        "buildSupportCellCount": 1,
+        "inputSiteCount": 1,
+        "intentionalEmptyRecordCount": 0,
+        "invalidRecordCount": 0,
+        "readyRecordCount": 1,
+        "recordCount": 1
+      },
+      "records": [
+        {
+          "anchors": [
+            {
+              "cellId": null,
+              "committed": true,
+              "connectorId": "template:concave_region:connector-0",
+              "direction": [
+                -0.0,
+                1.0
+              ],
+              "frontageRoadClass": "unspecified",
+              "frontageRunIndex": null,
+              "id": "template:concave_region:access",
+              "position": [
+                0.0,
+                -35.0,
+                0.0
+              ],
+              "role": "primary_access",
+              "sourceSiteIds": [
+                "template:concave_region:site"
+              ]
+            }
+          ],
+          "blockerTags": [],
+          "brief": {
+            "boundaryResponse": "align",
+            "boundaryResponseStrength": 0.75,
+            "continuousStreetWall": false,
+            "maximumBuildingCount": 1,
+            "minimumBuildableOpenSpaceRatio": 0.25,
+            "openSpaceStructure": "residual",
+            "orientationResponse": "frontage_aligned",
+            "orientationResponseStrength": 0.75,
+            "preferredBuildingCount": 1,
+            "requiresPrimaryAccess": true,
+            "sharedAccessPreferred": false,
+            "targetSiteCoverageRatio": 0.3
+          },
+          "buildableAreaSquareMeters": 4736.0,
+          "buildableBoundary": [
+            [
+              -37.0,
+              -32.0,
+              0.0
+            ],
+            [
+              37.0,
+              -32.0,
+              0.0
+            ],
+            [
+              37.0,
+              32.0,
+              0.0
+            ],
+            [
+              -37.0,
+              32.0,
+              0.0
+            ]
+          ],
+          "cells": [
+            {
+              "accessReachable": true,
+              "anchorIds": [],
+              "cell": {
+                "areaSquareMeters": 1900.0,
+                "center": [
+                  -3.333333333333333,
+                  -1.6666666666666679,
+                  0.0
+                ],
+                "depthMeters": 50.0,
+                "evidenceTags": [
+                  "authored_local_domain_v1"
+                ],
+                "formIntent": {
+                  "continuousForm": false,
+                  "downstreamMayLeaveUnoccupied": true,
+                  "downstreamMayMerge": false,
+                  "downstreamMaySplit": true,
+                  "maximumBuildingCount": 1,
+                  "maximumOccupiedAreaRatio": 1.0,
+                  "minimumBuildingCount": 1,
+                  "minimumOccupiedAreaRatio": 0.0,
+                  "preferredDirection": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                "hierarchyLevel": 0,
+                "id": "template:concave_region:cell-0",
+                "parentCellId": null,
+                "primaryDirection": [
+                  1.0,
+                  0.0
+                ],
+                "primitiveKind": "simple_polygon",
+                "role": "build_support",
+                "roleCommitted": true,
+                "sourceSiteIds": [
+                  "template:concave_region:site"
+                ],
+                "supportBoundary": [
+                  [
+                    -30.0,
+                    -25.0,
+                    0.0
+                  ],
+                  [
+                    20.0,
+                    -25.0,
+                    0.0
+                  ],
+                  [
+                    20.0,
+                    -5.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    -5.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    25.0,
+                    0.0
+                  ],
+                  [
+                    -30.0,
+                    25.0,
+                    0.0
+                  ]
+                ],
+                "templateBoundary": [
+                  [
+                    -30.0,
+                    -25.0,
+                    0.0
+                  ],
+                  [
+                    20.0,
+                    -25.0,
+                    0.0
+                  ],
+                  [
+                    20.0,
+                    -5.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    -5.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    25.0,
+                    0.0
+                  ],
+                  [
+                    -30.0,
+                    25.0,
+                    0.0
+                  ]
+                ],
+                "usableAreaSquareMeters": 1900.0,
+                "widthMeters": 50.0
+              },
+              "connectorIds": [
+                "template:concave_region:connector-0"
+              ],
+              "constraintIds": [],
+              "relationIds": []
+            }
+          ],
+          "connectors": [
+            {
+              "authorityTags": [
+                "authored_local_access_v1"
+              ],
+              "boundary": [],
+              "centerline": [
+                [
+                  0.0,
+                  -35.0,
+                  0.0
+                ],
+                [
+                  -3.333333333333333,
+                  -1.6666666666666679,
+                  0.0
+                ]
+              ],
+              "committed": true,
+              "crossesSiteBoundary": false,
+              "id": "template:concave_region:connector-0",
+              "pathKind": "direct",
+              "role": "shared_access",
+              "routeCandidateEvaluationCount": 0,
+              "servedCellIds": [
+                "template:concave_region:cell-0"
+              ],
+              "sourceCellId": null,
+              "sourceSiteIds": [
+                "template:concave_region:site"
+              ],
+              "targetCellId": "template:concave_region:cell-0",
+              "widthMeters": 6.0
+            }
+          ],
+          "constraints": [],
+          "continuity": "isolated",
+          "continuityGroupId": null,
+          "disposition": "ready",
+          "evidenceTags": [
+            "generation_owned_building_context_v1",
+            "no_geometry_reconstruction_v1",
+            "building_generation_context_ready_v1"
+          ],
+          "highestFrontageRoadClass": "unspecified",
+          "id": "building_context_template:concave_region:site",
+          "layoutFamilyId": "point_tower_v1",
+          "program": "residential",
+          "relations": [],
+          "selectedScaffoldCandidateId": "template:concave_region:committed",
+          "siteAreaSquareMeters": 5600.0,
+          "siteBoundary": [
+            [
+              -40.0,
+              -35.0,
+              0.0
+            ],
+            [
+              40.0,
+              -35.0,
+              0.0
+            ],
+            [
+              40.0,
+              35.0,
+              0.0
+            ],
+            [
+              -40.0,
+              35.0,
+              0.0
+            ]
+          ],
+          "sourceParcelIds": [
+            "template:concave_region:parcel"
+          ],
+          "sourceScopeId": "template:concave_region:site",
+          "sourceSiteId": "template:concave_region:site",
+          "topology": {
+            "blockerTags": [],
+            "diagnostics": {
+              "accessConnectorCount": 1,
+              "accessReachableBuildSupportCellCount": 1,
+              "allBuildSupportCellsReachableFromPrimaryAccess": true,
+              "buildSupportCellCount": 1,
+              "committedEdgeCount": 3,
+              "committedNodeCount": 3,
+              "constraintCount": 0,
+              "danglingReferenceCount": 0,
+              "duplicateEdgeIdCount": 0,
+              "duplicateEntityIdCount": 0,
+              "edgeCount": 3,
+              "nodeCount": 3,
+              "primaryAccessAnchorCount": 1
+            },
+            "edges": [
+              {
+                "authorityTags": [
+                  "authored_local_access_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": "target",
+                "directed": false,
+                "id": "topology_edge_template:concave_region:connector-0_target",
+                "kind": "connector_endpoint",
+                "relationKind": null,
+                "sourceEntityId": "template:concave_region:connector-0",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:concave_region:cell-0"
+              },
+              {
+                "authorityTags": [
+                  "authored_local_access_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": null,
+                "directed": true,
+                "id": "topology_edge_template:concave_region:connector-0_serves_0",
+                "kind": "connector_service",
+                "relationKind": null,
+                "sourceEntityId": "template:concave_region:connector-0",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:concave_region:cell-0"
+              },
+              {
+                "authorityTags": [],
+                "committed": true,
+                "connectorEndpoint": null,
+                "directed": true,
+                "id": "topology_edge_template:concave_region:access_connector",
+                "kind": "anchor_attachment",
+                "relationKind": null,
+                "sourceEntityId": "template:concave_region:access",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:concave_region:connector-0"
+              }
+            ],
+            "evaluated": true,
+            "nodes": [
+              {
+                "anchorRole": null,
+                "cellRole": "build_support",
+                "committed": true,
+                "connectorRole": null,
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:concave_region:cell-0",
+                "kind": "cell",
+                "position": [
+                  -3.333333333333333,
+                  -1.6666666666666679,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:concave_region:site"
+                ]
+              },
+              {
+                "anchorRole": null,
+                "cellRole": null,
+                "committed": true,
+                "connectorRole": "shared_access",
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:concave_region:connector-0",
+                "kind": "connector",
+                "position": [
+                  -1.6666666666666665,
+                  -18.333333333333336,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:concave_region:site"
+                ]
+              },
+              {
+                "anchorRole": "primary_access",
+                "cellRole": null,
+                "committed": true,
+                "connectorRole": null,
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:concave_region:access",
+                "kind": "anchor",
+                "position": [
+                  0.0,
+                  -35.0,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:concave_region:site"
+                ]
+              }
+            ],
+            "selectedCandidateId": "template:concave_region:committed",
+            "sourceDisposition": "ready",
+            "sourceScopeId": "template:concave_region:site",
+            "sourceSiteIds": [
+              "template:concave_region:site"
+            ],
+            "valid": true
+          },
+          "typology": "point_tower"
+        }
+      ],
+      "sourceAnalysisStrategyId": "authored_template_analysis_v1",
+      "sourceIntentStrategyId": "authored_template_intent_v1",
+      "sourceScaffoldStrategyId": "authored_template_committed_scaffold_v1"
+    },
+    "description": "L-shaped BuildSupport domain with an explicit approach. Input is valid; algorithms lacking concave-domain support must reject it explicitly.",
+    "id": "concave_region",
+    "metersPerWorldUnit": 1.0,
+    "name": "Concave region",
+    "producerId": "anygine_prepare_architecture_templates_v1",
+    "provenanceKind": "authored_template",
+    "schemaVersion": 1,
+    "seed": 0,
+    "templateVersion": 1,
+    "upAxis": "Z"
+  },
+  "schema": "anygine.building_generation_input"
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "source": "tita",
+  "url": "https://github.com/DDTRobot/tita_rl.git",
+  "requested_ref": "77abbc367a2db3a2036a53e38930e80620e9f915",
+  "resolved_commit": "77abbc367a2db3a2036a53e38930e80620e9f915",
+  "license": "MIT",
+  "role": "raw_training_checkpoint",
+  "artifacts": {
+    "tita_example_10000.pt": {
+      "bytes": 13075360,
+      "sha256": "a721c810e561c290c96753ff85ca36a7341bf138bf0ac311b4db8be1883ce4c3"
+    },
+    "LICENSE": {
+      "bytes": 1080,
+      "sha256": "12926be7004cc445e8b52867972190bca1f2ceeb639c124c2c068236af43923c"
+    }
+  }
+}

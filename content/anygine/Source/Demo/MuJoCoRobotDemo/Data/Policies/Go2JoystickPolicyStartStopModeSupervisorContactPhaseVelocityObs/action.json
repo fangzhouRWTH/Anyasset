@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "mode": "joint_position_delta",
+  "size": 12,
+  "joint_order": [
+    "FR_hip", "FR_thigh", "FR_calf",
+    "FL_hip", "FL_thigh", "FL_calf",
+    "RR_hip", "RR_thigh", "RR_calf",
+    "RL_hip", "RL_thigh", "RL_calf"
+  ],
+  "scale": 0.5,
+  "clip_min": -1.0,
+  "clip_max": 1.0,
+  "default_pose": [
+    -0.1, 0.9, -1.8,
+     0.1, 0.9, -1.8,
+    -0.1, 0.9, -1.8,
+     0.1, 0.9, -1.8
+  ],
+  "stiffness": [20, 20, 40, 20, 20, 40, 20, 20, 40, 20, 20, 40],
+  "damping": [1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2],
+  "notes": "Action ABI is unchanged."
+}

@@ -1,0 +1,22 @@
+{
+  "package_version": 1,
+  "name": "Go2JoystickPolicyMjlabOmniV2TrackingU2400",
+  "robot": "unitree_go2",
+  "task": "joystick_locomotion",
+  "model_file": "model/scene.xml",
+  "model_hash": "sha256:b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+  "policy_file": "policy/policy.onnx",
+  "policy_format": "onnx",
+  "observation_spec": "observation.json",
+  "action_spec": "action.json",
+  "controller_spec": "controller.json",
+  "command_spec": "command.json",
+  "physics_dt": 0.005,
+  "control_dt": 0.02,
+  "observation_size": 58,
+  "action_size": 12,
+  "action_mode": "joint_position_delta",
+  "requires_previous_action": true,
+  "history_length": 1,
+  "notes": "Imported Unitree RL Mjlab Go2 actor with an in-graph ABI v7 projection; upstream=1425b15f73bd4095f0df53709d7c389c3eb9e790; onnx_sha256=sha256:84b2f9f12134edb92c7a0c0bb152f39bfd13526e0658c1da1dd25fafcc28aea3"
+}

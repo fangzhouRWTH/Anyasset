@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "normalization": "DDT rl_flat controllers.yaml and FSMState_RL.cpp",
+  "total_size": 363,
+  "components": [
+    {
+      "name": "current_proprioception",
+      "size": 33
+    },
+    {
+      "name": "proprioception_history",
+      "size": 330
+    }
+  ],
+  "onnx_tensors": [
+    {
+      "logical_name": "current",
+      "shape": [
+        1,
+        33
+      ]
+    },
+    {
+      "logical_name": "history",
+      "shape": [
+        1,
+        10,
+        33
+      ]
+    }
+  ]
+}

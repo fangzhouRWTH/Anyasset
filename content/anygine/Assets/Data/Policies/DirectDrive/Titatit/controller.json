@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "actuator_order": [
+    "F_joint_left_leg_1",
+    "F_joint_left_leg_2",
+    "F_joint_left_leg_3",
+    "F_joint_left_leg_4",
+    "F_joint_right_leg_1",
+    "F_joint_right_leg_2",
+    "F_joint_right_leg_3",
+    "F_joint_right_leg_4",
+    "R_joint_left_leg_1",
+    "R_joint_left_leg_2",
+    "R_joint_left_leg_3",
+    "R_joint_left_leg_4",
+    "R_joint_right_leg_1",
+    "R_joint_right_leg_2",
+    "R_joint_right_leg_3",
+    "R_joint_right_leg_4"
+  ],
+  "authority": "TITATIT deployment contract owns signed torque conversion"
+}

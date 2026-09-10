@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "mode": "ddt_tita_np3o_policy_order",
+  "size": 8,
+  "joint_order": [
+    "joint_right_leg_1",
+    "joint_right_leg_2",
+    "joint_right_leg_3",
+    "joint_right_leg_4",
+    "joint_left_leg_1",
+    "joint_left_leg_2",
+    "joint_left_leg_3",
+    "joint_left_leg_4"
+  ],
+  "scale": 1.0,
+  "clip_min": -100.0,
+  "clip_max": 100.0,
+  "control_translation": "policy order is reindexed to URDF order before low-pass/PD"
+}

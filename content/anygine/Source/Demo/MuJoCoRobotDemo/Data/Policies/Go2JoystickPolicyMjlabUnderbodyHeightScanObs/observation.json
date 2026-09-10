@@ -1,0 +1,36 @@
+{
+  "version": 10,
+  "components": [
+    {"name": "base_ang_vel", "size": 3, "notes": "base body angular velocity (rad/s), body frame"},
+    {"name": "projected_gravity", "size": 3, "notes": "gravity direction in base frame"},
+    {"name": "command", "size": 3, "notes": "vx, vy, yaw_rate"},
+    {"name": "joint_pos", "size": 12, "notes": "Mjlab joint qpos minus Mjlab default_pose"},
+    {"name": "joint_vel", "size": 12, "notes": "Mjlab-ordered joint qvel"},
+    {"name": "previous_action", "size": 12, "notes": "last controller-processed Mjlab-native action"},
+    {"name": "base_lin_vel", "size": 3, "notes": "base body COM linear velocity (m/s), body frame"},
+    {"name": "gait_phase", "size": 2, "notes": "sin/cos phase; importer zeros this pair for Mjlab standing commands"},
+    {"name": "foot_contacts", "size": 4, "notes": "binary current contact in controller.foot_contact_bodies order"},
+    {"name": "recovery_mode", "size": 1, "notes": "reserved host recovery state; external base actor ignores it"},
+    {"name": "stop_mode", "size": 2, "notes": "host-owned [brake_active, stand_active]"},
+    {"name": "start_mode", "size": 1, "notes": "host-owned START dwell"},
+    {"name": "height_scan", "size": 22, "notes": "ABI v9's 20 terrain heights followed by two underbody/rear centerline heights"}
+  ],
+  "height_scan": {
+    "schema": "anygine.local_height_scan/v1",
+    "frame": "base_yaw",
+    "points_xy_m": [
+      [-0.30, -0.24], [-0.30, 0.00], [-0.30, 0.24],
+      [0.00, -0.24], [0.00, 0.00], [0.00, 0.24],
+      [0.30, -0.24], [0.30, 0.00], [0.30, 0.24],
+      [0.55, -0.24], [0.55, 0.00], [0.55, 0.24],
+      [0.80, -0.24], [0.80, 0.00], [0.80, 0.24],
+      [0.10, 0.00], [0.20, 0.00], [0.425, 0.00],
+      [0.675, 0.00], [0.925, 0.00],
+      [-0.20, 0.00], [-0.10, 0.00]
+    ],
+    "reference_xy_m": [0.00, 0.00],
+    "clip_m": [-0.20, 0.20],
+    "scale": 5.0
+  },
+  "total_size": 80
+}

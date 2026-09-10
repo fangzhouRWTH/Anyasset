@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "description": "Logical preset ids for fetched Assets/Data packs. Paths are relative to Assets/Data/.",
+  "packs": {
+    "menagerie": {
+      "label": "MuJoCo Menagerie",
+      "kind": "git",
+      "url": "https://github.com/google-deepmind/mujoco_menagerie.git",
+      "default_ref": "main",
+      "recommended_pin": "71f066ad0be9cd271f7ed58c030243ef157af9f4",
+      "ref_env": "ANYGINE_MENAGERIE_REF",
+      "destination": "Robots/Menagerie",
+      "license_note": "Per-model LICENSE files must be retained under each robot folder.",
+      "default_select": [
+        "unitree_go2",
+        "franka_emika_panda",
+        "aloha",
+        "pal_tiago_dual"
+      ],
+      "available_select": [
+        "unitree_go2",
+        "franka_emika_panda",
+        "aloha",
+        "pal_tiago_dual"
+      ]
+    },
+    "policies": {
+      "label": "Robot policy packages",
+      "kind": "manual",
+      "destination": "Policies",
+      "note": "Default: seed schema template. --select go2_velocity_flat downloads matching ONNX weights from Hugging Face.",
+      "default_select": "template",
+      "available_select": [
+        "template",
+        "go2_velocity_flat"
+      ],
+      "weight_sources": {
+        "go2_velocity_flat": {
+          "kind": "huggingface",
+          "repo": "diasAiMaster/unitree-go2-velocity-flat",
+          "revision": "main",
+          "license": "bsd-3-clause",
+          "framework": "unitree_rl_mjlab / RSL-RL",
+          "observation_size": 45,
+          "action_size": 12,
+          "action_scale": 0.5,
+          "files": [
+            "policy.onnx",
+            "policy.onnx.data",
+            "params/deploy.yaml"
+          ],
+          "notes": "Obs layout matches Go2JoystickPolicy (45). Joint order FR/FL/RR/RL; fetch rewrites action.json. Load via policy_worker.py --backend auto + setup-policy-worker.sh."
+        }
+      }
+    },
+    "direct_drive": {
+      "label": "Direct Drive TITA/TITATIT demo assets",
+      "kind": "multi_git",
+      "destination": "Robots/DirectDrive",
+      "default_select": "tita,titatit",
+      "available_select": [
+        "tita",
+        "titatit"
+      ],
+      "license_note": "The two training repositories declare MIT. The ddt_ros2_control package metadata leaves the asset/policy license undeclared; customer-commissioned experimental authorization and exact provenance are recorded instead of inferring a repository-wide license.",
+      "sources": {
+        "tita": {
+          "url": "https://github.com/DDTRobot/tita_rl.git",
+          "default_ref": "77abbc367a2db3a2036a53e38930e80620e9f915",
+          "ref_env": "ANYGINE_TITA_RL_REF",
+          "license": "MIT"
+        },
+        "tita_deployment": {
+          "url": "https://github.com/DDTRobot/ddt_ros2_control.git",
+          "default_ref": "63e9e6e625357802ea982b99edc62a29de42afe8",
+          "ref_env": "ANYGINE_TITA_DEPLOYMENT_REF",
+          "license": "upstream-package-license-undeclared; customer-commissioned-experimental-use"
+        },
+        "titatit_deployment": {
+          "url": "https://github.com/DDTRobot/ddt_ros2_control.git",
+          "default_ref": "63e9e6e625357802ea982b99edc62a29de42afe8",
+          "ref_env": "ANYGINE_TITATIT_DEPLOYMENT_REF",
+          "license": "upstream-package-license-undeclared; customer-commissioned-experimental-use"
+        },
+        "titatit": {
+          "url": "https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git",
+          "default_ref": "4ba7d2d72b96f2bf64efe793c49497feedf2e6de",
+          "ref_env": "ANYGINE_TITATIT_RL_REF",
+          "license": "MIT"
+        }
+      }
+    }
+  },
+  "presets": [
+    {
+      "id": "robot.menagerie.unitree_go2.scene",
+      "pack": "menagerie",
+      "kind": "mjcf_scene",
+      "relative_path": "Robots/Menagerie/unitree_go2/scene.xml",
+      "required_files": [
+        "Robots/Menagerie/unitree_go2/scene.xml",
+        "Robots/Menagerie/unitree_go2/go2.xml"
+      ],
+      "description": "Unitree Go2 Menagerie scene MJCF"
+    },
+    {
+      "id": "robot.menagerie.unitree_go2.model",
+      "pack": "menagerie",
+      "kind": "mjcf_model",
+      "relative_path": "Robots/Menagerie/unitree_go2/go2.xml",
+      "required_files": [
+        "Robots/Menagerie/unitree_go2/go2.xml"
+      ],
+      "description": "Unitree Go2 Menagerie robot MJCF"
+    },
+    {
+      "id": "robot.menagerie.franka_emika_panda.scene",
+      "pack": "menagerie",
+      "kind": "mjcf_scene",
+      "relative_path": "Robots/Menagerie/franka_emika_panda/scene.xml",
+      "required_files": [
+        "Robots/Menagerie/franka_emika_panda/scene.xml",
+        "Robots/Menagerie/franka_emika_panda/panda.xml"
+      ],
+      "description": "Franka Emika Panda Menagerie scene MJCF"
+    },
+    {
+      "id": "robot.menagerie.franka_emika_panda.model",
+      "pack": "menagerie",
+      "kind": "mjcf_model",
+      "relative_path": "Robots/Menagerie/franka_emika_panda/panda.xml",
+      "required_files": [
+        "Robots/Menagerie/franka_emika_panda/panda.xml"
+      ],
+      "description": "Franka Emika Panda Menagerie robot MJCF"
+    },
+    {
+      "id": "robot.menagerie.aloha.scene",
+      "pack": "menagerie",
+      "kind": "mjcf_scene",
+      "relative_path": "Robots/Menagerie/aloha/scene.xml",
+      "required_files": [
+        "Robots/Menagerie/aloha/scene.xml",
+        "Robots/Menagerie/aloha/aloha.xml"
+      ],
+      "description": "ALOHA 2 bimanual Menagerie scene MJCF"
+    },
+    {
+      "id": "robot.menagerie.aloha.model",
+      "pack": "menagerie",
+      "kind": "mjcf_model",
+      "relative_path": "Robots/Menagerie/aloha/aloha.xml",
+      "required_files": [
+        "Robots/Menagerie/aloha/aloha.xml"
+      ],
+      "description": "ALOHA 2 bimanual Menagerie robot MJCF"
+    },
+    {
+      "id": "robot.menagerie.pal_tiago_dual.position_scene",
+      "pack": "menagerie",
+      "kind": "mjcf_scene",
+      "relative_path": "Robots/Menagerie/pal_tiago_dual/scene_position.xml",
+      "required_files": [
+        "Robots/Menagerie/pal_tiago_dual/scene_position.xml",
+        "Robots/Menagerie/pal_tiago_dual/tiago_dual_position.xml",
+        "Robots/Menagerie/pal_tiago_dual/tiago_dual.xml"
+      ],
+      "description": "PAL TIAGo++ humanoid-layout dual-arm Menagerie position-control scene"
+    },
+    {
+      "id": "robot.menagerie.pal_tiago_dual.position_model",
+      "pack": "menagerie",
+      "kind": "mjcf_model",
+      "relative_path": "Robots/Menagerie/pal_tiago_dual/tiago_dual_position.xml",
+      "required_files": [
+        "Robots/Menagerie/pal_tiago_dual/tiago_dual_position.xml",
+        "Robots/Menagerie/pal_tiago_dual/tiago_dual.xml"
+      ],
+      "description": "PAL TIAGo++ humanoid-layout dual-arm Menagerie position-control model"
+    },
+    {
+      "id": "policy.go2.joystick.template",
+      "pack": "policies",
+      "kind": "policy_package",
+      "relative_path": "Policies/Go2JoystickPolicy/manifest.json",
+      "required_files": [
+        "Policies/Go2JoystickPolicy/manifest.json",
+        "Policies/Go2JoystickPolicy/observation.json",
+        "Policies/Go2JoystickPolicy/action.json",
+        "Policies/Go2JoystickPolicy/controller.json",
+        "Policies/Go2JoystickPolicy/command.json"
+      ],
+      "description": "Go2 joystick Policy Package schema (no weights)"
+    },
+    {
+      "id": "policy.go2.joystick.velocity_flat",
+      "pack": "policies",
+      "kind": "policy_package",
+      "relative_path": "Policies/Go2JoystickPolicy/manifest.json",
+      "required_files": [
+        "Policies/Go2JoystickPolicy/manifest.json",
+        "Policies/Go2JoystickPolicy/observation.json",
+        "Policies/Go2JoystickPolicy/action.json",
+        "Policies/Go2JoystickPolicy/controller.json",
+        "Policies/Go2JoystickPolicy/command.json",
+        "Policies/Go2JoystickPolicy/policy/policy.onnx",
+        "Policies/Go2JoystickPolicy/policy/policy.onnx.data",
+        "Policies/Go2JoystickPolicy/policy/deploy.yaml"
+      ],
+      "description": "Go2 velocity-flat ONNX weights (Hugging Face diasAiMaster/unitree-go2-velocity-flat)"
+    },
+    {
+      "id": "robot.direct_drive.tita.urdf",
+      "pack": "direct_drive",
+      "kind": "urdf_model",
+      "relative_path": "Robots/DirectDrive/Tita/urdf/tita_description.urdf",
+      "required_files": [
+        "Robots/DirectDrive/Tita/urdf/tita_description.urdf",
+        "Robots/DirectDrive/Tita/meshes/base_link.STL",
+        "Robots/DirectDrive/Tita/LICENSE",
+        "Robots/DirectDrive/Tita/SOURCE.training.json"
+      ],
+      "description": "TITA MIT training URDF, adapted at runtime for MuJoCo free-base torque control"
+    },
+    {
+      "id": "robot.direct_drive.tita.mjcf",
+      "pack": "direct_drive",
+      "kind": "mjcf_scene",
+      "relative_path": "Robots/DirectDrive/Tita/mujoco/scene.motion.xml",
+      "required_files": [
+        "Robots/DirectDrive/Tita/mujoco/scene.motion.xml",
+        "Robots/DirectDrive/Tita/mujoco/robot.motion.xml",
+        "Robots/DirectDrive/Tita/mujoco/scene.upstream.xml",
+        "Robots/DirectDrive/Tita/mujoco/robot.upstream.xml",
+        "Robots/DirectDrive/Tita/meshes/base_link.STL",
+        "Robots/DirectDrive/Tita/SOURCE.json"
+      ],
+      "description": "Official TITA native MuJoCo model with metadata-only actuator/free-joint naming and the retained first-party scene"
+    },
+    {
+      "id": "robot.direct_drive.titatit.urdf",
+      "pack": "direct_drive",
+      "kind": "urdf_model",
+      "relative_path": "Robots/DirectDrive/Titatit/urdf/titatit_deployment_mujoco.urdf",
+      "required_files": [
+        "Robots/DirectDrive/Titatit/urdf/titatit_deployment_mujoco.urdf",
+        "Robots/DirectDrive/Titatit/urdf/robot.upstream.xacro",
+        "Robots/DirectDrive/Titatit/urdf/single_robot.upstream.xacro",
+        "Robots/DirectDrive/Titatit/meshes/base_link.STL",
+        "Robots/DirectDrive/Titatit/SOURCE.json"
+      ],
+      "description": "Official TITATIT ROS 2 deployment Xacro expanded to portable URDF and explicitly translated through the MuJoCo adapter"
+    },
+    {
+      "id": "robot.direct_drive.titatit.training_urdf",
+      "pack": "direct_drive",
+      "kind": "urdf_model",
+      "relative_path": "Robots/DirectDrive/Titatit/training/urdf/wheeled_titatit_mujoco.urdf",
+      "required_files": [
+        "Robots/DirectDrive/Titatit/training/urdf/wheeled_titatit_mujoco.urdf",
+        "Robots/DirectDrive/Titatit/training/meshes/base.STL",
+        "Robots/DirectDrive/Titatit/SOURCE.training.json"
+      ],
+      "description": "Preserved TITATIT Isaac Gym training URDF route for differential analysis; not the default public deployment model"
+    },
+    {
+      "id": "policy.direct_drive.tita.checkpoint",
+      "pack": "direct_drive",
+      "kind": "raw_training_checkpoint",
+      "relative_path": "Policies/DirectDrive/Tita/tita_example_10000.pt",
+      "required_files": [
+        "Policies/DirectDrive/Tita/tita_example_10000.pt",
+        "Policies/DirectDrive/Tita/SOURCE.training.json"
+      ],
+      "description": "Raw MIT TITA Isaac Gym/PyTorch checkpoint for inspection, export, or retraining"
+    },
+    {
+      "id": "policy.direct_drive.tita.onnx",
+      "pack": "direct_drive",
+      "kind": "policy_package",
+      "relative_path": "Policies/DirectDrive/Tita/manifest.json",
+      "required_files": [
+        "Policies/DirectDrive/Tita/manifest.json",
+        "Policies/DirectDrive/Tita/observation.json",
+        "Policies/DirectDrive/Tita/action.json",
+        "Policies/DirectDrive/Tita/controller.json",
+        "Policies/DirectDrive/Tita/command.json",
+        "Policies/DirectDrive/Tita/flat.onnx",
+        "Policies/DirectDrive/Tita/controllers.upstream.yaml",
+        "Policies/DirectDrive/Tita/SOURCE.json"
+      ],
+      "description": "Runnable official TITA flat ONNX Policy Package using the public ROS 2 deployment observation/control contract"
+    },
+    {
+      "id": "policy.direct_drive.tita.rough.onnx",
+      "pack": "direct_drive",
+      "kind": "policy_package",
+      "relative_path": "Policies/DirectDrive/TitaRough/manifest.json",
+      "required_files": [
+        "Policies/DirectDrive/TitaRough/manifest.json",
+        "Policies/DirectDrive/TitaRough/observation.json",
+        "Policies/DirectDrive/TitaRough/action.json",
+        "Policies/DirectDrive/TitaRough/controller.json",
+        "Policies/DirectDrive/TitaRough/command.json",
+        "Policies/DirectDrive/TitaRough/rough.onnx",
+        "Policies/DirectDrive/TitaRough/EXPORT_VERIFICATION.json",
+        "Policies/DirectDrive/TitaRough/SOURCE.json"
+      ],
+      "description": "Verified ONNX export of the public TITA Isaac Gym Rough teacher actor with pinned checkpoint/source evidence"
+    },
+    {
+      "id": "policy.direct_drive.titatit.checkpoint",
+      "pack": "direct_drive",
+      "kind": "raw_training_checkpoint",
+      "relative_path": "Policies/DirectDrive/Titatit/model_6000.pt",
+      "required_files": [
+        "Policies/DirectDrive/Titatit/model_6000.pt",
+        "Policies/DirectDrive/Titatit/SOURCE.json"
+      ],
+      "description": "Raw MIT TITATIT Isaac Gym/PyTorch checkpoint for inspection, export, or retraining"
+    },
+    {
+      "id": "policy.direct_drive.titatit.onnx",
+      "pack": "direct_drive",
+      "kind": "policy_package",
+      "relative_path": "Policies/DirectDrive/Titatit/manifest.json",
+      "required_files": [
+        "Policies/DirectDrive/Titatit/manifest.json",
+        "Policies/DirectDrive/Titatit/observation.json",
+        "Policies/DirectDrive/Titatit/action.json",
+        "Policies/DirectDrive/Titatit/controller.json",
+        "Policies/DirectDrive/Titatit/command.json",
+        "Policies/DirectDrive/Titatit/test_cylinder_1027_open_source.onnx",
+        "Policies/DirectDrive/Titatit/SOURCE.json"
+      ],
+      "description": "Runnable official TITATIT ONNX Policy Package using the public ROS 2 deployment observation/control contract"
+    }
+  ]
+}

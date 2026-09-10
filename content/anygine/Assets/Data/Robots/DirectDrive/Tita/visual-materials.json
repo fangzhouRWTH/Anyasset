@@ -1,0 +1,16 @@
+{
+  "schema": "anygine.direct-drive.visual-materials.v1",
+  "robot": "tita",
+  "contract": "opaque-pbr-factors-v1",
+  "materials": {
+    "base_link": {"base_color": [0.78, 0.42, 0.015, 1.0], "metallic": 0.0, "roughness": 0.72},
+    "left_leg_1": {"base_color": [0.78, 0.42, 0.015, 1.0], "metallic": 0.0, "roughness": 0.72},
+    "left_leg_2": {"base_color": [0.78, 0.42, 0.015, 1.0], "metallic": 0.0, "roughness": 0.72},
+    "left_leg_3": {"base_color": [0.78, 0.42, 0.015, 1.0], "metallic": 0.0, "roughness": 0.72},
+    "left_leg_4": {"base_color": [0.055, 0.06, 0.065, 1.0], "metallic": 0.0, "roughness": 0.9},
+    "right_leg_1": {"base_color": [0.78, 0.42, 0.015, 1.0], "metallic": 0.0, "roughness": 0.72},
+    "right_leg_2": {"base_color": [0.78, 0.42, 0.015, 1.0], "metallic": 0.0, "roughness": 0.72},
+    "right_leg_3": {"base_color": [0.78, 0.42, 0.015, 1.0], "metallic": 0.0, "roughness": 0.72},
+    "right_leg_4": {"base_color": [0.055, 0.06, 0.065, 1.0], "metallic": 0.0, "roughness": 0.9}
+  }
+}

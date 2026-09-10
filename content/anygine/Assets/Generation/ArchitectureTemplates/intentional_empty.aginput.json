@@ -1,0 +1,323 @@
+{
+  "fingerprint": "cc82750035fe6ffc",
+  "payload": {
+    "circulation": {
+      "diagnostics": {
+        "authorizedConstraintTraversalCount": 0,
+        "blockedRecordCount": 0,
+        "clearancePairEvaluationCount": 0,
+        "constraintClearanceOverlapAreaSquareMeters": 0.0,
+        "constraintClearanceViolationCount": 0,
+        "constraintProjectionFailureCount": 0,
+        "constraintRegionCount": 0,
+        "inputRecordCount": 1,
+        "intentionalEmptyRecordCount": 1,
+        "pathCount": 0,
+        "pathLengthMeters": 0.0,
+        "readyRecordCount": 0,
+        "servedRequiredCellCount": 0,
+        "surfaceAreaSquareMeters": 0.0,
+        "surfaceCount": 0,
+        "topologyEdgeCount": 0,
+        "topologyNodeCount": 0,
+        "unservedRequiredCellCount": 0
+      },
+      "parameters": {
+        "clipSurfacesToSiteBoundary": true,
+        "enforceConstraintClearance": true,
+        "generateIntentionalEmptyPedestrianAccess": true,
+        "lateralClearanceMeters": 0.5,
+        "maximumConstraintOverlapSquareMeters": 0.01,
+        "metersPerWorldUnit": 1.0,
+        "pedestrianWidthMeters": 1.8,
+        "previewElevationMeters": 0.06,
+        "requireEveryBuildSupportCellServed": true,
+        "sharedVehicleServiceWidthMeters": 4.5
+      },
+      "records": [
+        {
+          "blockerTags": [],
+          "clearanceEvidence": [],
+          "constraintRegions": [],
+          "disposition": "intentional_empty",
+          "edges": [],
+          "evidenceTags": [
+            "source_context:building_context_template:intentional_empty:site",
+            "source_scaffold_strategy:authored_template_committed_scaffold_v1",
+            "constraint_reference_count:0",
+            "intentional_empty_without_committed_access"
+          ],
+          "highestFrontageRoadClass": "unspecified",
+          "id": "site-circulation:template:intentional_empty:site",
+          "nodes": [],
+          "paths": [],
+          "sourceContextId": "building_context_template:intentional_empty:site",
+          "sourceParcelIds": [
+            "template:intentional_empty:parcel"
+          ],
+          "sourceScopeId": "template:intentional_empty:site",
+          "sourceSiteId": "template:intentional_empty:site",
+          "surfaces": []
+        }
+      ],
+      "sourceScaffoldStrategyId": "authored_template_committed_scaffold_v1",
+      "strategyId": "scaffold_guided_shared_access_v0"
+    },
+    "context": {
+      "diagnostics": {
+        "accessReachableBuildSupportCellCount": 0,
+        "blockedRecordCount": 0,
+        "buildSupportCellCount": 0,
+        "inputSiteCount": 1,
+        "intentionalEmptyRecordCount": 1,
+        "invalidRecordCount": 0,
+        "readyRecordCount": 0,
+        "recordCount": 1
+      },
+      "records": [
+        {
+          "anchors": [],
+          "blockerTags": [],
+          "brief": {
+            "boundaryResponse": "align",
+            "boundaryResponseStrength": 0.75,
+            "continuousStreetWall": false,
+            "maximumBuildingCount": 1,
+            "minimumBuildableOpenSpaceRatio": 0.25,
+            "openSpaceStructure": "residual",
+            "orientationResponse": "frontage_aligned",
+            "orientationResponseStrength": 0.75,
+            "preferredBuildingCount": 0,
+            "requiresPrimaryAccess": false,
+            "sharedAccessPreferred": false,
+            "targetSiteCoverageRatio": 0.3
+          },
+          "buildableAreaSquareMeters": 1156.0,
+          "buildableBoundary": [
+            [
+              -17.0,
+              -17.0,
+              0.0
+            ],
+            [
+              17.0,
+              -17.0,
+              0.0
+            ],
+            [
+              17.0,
+              17.0,
+              0.0
+            ],
+            [
+              -17.0,
+              17.0,
+              0.0
+            ]
+          ],
+          "cells": [
+            {
+              "accessReachable": false,
+              "anchorIds": [],
+              "cell": {
+                "areaSquareMeters": 1156.0,
+                "center": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "depthMeters": 34.0,
+                "evidenceTags": [
+                  "authored_local_domain_v1"
+                ],
+                "formIntent": {
+                  "continuousForm": false,
+                  "downstreamMayLeaveUnoccupied": true,
+                  "downstreamMayMerge": false,
+                  "downstreamMaySplit": true,
+                  "maximumBuildingCount": 0,
+                  "maximumOccupiedAreaRatio": 1.0,
+                  "minimumBuildingCount": 0,
+                  "minimumOccupiedAreaRatio": 0.0,
+                  "preferredDirection": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                "hierarchyLevel": 0,
+                "id": "template:intentional_empty:cell-0",
+                "parentCellId": null,
+                "primaryDirection": [
+                  1.0,
+                  0.0
+                ],
+                "primitiveKind": "simple_polygon",
+                "role": "open_space",
+                "roleCommitted": true,
+                "sourceSiteIds": [
+                  "template:intentional_empty:site"
+                ],
+                "supportBoundary": [
+                  [
+                    -17.0,
+                    -17.0,
+                    0.0
+                  ],
+                  [
+                    17.0,
+                    -17.0,
+                    0.0
+                  ],
+                  [
+                    17.0,
+                    17.0,
+                    0.0
+                  ],
+                  [
+                    -17.0,
+                    17.0,
+                    0.0
+                  ]
+                ],
+                "templateBoundary": [
+                  [
+                    -17.0,
+                    -17.0,
+                    0.0
+                  ],
+                  [
+                    17.0,
+                    -17.0,
+                    0.0
+                  ],
+                  [
+                    17.0,
+                    17.0,
+                    0.0
+                  ],
+                  [
+                    -17.0,
+                    17.0,
+                    0.0
+                  ]
+                ],
+                "usableAreaSquareMeters": 1156.0,
+                "widthMeters": 34.0
+              },
+              "connectorIds": [],
+              "constraintIds": [],
+              "relationIds": []
+            }
+          ],
+          "connectors": [],
+          "constraints": [],
+          "continuity": "isolated",
+          "continuityGroupId": null,
+          "disposition": "intentional_empty",
+          "evidenceTags": [
+            "generation_owned_building_context_v1",
+            "no_geometry_reconstruction_v1",
+            "intentional_empty_building_program_v1"
+          ],
+          "highestFrontageRoadClass": "unspecified",
+          "id": "building_context_template:intentional_empty:site",
+          "layoutFamilyId": "landscape_v1",
+          "program": "open_space",
+          "relations": [],
+          "selectedScaffoldCandidateId": "template:intentional_empty:committed",
+          "siteAreaSquareMeters": 1600.0,
+          "siteBoundary": [
+            [
+              -20.0,
+              -20.0,
+              0.0
+            ],
+            [
+              20.0,
+              -20.0,
+              0.0
+            ],
+            [
+              20.0,
+              20.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0,
+              0.0
+            ]
+          ],
+          "sourceParcelIds": [
+            "template:intentional_empty:parcel"
+          ],
+          "sourceScopeId": "template:intentional_empty:site",
+          "sourceSiteId": "template:intentional_empty:site",
+          "topology": {
+            "blockerTags": [],
+            "diagnostics": {
+              "accessConnectorCount": 0,
+              "accessReachableBuildSupportCellCount": 0,
+              "allBuildSupportCellsReachableFromPrimaryAccess": false,
+              "buildSupportCellCount": 0,
+              "committedEdgeCount": 0,
+              "committedNodeCount": 1,
+              "constraintCount": 0,
+              "danglingReferenceCount": 0,
+              "duplicateEdgeIdCount": 0,
+              "duplicateEntityIdCount": 0,
+              "edgeCount": 0,
+              "nodeCount": 1,
+              "primaryAccessAnchorCount": 0
+            },
+            "edges": [],
+            "evaluated": true,
+            "nodes": [
+              {
+                "anchorRole": null,
+                "cellRole": "open_space",
+                "committed": true,
+                "connectorRole": null,
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:intentional_empty:cell-0",
+                "kind": "cell",
+                "position": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:intentional_empty:site"
+                ]
+              }
+            ],
+            "selectedCandidateId": "template:intentional_empty:committed",
+            "sourceDisposition": "ready",
+            "sourceScopeId": "template:intentional_empty:site",
+            "sourceSiteIds": [
+              "template:intentional_empty:site"
+            ],
+            "valid": true
+          },
+          "typology": "landscape"
+        }
+      ],
+      "sourceAnalysisStrategyId": "authored_template_analysis_v1",
+      "sourceIntentStrategyId": "authored_template_intent_v1",
+      "sourceScaffoldStrategyId": "authored_template_committed_scaffold_v1"
+    },
+    "description": "Explicit non-building intent and one OpenSpace Cell. No fabricated road, connector, entrance or fallback building.",
+    "id": "intentional_empty",
+    "metersPerWorldUnit": 1.0,
+    "name": "Reserved open space",
+    "producerId": "anygine_prepare_architecture_templates_v1",
+    "provenanceKind": "authored_template",
+    "schemaVersion": 1,
+    "seed": 0,
+    "templateVersion": 1,
+    "upAxis": "Z"
+  },
+  "schema": "anygine.building_generation_input"
+}

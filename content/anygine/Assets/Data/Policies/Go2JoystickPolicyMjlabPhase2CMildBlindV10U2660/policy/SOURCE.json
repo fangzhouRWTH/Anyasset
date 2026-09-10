@@ -1,0 +1,18 @@
+{
+  "trainer": "unitreerobotics/unitree_rl_mjlab",
+  "upstream_commit": "1425b15f73bd4095f0df53709d7c389c3eb9e790",
+  "source_onnx": "/home/fangzhou/projects/Anygine/Anygine_Engine/Anygine/Tools/PolicyTrain/exports/selected/Go2JoystickPolicyMjlabPhase2CMildBlindV10U2660.source.onnx",
+  "source_onnx_sha256": "sha256:dad545f74285e09b8d26a8a2f406d51f0204ad86362a665c92178b6af1e9b797",
+  "source_checkpoint": "/home/fangzhou/projects/Anygine/Anygine_Engine/Anygine/Tools/PolicyTrain/.external/unitree_rl_mjlab/logs/rsl_rl/go2_velocity/2026-08-06_14-16-28_anygine_go2_phase2c_targeted_reward_refine_v10/model_2660.pt",
+  "source_checkpoint_sha256": "sha256:2d54041820a68ee8b6e631978c54b7b85ed1b4cad4c38e0f7f55fbb520ef1ac8",
+  "imported_onnx_sha256": "sha256:4c2ee80235ebfaf506fcdbeafb7b19f24ce53a6d32cba8b2c7a858c50f0b9991",
+  "package_template": "/home/fangzhou/projects/Anygine/Anygine_Engine/Anygine/Assets/Data/Policies/Go2JoystickPolicyMjlabOmniV2HeadingHoldU2400",
+  "observation_projection": "[0:9,48:50,9:45]",
+  "stand_phase_threshold": 0.1,
+  "action_transform": "identity (Mjlab-native action ABI v2)",
+  "robot_model_sha256": "sha256:668f73ff924d07b1aa8046e3bbb60b7473b43dc26e51a71e6adb11e3190bdb8b",
+  "actuation_alignment": "passive damping/frictionloss zero; hip/thigh armature 0.01; calf armature 0.02; effort limits 23.5/45 Nm",
+  "solver_alignment": "timestep 0.005; cone pyramidal; impratio 1",
+  "contact_alignment": "foot solimp 0.9 0.95 0.023; package-owned",
+  "stand_action_scale": 0.8
+}

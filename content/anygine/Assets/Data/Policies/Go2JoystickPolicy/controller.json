@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "actuator_order": [
+    "FL_hip",
+    "FL_thigh",
+    "FL_calf",
+    "FR_hip",
+    "FR_thigh",
+    "FR_calf",
+    "RL_hip",
+    "RL_thigh",
+    "RL_calf",
+    "RR_hip",
+    "RR_thigh",
+    "RR_calf"
+  ],
+  "stand_hold": {
+    "cmd_norm_eps": 0.05,
+    "action_scale": 0.55
+  },
+  "notes": "Order matches Menagerie unitree_go2/go2.xml actuators. stand_hold: when \u2016cmd\u2016<eps scale actions for stand Quality on product foot host (single-pin unlock 2026-07-31).; stand_hold scale 0.55 @ cmd\u22480 for correct last_action semantics (2026-07-31; 0.75 was optimistic under lagged previous_action)."
+}

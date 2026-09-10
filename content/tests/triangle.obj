@@ -1,10 +1,3 @@
-# Minimal right-handed triangle in meters; Y-up.
-o triangle
-v 0 0 0
-v 1 0 0
-v 0 1 0
-vt 0 0
-vt 1 0
-vt 0 1
-vn 0 0 1
-f 1/1/1 2/2/1 3/3/1
+version https://git-lfs.github.com/spec/v1
+oid sha256:05ebab283d15ace4645bd971e13ec8110c12aa1862dac907af2e0c71d5845b7d
+size 134

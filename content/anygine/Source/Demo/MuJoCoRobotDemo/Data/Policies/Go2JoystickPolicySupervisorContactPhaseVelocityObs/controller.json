@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "gait_phase_hz": 1.75,
+  "foot_contact_bodies": ["FL_calf", "FR_calf", "RL_calf", "RR_calf"],
+  "actuator_order": [
+    "FL_hip", "FL_thigh", "FL_calf",
+    "FR_hip", "FR_thigh", "FR_calf",
+    "RL_hip", "RL_thigh", "RL_calf",
+    "RR_hip", "RR_thigh", "RR_calf"
+  ],
+  "stand_hold": {
+    "cmd_norm_eps": 0.05,
+    "action_scale": 0.55
+  },
+  "recovery_supervisor": {
+    "enabled": true,
+    "forward_command_min": 0.05,
+    "min_hold_steps": 8,
+    "enter": {
+      "vx_below": 0.12,
+      "abs_vy_above": 0.15,
+      "gravity_xy_above": 0.10
+    },
+    "exit": {
+      "vx_at_least": 0.15,
+      "abs_vy_at_most": 0.12,
+      "gravity_xy_at_most": 0.085
+    }
+  },
+  "notes": "v5 makes the formerly per-frame recovery gate explicit and hysteretic. State is reset on package/simulation reset and observed by the actor."
+}

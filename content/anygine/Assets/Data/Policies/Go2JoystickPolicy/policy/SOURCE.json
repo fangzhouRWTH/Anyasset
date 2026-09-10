@@ -1,0 +1,21 @@
+{
+  "source": "huggingface",
+  "repo": "diasAiMaster/unitree-go2-velocity-flat",
+  "revision": "main",
+  "license": "bsd-3-clause",
+  "files": [
+    "policy/policy.onnx",
+    "policy/policy.onnx.data",
+    "policy/deploy.yaml"
+  ],
+  "upstream_framework": "unitree_rl_mjlab",
+  "task": "Mjlab-Velocity-Flat-Unitree-Go2",
+  "role": "walk_demo_pin",
+  "prefer_command_vx": 0.4,
+  "product_foot_contact": "fric0.55_condim3",
+  "stand_hold": {
+    "cmd_norm_eps": 0.05,
+    "action_scale": 0.75
+  },
+  "do_not_replace": "stand_v1e"
+}

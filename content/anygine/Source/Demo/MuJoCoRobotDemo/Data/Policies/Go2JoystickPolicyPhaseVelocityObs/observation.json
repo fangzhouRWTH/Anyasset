@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "components": [
+    {"name": "base_ang_vel", "size": 3, "notes": "base body angular velocity (rad/s), body frame"},
+    {"name": "projected_gravity", "size": 3, "notes": "gravity direction in base frame"},
+    {"name": "command", "size": 3, "notes": "vx, vy, yaw_rate"},
+    {"name": "joint_pos", "size": 12, "notes": "actuator joint qpos minus default_pose"},
+    {"name": "joint_vel", "size": 12, "notes": "actuator joint qvel"},
+    {"name": "previous_action", "size": 12, "notes": "last controller-processed policy action"},
+    {"name": "base_lin_vel", "size": 3, "notes": "base body COM linear velocity (m/s), body frame; append-only v2 field"},
+    {"name": "gait_phase", "size": 2, "notes": "sin/cos of controller gait oscillator; append-only v3 field"}
+  ],
+  "total_size": 50
+}

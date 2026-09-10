@@ -1,0 +1,142 @@
+{
+  "schema": "anygine.direct_drive.tita_rough_export_verification/v1",
+  "result": "pass",
+  "lock": {
+    "path": "/home/fangzhou/projects/Anygine/Anygine_Engine/Anygine/Source/Apps/DirectDriveStudio/RoughReference/tita-rough-export.lock.json",
+    "sha256": "ad9bf6a3a1a354fc0f18ee8ea47c0a0772a79e863380e041d1b2e54ea257c4cf"
+  },
+  "source": {
+    "repository": "https://github.com/DDTRobot/tita_rl.git",
+    "commit": "77abbc367a2db3a2036a53e38930e80620e9f915",
+    "files": {
+      "modules/actor_critic.py": "sha256:9c832e74fd5c51d8ad209e4d40aa7d4f770a42381307418c4cf3dcf699f85309",
+      "modules/common_modules.py": "sha256:ac28e02852fe720287735acfbc10e31704f1de21eab3fa7ba5640bba675c8d79",
+      "configs/tita_constraint_config.py": "sha256:2e1a557e015a4e1554d5c47598b7b0268b597d2392106437e9ed5448a1a18150",
+      "envs/legged_robot.py": "sha256:7fbde56e6bd2f30cc91eb73407da4a7340984ac6b70100b6c27498973b07b59b",
+      "utils/terrain.py": "sha256:48c1732b97ce51b2fb74758eaf3ab66a4e3721803e7bfdca7f26d639bf38acab"
+    }
+  },
+  "checkpoint": {
+    "path": "/home/fangzhou/projects/Anygine/Anygine_Engine/Anygine/Assets/Data/Policies/DirectDrive/Tita/tita_example_10000.pt",
+    "sha256": "a721c810e561c290c96753ff85ca36a7341bf138bf0ac311b4db8be1883ce4c3",
+    "state_dict_keys": 62
+  },
+  "actor": {
+    "class": "ActorCriticBarlowTwins.actor_teacher_backbone/MlpBarlowTwinsActor",
+    "state_dict_keys": 31,
+    "parameter_count": 577747,
+    "inputs": [
+      [
+        1,
+        33
+      ],
+      [
+        1,
+        10,
+        33
+      ]
+    ],
+    "output": [
+      1,
+      8
+    ]
+  },
+  "onnx": {
+    "path": "/home/fangzhou/projects/Anygine/Anygine_Engine/Anygine/Assets/Data/Policies/DirectDrive/TitaRough/rough.onnx",
+    "sha256": "c4a9710c66c27d43540394bad047e9d81e459e4f37ddf9a0b17a4d1b170f7c32",
+    "opset": 13,
+    "checker": "pass",
+    "runtime_provider": "CPUExecutionProvider"
+  },
+  "differential": {
+    "seed": 20260901,
+    "absolute_tolerance": 5e-05,
+    "relative_tolerance": 0.0005,
+    "max_absolute_error": 4.57763671875e-05,
+    "max_relative_error": 1.3676915841642767e-05,
+    "probes": [
+      {
+        "name": "zero",
+        "max_absolute_error": 1.6689300537109375e-06,
+        "max_relative_error": 8.032916412048507e-06,
+        "pytorch_output": [
+          1.195054292678833,
+          -0.9084955453872681,
+          0.09646065533161163,
+          0.7656653523445129,
+          3.5923099517822266,
+          -1.9631776809692383,
+          1.0186176300048828,
+          0.6439052820205688
+        ],
+        "onnx_output": [
+          1.195054054260254,
+          -0.9084956645965576,
+          0.09646143019199371,
+          0.7656664252281189,
+          3.592308282852173,
+          -1.9631770849227905,
+          1.0186176300048828,
+          0.6439058184623718
+        ]
+      },
+      {
+        "name": "nominal_random",
+        "max_absolute_error": 2.1457672119140625e-06,
+        "max_relative_error": 1.3676915841642767e-05,
+        "pytorch_output": [
+          -2.454694986343384,
+          -0.049572788178920746,
+          -0.03660766780376434,
+          -1.0452415943145752,
+          8.806836128234863,
+          -3.773059368133545,
+          1.9962096214294434,
+          -2.225574493408203
+        ],
+        "onnx_output": [
+          -2.4546966552734375,
+          -0.049572110176086426,
+          -0.036607835441827774,
+          -1.0452406406402588,
+          8.806836128234863,
+          -3.7730579376220703,
+          1.9962084293365479,
+          -2.225576639175415
+        ]
+      },
+      {
+        "name": "clipped_stress",
+        "max_absolute_error": 4.57763671875e-05,
+        "max_relative_error": 8.466899430459307e-07,
+        "pytorch_output": [
+          -9.010848045349121,
+          43.743900299072266,
+          -151.7749481201172,
+          -21.255830764770508,
+          180.66891479492188,
+          -128.281005859375,
+          45.77156066894531,
+          -150.07980346679688
+        ],
+        "onnx_output": [
+          -9.010855674743652,
+          43.74391555786133,
+          -151.7749786376953,
+          -21.25584602355957,
+          180.66893005371094,
+          -128.28103637695312,
+          45.77159118652344,
+          -150.07984924316406
+        ]
+      }
+    ]
+  },
+  "toolchain": {
+    "python": "3.12.3",
+    "pytorch": "2.5.1+cpu",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.20.1",
+    "numpy": "2.1.3"
+  }
+}

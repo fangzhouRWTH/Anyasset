@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "physics_dt": 0.0025,
+  "control_dt": 0.01,
+  "actuator_order": [
+    "joint_left_leg_1",
+    "joint_left_leg_2",
+    "joint_left_leg_3",
+    "joint_left_leg_4",
+    "joint_right_leg_1",
+    "joint_right_leg_2",
+    "joint_right_leg_3",
+    "joint_right_leg_4"
+  ],
+  "action_low_pass": {
+    "previous": 0.2,
+    "current": 0.8
+  },
+  "position_gain": [
+    40.0,
+    40.0,
+    40.0,
+    10.0,
+    40.0,
+    40.0,
+    40.0,
+    10.0
+  ],
+  "velocity_gain": [
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    0.5
+  ],
+  "action_scale": [
+    0.25,
+    0.5,
+    0.5,
+    0.5,
+    0.25,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "torque_limit": [
+    60.0,
+    60.0,
+    60.0,
+    15.0,
+    60.0,
+    60.0,
+    60.0,
+    15.0
+  ],
+  "authority": "pinned tita_rl nominal evaluation contract owns torque conversion"
+}

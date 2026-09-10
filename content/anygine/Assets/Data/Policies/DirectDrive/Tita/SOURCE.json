@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "source": "tita_deployment",
+  "url": "https://github.com/DDTRobot/ddt_ros2_control.git",
+  "requested_ref": "63e9e6e625357802ea982b99edc62a29de42afe8",
+  "resolved_commit": "63e9e6e625357802ea982b99edc62a29de42afe8",
+  "license": "upstream-package-license-undeclared; customer-commissioned-experimental-use",
+  "role": "runnable_onnx_policy_package",
+  "artifacts": {
+    "flat.onnx": {
+      "bytes": 2246321,
+      "sha256": "d5544c14df8030995e0ab554bfa98b4373a0da2bb76a812ab481925d90a016fd"
+    },
+    "controllers.upstream.yaml": {
+      "bytes": 3337,
+      "sha256": "9298b8d030b22b405490c1e14bb9b78ae0151366ffb46d1ddc3463c514644d91"
+    },
+    "FSMState_RL.upstream.cpp": {
+      "bytes": 11637,
+      "sha256": "115157976e3d8de3db85abdbab20ec568abae5f435c23b6b0792923a93d05412"
+    },
+    "manifest.json": {
+      "bytes": 1101,
+      "sha256": "21e37b0daba6b10e58328d3fa626c695a9e5d8782245c95073ccb48cab3e6401"
+    },
+    "observation.json": {
+      "bytes": 496,
+      "sha256": "345aff7d7e093cd9df3bac3c6dda24ae8ab1b126e253363a1c6e0294b3935c56"
+    },
+    "action.json": {
+      "bytes": 350,
+      "sha256": "7f2239f1fca285c5807383abe8e8c043567feafd39c6c6ce707f628ab1465c0e"
+    },
+    "controller.json": {
+      "bytes": 352,
+      "sha256": "d270cfdaf44233775590fc2140ed425ca527f082739a4b878539750a09007127"
+    },
+    "command.json": {
+      "bytes": 270,
+      "sha256": "24938c26ef5e2df9cb73655921fac9c5463e859d1aa1036fe2d8b9d0b66714ef"
+    }
+  }
+}

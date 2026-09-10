@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "source": "titatit",
+  "url": "https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git",
+  "requested_ref": "4ba7d2d72b96f2bf64efe793c49497feedf2e6de",
+  "resolved_commit": "4ba7d2d72b96f2bf64efe793c49497feedf2e6de",
+  "license": "MIT",
+  "role": "raw_training_checkpoint_and_onnx",
+  "artifacts": {
+    "model_6000.pt": {
+      "bytes": 13632493,
+      "sha256": "168ca16ede62fe465bcb6dd17f2f0599dc89c9764a041321038c7b2ca4e17f26"
+    },
+    "test_cylinder_1027_open_source.onnx": {
+      "bytes": 2091679,
+      "sha256": "46aaf830da26d678e8d9b1d48113a065b8f8addfc21a9548ea6a5166bfb3beb9"
+    },
+    "LICENSE": {
+      "bytes": 1080,
+      "sha256": "12926be7004cc445e8b52867972190bca1f2ceeb639c124c2c068236af43923c"
+    }
+  }
+}

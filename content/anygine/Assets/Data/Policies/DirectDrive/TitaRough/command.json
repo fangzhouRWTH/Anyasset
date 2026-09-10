@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "fields": [
+    {
+      "name": "vx",
+      "unit": "m/s",
+      "minimum": -1.0,
+      "maximum": 1.0,
+      "default": 0.0
+    },
+    {
+      "name": "vy",
+      "unit": "m/s",
+      "minimum": -1.0,
+      "maximum": 1.0,
+      "default": 0.0
+    },
+    {
+      "name": "yaw_rate",
+      "unit": "rad/s",
+      "minimum": -1.0,
+      "maximum": 1.0,
+      "default": 0.0
+    }
+  ]
+}

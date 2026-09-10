@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "physics_dt": 0.002,
+  "control_dt": 0.01,
+  "actuator_order": [
+    "joint_left_leg_1",
+    "joint_left_leg_2",
+    "joint_left_leg_3",
+    "joint_left_leg_4",
+    "joint_right_leg_1",
+    "joint_right_leg_2",
+    "joint_right_leg_3",
+    "joint_right_leg_4"
+  ],
+  "authority": "TITA deployment contract owns torque conversion"
+}

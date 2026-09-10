@@ -2,7 +2,7 @@
 
 Anyasset manages standard resources, test inputs, and shared reference data for engine development. Engines commit declarations and exact locks; a local manager provides versioned snapshots shared by multiple projects. This is separate from the engine's runtime AssetManager and does not use submodules.
 
-**Status: tool v0.2.0, schemas 1 and 2. Requires Python 3.11+, Git, and Git LFS.** There are no third-party Python runtime dependencies. External local libraries are supported through metadata-only indexes; see [EXTERNAL_LIBRARIES.md](EXTERNAL_LIBRARIES.md). The catalog now includes the original PNG checker/OBJ triangle plus existing Anygine test inputs, terrain textures and lookup data. Three indexed libraries register additional engine, local and robot inputs without publishing their payloads. See [the Anygine library](ANYGINE_LIBRARY.md) for exact scope and entry IDs. Distribution tests do not establish engine importer compatibility.
+**Status: tool v0.2.0, schemas 1 and 2. Requires Python 3.11+, Git, and Git LFS.** There are no third-party Python runtime dependencies. External local libraries are supported through metadata-only indexes; see [EXTERNAL_LIBRARIES.md](EXTERNAL_LIBRARIES.md). The catalog now includes the original PNG checker/OBJ triangle plus existing Anygine test inputs, terrain textures and lookup data. The default-source release also publishes the adopted engine, local and robot inputs through Git/LFS; historical metadata-only indexes remain available to old locks. See [the Anygine library](ANYGINE_LIBRARY.md) for exact scope and entry IDs. Distribution tests do not establish engine importer compatibility.
 
 ## Quick start
 

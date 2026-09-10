@@ -1,0 +1,14 @@
+{
+  "trainer": "unitreerobotics/unitree_rl_mjlab",
+  "upstream_commit": "1425b15f73bd4095f0df53709d7c389c3eb9e790",
+  "source_onnx": "/home/fangzhou/projects/Anygine/Anygine_Engine/Anygine/Tools/PolicyTrain/.external/unitree_rl_mjlab/logs/rsl_rl/go2_velocity/2026-08-04_14-45-29_anygine_go2_omni_v2_tracking/selection/policy_2400.onnx",
+  "source_onnx_sha256": "sha256:185e14c3a21216c80a874ea0c0916969b7ecf710e8030ab330a610eb44fdef89",
+  "imported_onnx_sha256": "sha256:84b2f9f12134edb92c7a0c0bb152f39bfd13526e0658c1da1dd25fafcc28aea3",
+  "package_template": "/home/fangzhou/projects/Anygine/Anygine_Engine/Anygine/Source/Demo/MuJoCoRobotDemo/Data/Policies/Go2JoystickPolicyMjlabStartStopModeSupervisorContactPhaseVelocityObs",
+  "observation_projection": "[0:9,48:50,9:45]",
+  "stand_phase_threshold": 0.1,
+  "action_transform": "identity (Mjlab-native action ABI v2)",
+  "robot_model_sha256": "sha256:878ce39d530563cb066616ed91b4c814c453d8072aa66ff8dbccd3f4f0ecac7a",
+  "actuation_alignment": "passive damping/frictionloss zero; hip/thigh armature 0.01; calf armature 0.02; effort limits 23.5/45 Nm",
+  "solver_alignment": "timestep 0.005; cone pyramidal; impratio 1"
+}

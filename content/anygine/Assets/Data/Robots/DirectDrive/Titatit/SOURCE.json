@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "source": "titatit_deployment",
+  "url": "https://github.com/DDTRobot/ddt_ros2_control.git",
+  "requested_ref": "63e9e6e625357802ea982b99edc62a29de42afe8",
+  "resolved_commit": "63e9e6e625357802ea982b99edc62a29de42afe8",
+  "license": "upstream-package-license-undeclared; customer-commissioned-experimental-use",
+  "role": "xacro_urdf_motion_reproduction",
+  "artifacts": {
+    "urdf/titatit_deployment_mujoco.urdf": {
+      "bytes": 18679,
+      "sha256": "cc7648c6ac0222ce5370d04b1edb9a0670a441c802f9b26a2d580b1f948fe150"
+    },
+    "urdf/robot.upstream.xacro": {
+      "bytes": 1733,
+      "sha256": "106a2a8d8263d902c127c88576ae125e3c46d582d1058375cac23c103c20cf24"
+    },
+    "urdf/single_robot.upstream.xacro": {
+      "bytes": 9987,
+      "sha256": "eed87e3520657cd9ab68306c3e709fc0a2fdb15ed34b3c43e009203f18bb7faf"
+    },
+    "meshes/base_link.STL": {
+      "bytes": 2835884,
+      "sha256": "355a0cf91d6db9b1c4aceeed175ca8eaf10fcf5689771599a1c291bae2336a26"
+    },
+    "meshes/left_leg_1.STL": {
+      "bytes": 289284,
+      "sha256": "5b8951d034a55ef0c3bc93a97c69be57e5af648e6a1fdd1d71651c6d62014e42"
+    },
+    "meshes/left_leg_2.STL": {
+      "bytes": 787784,
+      "sha256": "b3a158cb5148aec9f6ea84cc8a6d53f1c65d33cb210d4934314d4822e495ac41"
+    },
+    "meshes/left_leg_3.STL": {
+      "bytes": 271284,
+      "sha256": "63385672ae563dd177f8e200d0ae8fbceac05e8db38fefbc64ee48c59d27093b"
+    },
+    "meshes/left_leg_4.STL": {
+      "bytes": 174684,
+      "sha256": "a1e7af6d3807e1e8db3ae49183c702e49015266d6ef95bd1b98d08ed99bb9934"
+    },
+    "meshes/right_leg_1.STL": {
+      "bytes": 289284,
+      "sha256": "582ebfd532d2c22eb52a9f54bae410d22e19427f421df0b6dde95a29c072ab54"
+    },
+    "meshes/right_leg_2.STL": {
+      "bytes": 791384,
+      "sha256": "7cd576ae6fa7acf208daa9ad0bf0c99c2f79bd06df128e1e4e5e61773e4108cf"
+    },
+    "meshes/right_leg_3.STL": {
+      "bytes": 271284,
+      "sha256": "de652fda5a6494bbff17e8dad0e37861a5cc1de33be43b9435188d80d7cf53c1"
+    },
+    "meshes/right_leg_4.STL": {
+      "bytes": 174684,
+      "sha256": "6cfe87353a8dc865732e0f89703bad00de8b4b7b25c767555eeb9d49ee9fe2ee"
+    }
+  }
+}

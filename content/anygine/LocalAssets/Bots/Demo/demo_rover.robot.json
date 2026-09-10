@@ -1,0 +1,248 @@
+{
+  "_authoring": {
+    "description": "RobotDescription v0 sidecar template for an imported glTF rover.",
+    "companion_asset": "Place demo_rover.glb in this same folder (filename must match robot.asset).",
+    "units": "meters, Z-up, robot forward = +X",
+    "expected_gltf_node_tree": [
+      "demo_rover",
+      "  base_link",
+      "    chassis_mesh",
+      "  wheel_fl_link",
+      "    wheel_fl_mesh",
+      "  wheel_fr_link",
+      "    wheel_fr_mesh",
+      "  wheel_rl_link",
+      "    wheel_rl_mesh",
+      "  wheel_rr_link",
+      "    wheel_rr_mesh",
+      "  front_camera_mount"
+    ],
+    "notes": [
+      "Rename glTF nodes to match source_node fields below, or edit source_node to match your export.",
+      "Keep collision sizes/radii in this JSON; do not infer them from mesh geometry.",
+      "Adjust joint origin xyz and collision box size after measuring the authored model.",
+      "Wheel joint axis [0,1,0] means spin about chassis left/right (Y)."
+    ]
+  },
+  "robot": {
+    "name": "demo_rover",
+    "version": "0.1",
+    "asset": "demo_rover.glb",
+    "unit": "meter",
+    "up_axis": "Z",
+    "forward_axis": "X",
+    "spawn": {
+      "position": [0.0, -8.0, 0.28],
+      "heading_degrees": 90.0
+    },
+    "links": [
+      {
+        "name": "base_link",
+        "source_node": "base_link",
+        "visual": [
+          {
+            "name": "chassis_visual",
+            "source_node": "chassis_mesh",
+            "mesh": "demo_rover.glb",
+            "local_transform": {
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0.0, 0.0, 0.0, 1.0],
+              "scale": [1.0, 1.0, 1.0]
+            }
+          }
+        ],
+        "collision": [
+          {
+            "name": "base_collision",
+            "source_node": "base_link",
+            "type": "box",
+            "size": [0.95, 0.45, 0.3],
+            "local_transform": {
+              "position": [0.0, 0.0, -0.0],
+              "rotation": [0.0, 0.0, 0.0, 1.0],
+              "scale": [1.0, 1.0, 1.0]
+            }
+          }
+        ],
+        "inertial": {
+          "mass": 18.0,
+          "center_of_mass": [0.0, 0.0, 0.0]
+        }
+      },
+      {
+        "name": "wheel_fl_link",
+        "source_node": "wheel_fl_link",
+        "visual": [
+          {
+            "name": "wheel_fl_visual",
+            "source_node": "wheel_fl_mesh",
+            "mesh": "demo_rover.glb",
+            "local_transform": {
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0.0, 0.0, 0.0, 1.0],
+              "scale": [1.0, 1.0, 1.0]
+            }
+          }
+        ],
+        "collision": [
+          {
+            "name": "wheel_fl_collision",
+            "source_node": "wheel_fl_mesh",
+            "type": "cylinder",
+            "radius": 0.16,
+            "height": 0.09
+          }
+        ]
+      },
+      {
+        "name": "wheel_fr_link",
+        "source_node": "wheel_fr_link",
+        "visual": [
+          {
+            "name": "wheel_fr_visual",
+            "source_node": "wheel_fr_mesh",
+            "mesh": "demo_rover.glb",
+            "local_transform": {
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0.0, 0.0, 0.0, 1.0],
+              "scale": [1.0, 1.0, 1.0]
+            }
+          }
+        ],
+        "collision": [
+          {
+            "name": "wheel_fr_collision",
+            "source_node": "wheel_fr_mesh",
+            "type": "cylinder",
+            "radius": 0.16,
+            "height": 0.09
+          }
+        ]
+      },
+      {
+        "name": "wheel_rl_link",
+        "source_node": "wheel_rl_link",
+        "visual": [
+          {
+            "name": "wheel_rl_visual",
+            "source_node": "wheel_rl_mesh",
+            "mesh": "demo_rover.glb",
+            "local_transform": {
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0.0, 0.0, 0.0, 1.0],
+              "scale": [1.0, 1.0, 1.0]
+            }
+          }
+        ],
+        "collision": [
+          {
+            "name": "wheel_rl_collision",
+            "source_node": "wheel_rl_mesh",
+            "type": "cylinder",
+            "radius": 0.16,
+            "height": 0.09
+          }
+        ]
+      },
+      {
+        "name": "wheel_rr_link",
+        "source_node": "wheel_rr_link",
+        "visual": [
+          {
+            "name": "wheel_rr_visual",
+            "source_node": "wheel_rr_mesh",
+            "mesh": "demo_rover.glb",
+            "local_transform": {
+              "position": [0.0, 0.0, 0.0],
+              "rotation": [0.0, 0.0, 0.0, 1.0],
+              "scale": [1.0, 1.0, 1.0]
+            }
+          }
+        ],
+        "collision": [
+          {
+            "name": "wheel_rr_collision",
+            "source_node": "wheel_rr_mesh",
+            "type": "cylinder",
+            "radius": 0.16,
+            "height": 0.09
+          }
+        ]
+      }
+    ],
+    "joints": [
+      {
+        "name": "wheel_fl_joint",
+        "type": "continuous",
+        "parent": "base_link",
+        "child": "wheel_fl_link",
+        "axis": [0.0, 1.0, 0.0],
+        "origin": { "xyz": [0.36, 0.36, -0.12], "rpy": [0.0, 0.0, 0.0] }
+      },
+      {
+        "name": "wheel_fr_joint",
+        "type": "continuous",
+        "parent": "base_link",
+        "child": "wheel_fr_link",
+        "axis": [0.0, 1.0, 0.0],
+        "origin": { "xyz": [0.36, -0.36, -0.12], "rpy": [0.0, 0.0, 0.0] }
+      },
+      {
+        "name": "wheel_rl_joint",
+        "type": "continuous",
+        "parent": "base_link",
+        "child": "wheel_rl_link",
+        "axis": [0.0, 1.0, 0.0],
+        "origin": { "xyz": [-0.36, 0.36, -0.12], "rpy": [0.0, 0.0, 0.0] }
+      },
+      {
+        "name": "wheel_rr_joint",
+        "type": "continuous",
+        "parent": "base_link",
+        "child": "wheel_rr_link",
+        "axis": [0.0, 1.0, 0.0],
+        "origin": { "xyz": [-0.36, -0.36, -0.12], "rpy": [0.0, 0.0, 0.0] }
+      }
+    ],
+    "sensors": [
+      {
+        "name": "front_camera",
+        "type": "camera_rgb",
+        "parent": "base_link",
+        "source_node": "front_camera_mount",
+        "local_transform": {
+          "position": [0.55, 0.0, 0.25],
+          "rotation": [0.0, 0.0, 0.0, 1.0],
+          "scale": [1.0, 1.0, 1.0]
+        },
+        "params": {
+          "width": 1280,
+          "height": 720,
+          "vertical_fov": 60.0,
+          "near": 0.05,
+          "far": 300.0
+        }
+      }
+    ],
+    "control": {
+      "mode": "differential_drive",
+      "command_interface": ["linear_velocity", "angular_velocity"],
+      "controlled_joints": {
+        "left_wheels": ["wheel_fl_joint", "wheel_rl_joint"],
+        "right_wheels": ["wheel_fr_joint", "wheel_rr_joint"]
+      },
+      "wheel_radius": 0.16,
+      "track_width": 0.72,
+      "dynamics": {
+        "motion_model": "jolt_driven",
+        "max_linear_acceleration": 2.5,
+        "max_angular_acceleration": 3.0,
+        "linear_damping": 0.35,
+        "angular_damping": 0.55,
+        "ground_friction": 0.8,
+        "max_drive_force": 80.0,
+        "max_brake_force": 120.0
+      }
+    }
+  }
+}

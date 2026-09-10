@@ -1,3 +1,40 @@
+# Anygine shared source library
+
+## Git/LFS default source release (2026-09-10)
+
+The engine owner selected Git LFS distribution for shared models, textures and deployment
+policies. The new `anygine/defaults`, `anygine/local`, `anygine/robots` and existing core/terrain
+collections contain downloadable source payloads, including the files formerly supplied only
+through external library bindings. Retained external indexes remain available for old locks.
+No provider code or schema changes are required; tool 0.2.0 restores these standard collections.
+
+Source files preserve their native layout below `content/anygine/Assets`,
+`content/anygine/LocalAssets` and `content/anygine/Source`. All 93 tracked mainline Assets files,
+all 274 local-library files, the 456 retained robot source files and selected RobotTransfer
+source packages are accounted for. Overlapping paths are stored once. The authored robot template
+metadata and smoke models are also retained. The adoption audit contains 951 unique files /
+8,727,984,751 bytes before its own provenance JSON; the catalog has 85 logical entries including
+the two original samples. Several entries share complete package dependencies.
+
+`content/anygine/Provenance/default-assets-20260910.json` records each file's SHA-256, byte size,
+source authority, legacy ID mapping and exclusions. Existing catalog license/origin fields are
+preserved. Unknown rights remain `NOASSERTION`; this release does not relabel those inputs.
+RobotTransfer retains its separate upstream revision and isolated input layout. Source SDKs,
+Git metadata, local fetch state and intermediate training outputs are excluded. Selected PT
+checkpoints, ONNX external-data weights, controller/observation/action contracts, MJCF/URDF
+meshes, textures and original package notices travel together.
+
+Standard catalog IDs replace the external separator with a slash, for example
+`anygine-robots/policy.direct_drive.tita.checkpoint`. Old indexed IDs remain valid with old locks.
+The engine adapter owns compatibility aliases when consuming the new release.
+
+Collections are task-specific: core/defaults/terrain do not download the 8 GB local model
+library; `anygine/local` explicitly requests that full authoring/reference collection. Equal
+objects are reused in the manager cache. New machines use the engine's exact generated lock
+and `sync --locked`; they do not need the old retained library directories.
+
+## Earlier metadata-only adoption
+
 # Anygine development inputs: first adoption
 
 The 2026-09-08 catalog adopts existing engine inputs without replacing the native asset system.

@@ -1,0 +1,22 @@
+{
+  "package_version": 1,
+  "name": "Go2JoystickPolicy_walk_hf_demo",
+  "robot": "unitree_go2",
+  "task": "joystick_locomotion",
+  "model_file": "model/scene.xml",
+  "model_hash": "sha256:b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+  "policy_file": "policy/policy.onnx",
+  "policy_format": "onnx",
+  "observation_spec": "observation.json",
+  "action_spec": "action.json",
+  "controller_spec": "controller.json",
+  "command_spec": "command.json",
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "observation_size": 45,
+  "action_size": 12,
+  "action_mode": "joint_position_delta",
+  "requires_previous_action": true,
+  "history_length": 1,
+  "notes": "Walk demo pin: original HF unitree velocity-flat ONNX on Menagerie scene (product foot host fric=0.55/condim=3). Prefer cmd vx\u22480.4 for walk_quality; vx\u22481.0 still fine for visual. Do not replace stand_v1e Assets pin."
+}

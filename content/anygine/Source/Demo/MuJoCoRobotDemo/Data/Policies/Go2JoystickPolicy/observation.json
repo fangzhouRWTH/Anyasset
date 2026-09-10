@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "components": [
+    {"name": "base_ang_vel", "size": 3, "notes": "base body angular velocity (rad/s), body frame"},
+    {"name": "projected_gravity", "size": 3, "notes": "gravity direction in base frame"},
+    {"name": "command", "size": 3, "notes": "vx, vy, yaw_rate"},
+    {"name": "joint_pos", "size": 12, "notes": "actuator joint qpos minus default_pose"},
+    {"name": "joint_vel", "size": 12, "notes": "actuator joint qvel"},
+    {"name": "previous_action", "size": 12, "notes": "last policy action"}
+  ],
+  "total_size": 45,
+  "normalization": "policy/normalization.bin"
+}

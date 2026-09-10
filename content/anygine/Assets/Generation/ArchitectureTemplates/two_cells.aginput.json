@@ -1,0 +1,1274 @@
+{
+  "fingerprint": "78ea7563f359d499",
+  "payload": {
+    "circulation": {
+      "diagnostics": {
+        "authorizedConstraintTraversalCount": 2,
+        "blockedRecordCount": 0,
+        "clearancePairEvaluationCount": 0,
+        "constraintClearanceOverlapAreaSquareMeters": 0.0,
+        "constraintClearanceViolationCount": 0,
+        "constraintProjectionFailureCount": 0,
+        "constraintRegionCount": 1,
+        "inputRecordCount": 1,
+        "intentionalEmptyRecordCount": 0,
+        "pathCount": 2,
+        "pathLengthMeters": 70.03570290448761,
+        "readyRecordCount": 1,
+        "servedRequiredCellCount": 2,
+        "surfaceAreaSquareMeters": 456.04101649999996,
+        "surfaceCount": 2,
+        "topologyEdgeCount": 4,
+        "topologyNodeCount": 6,
+        "unservedRequiredCellCount": 0
+      },
+      "parameters": {
+        "clipSurfacesToSiteBoundary": true,
+        "enforceConstraintClearance": true,
+        "generateIntentionalEmptyPedestrianAccess": true,
+        "lateralClearanceMeters": 0.5,
+        "maximumConstraintOverlapSquareMeters": 0.01,
+        "metersPerWorldUnit": 1.0,
+        "pedestrianWidthMeters": 1.8,
+        "previewElevationMeters": 0.06,
+        "requireEveryBuildSupportCellServed": true,
+        "sharedVehicleServiceWidthMeters": 4.5
+      },
+      "records": [
+        {
+          "blockerTags": [],
+          "clearanceEvidence": [
+            {
+              "authorized": true,
+              "evaluated": false,
+              "evidenceTags": [
+                "connector_explicitly_authorized_by_constraint"
+              ],
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:clearance:template:two_cells:reserve",
+              "overlapAreaSquareMeters": 0.0,
+              "overlapRegions": [],
+              "requiredLateralClearanceMeters": 0.5,
+              "sourceConstraintRegionId": "site-circulation:template:two_cells:site:constraint:template:two_cells:reserve:region:0",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0",
+              "traversalRule": "authorized_targets_only",
+              "violated": false
+            },
+            {
+              "authorized": true,
+              "evaluated": false,
+              "evidenceTags": [
+                "connector_explicitly_authorized_by_constraint"
+              ],
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:clearance:template:two_cells:reserve",
+              "overlapAreaSquareMeters": 0.0,
+              "overlapRegions": [],
+              "requiredLateralClearanceMeters": 0.5,
+              "sourceConstraintRegionId": "site-circulation:template:two_cells:site:constraint:template:two_cells:reserve:region:0",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1",
+              "traversalRule": "authorized_targets_only",
+              "violated": false
+            }
+          ],
+          "constraintRegions": [
+            {
+              "areaSquareMeters": 700.0,
+              "authorizedTargetEntityIds": [
+                "template:two_cells:connector-0",
+                "template:two_cells:connector-1"
+              ],
+              "evidenceTags": [
+                "authored_reserve_v1"
+              ],
+              "geometry": {
+                "holes": [],
+                "outer": {
+                  "points": [
+                    [
+                      35.0,
+                      -20.0
+                    ],
+                    [
+                      -35.0,
+                      -20.0
+                    ],
+                    [
+                      -35.0,
+                      -30.0
+                    ],
+                    [
+                      35.0,
+                      -30.0
+                    ]
+                  ]
+                }
+              },
+              "id": "site-circulation:template:two_cells:site:constraint:template:two_cells:reserve:region:0",
+              "role": "access_reserve",
+              "sourceConstraintId": "template:two_cells:reserve",
+              "sourceSiteIds": [
+                "template:two_cells:site"
+              ],
+              "traversalRule": "authorized_targets_only"
+            }
+          ],
+          "disposition": "ready",
+          "edges": [
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:edge:0",
+              "lengthMeters": 7.0,
+              "role": "shared_vehicle_service",
+              "sourceNodeId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:node:0",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0",
+              "targetNodeId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:node:1"
+            },
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:edge:1",
+              "lengthMeters": 28.0178514522438,
+              "role": "shared_vehicle_service",
+              "sourceNodeId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:node:1",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0",
+              "targetNodeId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:node:2"
+            },
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:edge:0",
+              "lengthMeters": 7.0,
+              "role": "shared_vehicle_service",
+              "sourceNodeId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:node:0",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1",
+              "targetNodeId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:node:1"
+            },
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:edge:1",
+              "lengthMeters": 28.0178514522438,
+              "role": "shared_vehicle_service",
+              "sourceNodeId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:node:1",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1",
+              "targetNodeId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:node:2"
+            }
+          ],
+          "evidenceTags": [
+            "source_context:building_context_template:two_cells:site",
+            "source_scaffold_strategy:authored_template_committed_scaffold_v1",
+            "constraint_reference_count:1",
+            "committed_connector_geometry_realized"
+          ],
+          "highestFrontageRoadClass": "unspecified",
+          "id": "site-circulation:template:two_cells:site",
+          "nodes": [
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:node:0",
+              "position": [
+                0.0,
+                -30.0,
+                0.0
+              ],
+              "role": "public_access",
+              "sourceAnchorId": "template:two_cells:access",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0",
+              "targetCellIds": []
+            },
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:node:1",
+              "position": [
+                0.0,
+                -23.0,
+                0.0
+              ],
+              "role": "junction",
+              "sourceAnchorId": "",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0",
+              "targetCellIds": []
+            },
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:node:2",
+              "position": [
+                -16.0,
+                0.0,
+                0.0
+              ],
+              "role": "cell_terminal",
+              "sourceAnchorId": "",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0",
+              "targetCellIds": [
+                "template:two_cells:cell-0"
+              ]
+            },
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:node:0",
+              "position": [
+                0.0,
+                -30.0,
+                0.0
+              ],
+              "role": "junction",
+              "sourceAnchorId": "",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1",
+              "targetCellIds": []
+            },
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:node:1",
+              "position": [
+                0.0,
+                -23.0,
+                0.0
+              ],
+              "role": "junction",
+              "sourceAnchorId": "",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1",
+              "targetCellIds": []
+            },
+            {
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:node:2",
+              "position": [
+                16.0,
+                0.0,
+                0.0
+              ],
+              "role": "cell_terminal",
+              "sourceAnchorId": "",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1",
+              "targetCellIds": [
+                "template:two_cells:cell-1"
+              ]
+            }
+          ],
+          "paths": [
+            {
+              "centerline": [
+                [
+                  0.0,
+                  -30.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  -23.0,
+                  0.0
+                ],
+                [
+                  -16.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "evidenceTags": [
+                "authored_local_access_v1"
+              ],
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0",
+              "lateralClearanceMeters": 0.5,
+              "lengthMeters": 35.017851452243804,
+              "role": "shared_vehicle_service",
+              "sourceAnchorId": "template:two_cells:access",
+              "sourceCandidateEvaluationCount": 0,
+              "sourceConnectorId": "template:two_cells:connector-0",
+              "sourcePathKind": "single_bend",
+              "sourceSiteIds": [
+                "template:two_cells:site"
+              ],
+              "targetCellIds": [
+                "template:two_cells:cell-0"
+              ],
+              "widthMeters": 6.0
+            },
+            {
+              "centerline": [
+                [
+                  0.0,
+                  -30.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  -23.0,
+                  0.0
+                ],
+                [
+                  16.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "evidenceTags": [
+                "authored_local_access_v1"
+              ],
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1",
+              "lateralClearanceMeters": 0.5,
+              "lengthMeters": 35.017851452243804,
+              "role": "shared_vehicle_service",
+              "sourceAnchorId": "",
+              "sourceCandidateEvaluationCount": 0,
+              "sourceConnectorId": "template:two_cells:connector-1",
+              "sourcePathKind": "single_bend",
+              "sourceSiteIds": [
+                "template:two_cells:site"
+              ],
+              "targetCellIds": [
+                "template:two_cells:cell-1"
+              ],
+              "widthMeters": 6.0
+            }
+          ],
+          "sourceContextId": "building_context_template:two_cells:site",
+          "sourceParcelIds": [
+            "template:two_cells:parcel"
+          ],
+          "sourceScopeId": "template:two_cells:site",
+          "sourceSiteId": "template:two_cells:site",
+          "surfaces": [
+            {
+              "areaSquareMeters": 228.0206205,
+              "geometry": {
+                "holes": [],
+                "outer": {
+                  "points": [
+                    [
+                      3.0,
+                      -23.0
+                    ],
+                    [
+                      2.976,
+                      -22.621
+                    ],
+                    [
+                      2.904,
+                      -22.249
+                    ],
+                    [
+                      2.787,
+                      -21.889
+                    ],
+                    [
+                      2.624,
+                      -21.546
+                    ],
+                    [
+                      2.463,
+                      -21.287
+                    ],
+                    [
+                      -15.25,
+                      4.176
+                    ],
+                    [
+                      -20.176,
+                      0.75
+                    ],
+                    [
+                      -3.0,
+                      -23.941
+                    ],
+                    [
+                      -3.0,
+                      -30.0
+                    ],
+                    [
+                      3.0,
+                      -30.0
+                    ]
+                  ]
+                }
+              },
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0:surface:0",
+              "role": "shared_vehicle_service",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-0"
+            },
+            {
+              "areaSquareMeters": 228.02039599999995,
+              "geometry": {
+                "holes": [],
+                "outer": {
+                  "points": [
+                    [
+                      3.0,
+                      -23.941
+                    ],
+                    [
+                      20.176,
+                      0.75
+                    ],
+                    [
+                      15.25,
+                      4.176
+                    ],
+                    [
+                      -2.463,
+                      -21.287
+                    ],
+                    [
+                      -2.659,
+                      -21.611
+                    ],
+                    [
+                      -2.813,
+                      -21.958
+                    ],
+                    [
+                      -2.922,
+                      -22.321
+                    ],
+                    [
+                      -2.984,
+                      -22.695
+                    ],
+                    [
+                      -3.0,
+                      -23.0
+                    ],
+                    [
+                      -3.0,
+                      -30.0
+                    ],
+                    [
+                      3.0,
+                      -30.0
+                    ]
+                  ]
+                }
+              },
+              "id": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1:surface:0",
+              "role": "shared_vehicle_service",
+              "sourcePathId": "site-circulation:template:two_cells:site:path:template:two_cells:connector-1"
+            }
+          ]
+        }
+      ],
+      "sourceScaffoldStrategyId": "authored_template_committed_scaffold_v1",
+      "strategyId": "scaffold_guided_shared_access_v0"
+    },
+    "context": {
+      "diagnostics": {
+        "accessReachableBuildSupportCellCount": 2,
+        "blockedRecordCount": 0,
+        "buildSupportCellCount": 2,
+        "inputSiteCount": 1,
+        "intentionalEmptyRecordCount": 0,
+        "invalidRecordCount": 0,
+        "readyRecordCount": 1,
+        "recordCount": 1
+      },
+      "records": [
+        {
+          "anchors": [
+            {
+              "cellId": "template:two_cells:access-hub",
+              "committed": true,
+              "connectorId": "template:two_cells:connector-0",
+              "direction": [
+                -0.0,
+                1.0
+              ],
+              "frontageRoadClass": "unspecified",
+              "frontageRunIndex": null,
+              "id": "template:two_cells:access",
+              "position": [
+                0.0,
+                -30.0,
+                0.0
+              ],
+              "role": "primary_access",
+              "sourceSiteIds": [
+                "template:two_cells:site"
+              ]
+            }
+          ],
+          "blockerTags": [],
+          "brief": {
+            "boundaryResponse": "align",
+            "boundaryResponseStrength": 0.75,
+            "continuousStreetWall": false,
+            "maximumBuildingCount": 2,
+            "minimumBuildableOpenSpaceRatio": 0.25,
+            "openSpaceStructure": "residual",
+            "orientationResponse": "frontage_aligned",
+            "orientationResponseStrength": 0.75,
+            "preferredBuildingCount": 2,
+            "requiresPrimaryAccess": true,
+            "sharedAccessPreferred": false,
+            "targetSiteCoverageRatio": 0.3
+          },
+          "buildableAreaSquareMeters": 3996.0,
+          "buildableBoundary": [
+            [
+              -37.0,
+              -27.0,
+              0.0
+            ],
+            [
+              37.0,
+              -27.0,
+              0.0
+            ],
+            [
+              37.0,
+              27.0,
+              0.0
+            ],
+            [
+              -37.0,
+              27.0,
+              0.0
+            ]
+          ],
+          "cells": [
+            {
+              "accessReachable": true,
+              "anchorIds": [],
+              "cell": {
+                "areaSquareMeters": 660.0,
+                "center": [
+                  -16.0,
+                  0.0,
+                  0.0
+                ],
+                "depthMeters": 30.0,
+                "evidenceTags": [
+                  "authored_local_domain_v1"
+                ],
+                "formIntent": {
+                  "continuousForm": false,
+                  "downstreamMayLeaveUnoccupied": true,
+                  "downstreamMayMerge": false,
+                  "downstreamMaySplit": true,
+                  "maximumBuildingCount": 1,
+                  "maximumOccupiedAreaRatio": 1.0,
+                  "minimumBuildingCount": 1,
+                  "minimumOccupiedAreaRatio": 0.0,
+                  "preferredDirection": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                "hierarchyLevel": 0,
+                "id": "template:two_cells:cell-0",
+                "parentCellId": null,
+                "primaryDirection": [
+                  1.0,
+                  0.0
+                ],
+                "primitiveKind": "simple_polygon",
+                "role": "build_support",
+                "roleCommitted": true,
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ],
+                "supportBoundary": [
+                  [
+                    -27.0,
+                    -15.0,
+                    0.0
+                  ],
+                  [
+                    -5.0,
+                    -15.0,
+                    0.0
+                  ],
+                  [
+                    -5.0,
+                    15.0,
+                    0.0
+                  ],
+                  [
+                    -27.0,
+                    15.0,
+                    0.0
+                  ]
+                ],
+                "templateBoundary": [
+                  [
+                    -27.0,
+                    -15.0,
+                    0.0
+                  ],
+                  [
+                    -5.0,
+                    -15.0,
+                    0.0
+                  ],
+                  [
+                    -5.0,
+                    15.0,
+                    0.0
+                  ],
+                  [
+                    -27.0,
+                    15.0,
+                    0.0
+                  ]
+                ],
+                "usableAreaSquareMeters": 660.0,
+                "widthMeters": 22.0
+              },
+              "connectorIds": [
+                "template:two_cells:connector-0"
+              ],
+              "constraintIds": [],
+              "relationIds": []
+            },
+            {
+              "accessReachable": true,
+              "anchorIds": [],
+              "cell": {
+                "areaSquareMeters": 660.0,
+                "center": [
+                  16.0,
+                  0.0,
+                  0.0
+                ],
+                "depthMeters": 30.0,
+                "evidenceTags": [
+                  "authored_local_domain_v1"
+                ],
+                "formIntent": {
+                  "continuousForm": false,
+                  "downstreamMayLeaveUnoccupied": true,
+                  "downstreamMayMerge": false,
+                  "downstreamMaySplit": true,
+                  "maximumBuildingCount": 1,
+                  "maximumOccupiedAreaRatio": 1.0,
+                  "minimumBuildingCount": 1,
+                  "minimumOccupiedAreaRatio": 0.0,
+                  "preferredDirection": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                "hierarchyLevel": 0,
+                "id": "template:two_cells:cell-1",
+                "parentCellId": null,
+                "primaryDirection": [
+                  1.0,
+                  0.0
+                ],
+                "primitiveKind": "simple_polygon",
+                "role": "build_support",
+                "roleCommitted": true,
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ],
+                "supportBoundary": [
+                  [
+                    5.0,
+                    -15.0,
+                    0.0
+                  ],
+                  [
+                    27.0,
+                    -15.0,
+                    0.0
+                  ],
+                  [
+                    27.0,
+                    15.0,
+                    0.0
+                  ],
+                  [
+                    5.0,
+                    15.0,
+                    0.0
+                  ]
+                ],
+                "templateBoundary": [
+                  [
+                    5.0,
+                    -15.0,
+                    0.0
+                  ],
+                  [
+                    27.0,
+                    -15.0,
+                    0.0
+                  ],
+                  [
+                    27.0,
+                    15.0,
+                    0.0
+                  ],
+                  [
+                    5.0,
+                    15.0,
+                    0.0
+                  ]
+                ],
+                "usableAreaSquareMeters": 660.0,
+                "widthMeters": 22.0
+              },
+              "connectorIds": [
+                "template:two_cells:connector-1"
+              ],
+              "constraintIds": [],
+              "relationIds": []
+            },
+            {
+              "accessReachable": false,
+              "anchorIds": [
+                "template:two_cells:access"
+              ],
+              "cell": {
+                "areaSquareMeters": 384.0,
+                "center": [
+                  0.0,
+                  -23.0,
+                  0.0
+                ],
+                "depthMeters": 6.0,
+                "evidenceTags": [
+                  "authored_local_domain_v1"
+                ],
+                "formIntent": {
+                  "continuousForm": false,
+                  "downstreamMayLeaveUnoccupied": true,
+                  "downstreamMayMerge": false,
+                  "downstreamMaySplit": true,
+                  "maximumBuildingCount": 0,
+                  "maximumOccupiedAreaRatio": 1.0,
+                  "minimumBuildingCount": 0,
+                  "minimumOccupiedAreaRatio": 0.0,
+                  "preferredDirection": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                "hierarchyLevel": 0,
+                "id": "template:two_cells:access-hub",
+                "parentCellId": null,
+                "primaryDirection": [
+                  1.0,
+                  0.0
+                ],
+                "primitiveKind": "simple_polygon",
+                "role": "circulation",
+                "roleCommitted": true,
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ],
+                "supportBoundary": [
+                  [
+                    -32.0,
+                    -26.0,
+                    0.0
+                  ],
+                  [
+                    32.0,
+                    -26.0,
+                    0.0
+                  ],
+                  [
+                    32.0,
+                    -20.0,
+                    0.0
+                  ],
+                  [
+                    -32.0,
+                    -20.0,
+                    0.0
+                  ]
+                ],
+                "templateBoundary": [
+                  [
+                    -32.0,
+                    -26.0,
+                    0.0
+                  ],
+                  [
+                    32.0,
+                    -26.0,
+                    0.0
+                  ],
+                  [
+                    32.0,
+                    -20.0,
+                    0.0
+                  ],
+                  [
+                    -32.0,
+                    -20.0,
+                    0.0
+                  ]
+                ],
+                "usableAreaSquareMeters": 384.0,
+                "widthMeters": 64.0
+              },
+              "connectorIds": [
+                "template:two_cells:connector-0",
+                "template:two_cells:connector-1"
+              ],
+              "constraintIds": [],
+              "relationIds": []
+            }
+          ],
+          "connectors": [
+            {
+              "authorityTags": [
+                "authored_local_access_v1"
+              ],
+              "boundary": [],
+              "centerline": [
+                [
+                  0.0,
+                  -30.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  -23.0,
+                  0.0
+                ],
+                [
+                  -16.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "committed": true,
+              "crossesSiteBoundary": false,
+              "id": "template:two_cells:connector-0",
+              "pathKind": "single_bend",
+              "role": "shared_access",
+              "routeCandidateEvaluationCount": 0,
+              "servedCellIds": [
+                "template:two_cells:cell-0"
+              ],
+              "sourceCellId": "template:two_cells:access-hub",
+              "sourceSiteIds": [
+                "template:two_cells:site"
+              ],
+              "targetCellId": "template:two_cells:cell-0",
+              "widthMeters": 6.0
+            },
+            {
+              "authorityTags": [
+                "authored_local_access_v1"
+              ],
+              "boundary": [],
+              "centerline": [
+                [
+                  0.0,
+                  -30.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  -23.0,
+                  0.0
+                ],
+                [
+                  16.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "committed": true,
+              "crossesSiteBoundary": false,
+              "id": "template:two_cells:connector-1",
+              "pathKind": "single_bend",
+              "role": "shared_access",
+              "routeCandidateEvaluationCount": 0,
+              "servedCellIds": [
+                "template:two_cells:cell-1"
+              ],
+              "sourceCellId": "template:two_cells:access-hub",
+              "sourceSiteIds": [
+                "template:two_cells:site"
+              ],
+              "targetCellId": "template:two_cells:cell-1",
+              "widthMeters": 6.0
+            }
+          ],
+          "constraints": [
+            {
+              "areaSquareMeters": 700.0,
+              "authorityTags": [
+                "authored_reserve_v1"
+              ],
+              "boundary": [
+                [
+                  -35.0,
+                  -30.0,
+                  0.0
+                ],
+                [
+                  35.0,
+                  -30.0,
+                  0.0
+                ],
+                [
+                  35.0,
+                  -20.0,
+                  0.0
+                ],
+                [
+                  -35.0,
+                  -20.0,
+                  0.0
+                ]
+              ],
+              "holes": [],
+              "id": "template:two_cells:reserve",
+              "role": "access_reserve",
+              "sourceSiteIds": [
+                "template:two_cells:site"
+              ],
+              "targetEntityIds": [
+                "template:two_cells:connector-0",
+                "template:two_cells:connector-1"
+              ],
+              "traversalRule": "authorized_targets_only"
+            }
+          ],
+          "continuity": "isolated",
+          "continuityGroupId": null,
+          "disposition": "ready",
+          "evidenceTags": [
+            "generation_owned_building_context_v1",
+            "no_geometry_reconstruction_v1",
+            "building_generation_context_ready_v1"
+          ],
+          "highestFrontageRoadClass": "unspecified",
+          "id": "building_context_template:two_cells:site",
+          "layoutFamilyId": "parallel_bars_v1",
+          "program": "residential",
+          "relations": [],
+          "selectedScaffoldCandidateId": "template:two_cells:committed",
+          "siteAreaSquareMeters": 4800.0,
+          "siteBoundary": [
+            [
+              -40.0,
+              -30.0,
+              0.0
+            ],
+            [
+              40.0,
+              -30.0,
+              0.0
+            ],
+            [
+              40.0,
+              30.0,
+              0.0
+            ],
+            [
+              -40.0,
+              30.0,
+              0.0
+            ]
+          ],
+          "sourceParcelIds": [
+            "template:two_cells:parcel"
+          ],
+          "sourceScopeId": "template:two_cells:site",
+          "sourceSiteId": "template:two_cells:site",
+          "topology": {
+            "blockerTags": [],
+            "diagnostics": {
+              "accessConnectorCount": 2,
+              "accessReachableBuildSupportCellCount": 2,
+              "allBuildSupportCellsReachableFromPrimaryAccess": true,
+              "buildSupportCellCount": 2,
+              "committedEdgeCount": 10,
+              "committedNodeCount": 7,
+              "constraintCount": 1,
+              "danglingReferenceCount": 0,
+              "duplicateEdgeIdCount": 0,
+              "duplicateEntityIdCount": 0,
+              "edgeCount": 10,
+              "nodeCount": 7,
+              "primaryAccessAnchorCount": 1
+            },
+            "edges": [
+              {
+                "authorityTags": [
+                  "authored_local_access_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": "source",
+                "directed": false,
+                "id": "topology_edge_template:two_cells:connector-0_source",
+                "kind": "connector_endpoint",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:connector-0",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:two_cells:access-hub"
+              },
+              {
+                "authorityTags": [
+                  "authored_local_access_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": "target",
+                "directed": false,
+                "id": "topology_edge_template:two_cells:connector-0_target",
+                "kind": "connector_endpoint",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:connector-0",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:two_cells:cell-0"
+              },
+              {
+                "authorityTags": [
+                  "authored_local_access_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": null,
+                "directed": true,
+                "id": "topology_edge_template:two_cells:connector-0_serves_0",
+                "kind": "connector_service",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:connector-0",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:two_cells:cell-0"
+              },
+              {
+                "authorityTags": [
+                  "authored_local_access_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": "source",
+                "directed": false,
+                "id": "topology_edge_template:two_cells:connector-1_source",
+                "kind": "connector_endpoint",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:connector-1",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:two_cells:access-hub"
+              },
+              {
+                "authorityTags": [
+                  "authored_local_access_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": "target",
+                "directed": false,
+                "id": "topology_edge_template:two_cells:connector-1_target",
+                "kind": "connector_endpoint",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:connector-1",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:two_cells:cell-1"
+              },
+              {
+                "authorityTags": [
+                  "authored_local_access_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": null,
+                "directed": true,
+                "id": "topology_edge_template:two_cells:connector-1_serves_0",
+                "kind": "connector_service",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:connector-1",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:two_cells:cell-1"
+              },
+              {
+                "authorityTags": [],
+                "committed": true,
+                "connectorEndpoint": null,
+                "directed": false,
+                "id": "topology_edge_template:two_cells:access_cell",
+                "kind": "anchor_attachment",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:access",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:two_cells:access-hub"
+              },
+              {
+                "authorityTags": [],
+                "committed": true,
+                "connectorEndpoint": null,
+                "directed": true,
+                "id": "topology_edge_template:two_cells:access_connector",
+                "kind": "anchor_attachment",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:access",
+                "supportsAccessTraversal": true,
+                "targetEntityId": "template:two_cells:connector-0"
+              },
+              {
+                "authorityTags": [
+                  "authored_reserve_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": null,
+                "directed": true,
+                "id": "topology_edge_template:two_cells:reserve_target_0",
+                "kind": "constraint_target",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:reserve",
+                "supportsAccessTraversal": false,
+                "targetEntityId": "template:two_cells:connector-0"
+              },
+              {
+                "authorityTags": [
+                  "authored_reserve_v1"
+                ],
+                "committed": true,
+                "connectorEndpoint": null,
+                "directed": true,
+                "id": "topology_edge_template:two_cells:reserve_target_1",
+                "kind": "constraint_target",
+                "relationKind": null,
+                "sourceEntityId": "template:two_cells:reserve",
+                "supportsAccessTraversal": false,
+                "targetEntityId": "template:two_cells:connector-1"
+              }
+            ],
+            "evaluated": true,
+            "nodes": [
+              {
+                "anchorRole": null,
+                "cellRole": "build_support",
+                "committed": true,
+                "connectorRole": null,
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:two_cells:cell-0",
+                "kind": "cell",
+                "position": [
+                  -16.0,
+                  0.0,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ]
+              },
+              {
+                "anchorRole": null,
+                "cellRole": "build_support",
+                "committed": true,
+                "connectorRole": null,
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:two_cells:cell-1",
+                "kind": "cell",
+                "position": [
+                  16.0,
+                  0.0,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ]
+              },
+              {
+                "anchorRole": null,
+                "cellRole": "circulation",
+                "committed": true,
+                "connectorRole": null,
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:two_cells:access-hub",
+                "kind": "cell",
+                "position": [
+                  0.0,
+                  -23.0,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ]
+              },
+              {
+                "anchorRole": null,
+                "cellRole": null,
+                "committed": true,
+                "connectorRole": "shared_access",
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:two_cells:connector-0",
+                "kind": "connector",
+                "position": [
+                  -8.0,
+                  -15.0,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ]
+              },
+              {
+                "anchorRole": null,
+                "cellRole": null,
+                "committed": true,
+                "connectorRole": "shared_access",
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:two_cells:connector-1",
+                "kind": "connector",
+                "position": [
+                  8.0,
+                  -15.0,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ]
+              },
+              {
+                "anchorRole": "primary_access",
+                "cellRole": null,
+                "committed": true,
+                "connectorRole": null,
+                "constraintRole": null,
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:two_cells:access",
+                "kind": "anchor",
+                "position": [
+                  0.0,
+                  -30.0,
+                  0.0
+                ],
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ]
+              },
+              {
+                "anchorRole": null,
+                "cellRole": null,
+                "committed": true,
+                "connectorRole": null,
+                "constraintRole": "access_reserve",
+                "frontageRoadClass": "unspecified",
+                "frontageRunIndex": null,
+                "id": "template:two_cells:reserve",
+                "kind": "constraint",
+                "position": null,
+                "sourceSiteIds": [
+                  "template:two_cells:site"
+                ]
+              }
+            ],
+            "selectedCandidateId": "template:two_cells:committed",
+            "sourceDisposition": "ready",
+            "sourceScopeId": "template:two_cells:site",
+            "sourceSiteIds": [
+              "template:two_cells:site"
+            ],
+            "valid": true
+          },
+          "typology": "parallel_bars"
+        }
+      ],
+      "sourceAnalysisStrategyId": "authored_template_analysis_v1",
+      "sourceIntentStrategyId": "authored_template_intent_v1",
+      "sourceScaffoldStrategyId": "authored_template_committed_scaffold_v1"
+    },
+    "description": "Two BuildSupport Cells linked through one circulation hub. An access reserve authorizes only the two committed connectors.",
+    "id": "two_cells",
+    "metersPerWorldUnit": 1.0,
+    "name": "Two building cells",
+    "producerId": "anygine_prepare_architecture_templates_v1",
+    "provenanceKind": "authored_template",
+    "schemaVersion": 1,
+    "seed": 0,
+    "templateVersion": 1,
+    "upAxis": "Z"
+  },
+  "schema": "anygine.building_generation_input"
+}

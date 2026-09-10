@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "normalization": "TitaConstraintRoughCfg and envs/legged_robot.py",
+  "total_size": 363,
+  "history_semantics": "ten preceding/current proprio frames; actor appends current and drops oldest",
+  "components": [
+    {
+      "name": "current_proprioception",
+      "size": 33
+    },
+    {
+      "name": "proprioception_history",
+      "size": 330
+    }
+  ],
+  "onnx_tensors": [
+    {
+      "logical_name": "current_proprioception",
+      "shape": [
+        1,
+        33
+      ]
+    },
+    {
+      "logical_name": "proprioception_history",
+      "shape": [
+        1,
+        10,
+        33
+      ]
+    }
+  ]
+}

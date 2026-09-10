@@ -1,0 +1,70 @@
+{
+  "schema": "anygine.robot_transfer.asset_lock/v1",
+  "embodiment": "unitree_go2",
+  "asset_root": "Assets/Data/RobotTransferStudio",
+  "git_sources": [
+    {
+      "id": "mujoco_menagerie",
+      "url": "https://github.com/google-deepmind/mujoco_menagerie.git",
+      "commit": "da76818e269b82289eba39808e2fb91d679d6994",
+      "destination": "Upstream/mujoco_menagerie",
+      "sparse_paths": ["unitree_go2"]
+    },
+    {
+      "id": "unitree_mujoco",
+      "url": "https://github.com/unitreerobotics/unitree_mujoco.git",
+      "commit": "4134cb5dc7ff1ba7f484deda48b5274b58694519",
+      "destination": "Upstream/unitree_mujoco",
+      "sparse_paths": ["README.md", "unitree_robots/go2", "simulate", "terrain_tool", "example"]
+    },
+    {
+      "id": "unitree_rl_mjlab",
+      "url": "https://github.com/unitreerobotics/unitree_rl_mjlab.git",
+      "commit": "1425b15f73bd4095f0df53709d7c389c3eb9e790",
+      "destination": "Upstream/unitree_rl_mjlab",
+      "sparse_paths": [
+        "README.md",
+        "LICENCE",
+        "src/tasks/velocity/config/go2",
+        "deploy/robots/go2",
+        "simulate"
+      ]
+    }
+  ],
+  "http_sources": [
+    {
+      "id": "go2_velocity_flat_external_policy",
+      "base_url": "https://huggingface.co/diasAiMaster/unitree-go2-velocity-flat/resolve/9a723b7ab0784cd86abb942836aa1f208ddde891",
+      "destination": "ExternalPolicies/go2_velocity_flat",
+      "files": [
+        {
+          "remote": "policy.onnx",
+          "local": "policy.onnx",
+          "size": 14196,
+          "sha256": "fbb8b61b12f2cd44dfc889f33566a8be2438124efee88b60c700b9605a94187a"
+        },
+        {
+          "remote": "policy.onnx.data",
+          "local": "policy.onnx.data",
+          "size": 757248,
+          "sha256": "40474dd235917877d657085f3f0a2d485d10e947e3599cad5328337e32222a74"
+        },
+        {
+          "remote": "params/deploy.yaml",
+          "local": "deploy.yaml",
+          "size": 1392,
+          "sha256": "a86582e599411ebaa011cb30f1711497a50a21230decf9c91bd02cb43d1e5300"
+        }
+      ]
+    }
+  ],
+  "required_files": [
+    "Upstream/mujoco_menagerie/unitree_go2/scene.xml",
+    "Upstream/mujoco_menagerie/unitree_go2/go2.xml",
+    "Upstream/unitree_mujoco/unitree_robots/go2/scene.xml",
+    "Upstream/unitree_rl_mjlab/src/tasks/velocity/config/go2/env_cfgs.py",
+    "ExternalPolicies/go2_velocity_flat/policy.onnx",
+    "ExternalPolicies/go2_velocity_flat/policy.onnx.data",
+    "ExternalPolicies/go2_velocity_flat/deploy.yaml"
+  ]
+}

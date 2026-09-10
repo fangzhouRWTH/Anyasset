@@ -1,0 +1,128 @@
+{
+  "version": 4,
+  "physics_dt": 0.005,
+  "control_dt": 0.02,
+  "base_body": "base",
+  "gait_phase_hz": 1.6666666667,
+  "gait_phase_freeze_on_stand": false,
+  "foot_contact_bodies": [
+    "FL_calf",
+    "FR_calf",
+    "RL_calf",
+    "RR_calf"
+  ],
+  "actuator_order": [
+    "FL_hip",
+    "FL_thigh",
+    "FL_calf",
+    "FR_hip",
+    "FR_thigh",
+    "FR_calf",
+    "RL_hip",
+    "RL_thigh",
+    "RL_calf",
+    "RR_hip",
+    "RR_thigh",
+    "RR_calf"
+  ],
+  "stand_hold": {
+    "cmd_norm_eps": 0.1,
+    "action_scale": 0.8,
+    "brake_action_scale": 0.8,
+    "max_action_l2": 99.0
+  },
+  "recovery_supervisor": {
+    "enabled": false
+  },
+  "stop_supervisor": {
+    "enabled": true,
+    "command_norm_max": 0.1,
+    "min_start_steps": 25,
+    "gait_phase_reset_on_start": true,
+    "min_settle_steps": 25,
+    "settle": {
+      "speed_xy_at_most": 0.03,
+      "angular_speed_xy_at_most": 0.15,
+      "gravity_xy_at_most": 0.1
+    },
+    "disturb": {
+      "speed_xy_above": 0.06,
+      "angular_speed_xy_above": 0.25,
+      "gravity_xy_above": 0.14
+    }
+  },
+  "heading_hold": {
+    "enabled": true,
+    "min_planar_command": 0.1,
+    "user_yaw_rate_deadband": 0.03,
+    "proportional_gain": 0.75,
+    "max_correction_yaw_rate": 0.25
+  },
+  "notes": "Mjlab-native timing/action ABI; lifecycle and absolute-heading hold remain host owned.",
+  "slope_stand_adapter": {
+    "version": 1,
+    "enabled": true,
+    "command_norm_max": 0.1,
+    "minimum_gravity_xy": 0.05,
+    "blend_steps": 1,
+    "selection": "dominant_support_downhill_axis",
+    "validated_incline_degrees": 5.0,
+    "notes": "Cardinal anti-creep targets selected from foot-contact support normals before Package stand_hold scaling. Body attitude alone cannot activate the adapter. Diagonal blending is not enabled in v1.",
+    "uphill_action": [
+      0.50146294,
+      -1.3201821,
+      0.96460706,
+      -0.50146294,
+      -1.3201821,
+      0.96460706,
+      -0.58183306,
+      0.35339314,
+      0.9073954,
+      0.58183306,
+      0.35339314,
+      0.9073954
+    ],
+    "downhill_action": [
+      -0.4983776,
+      0.05807939,
+      -0.02243834,
+      0.4983776,
+      0.05807939,
+      -0.02243834,
+      0.76182294,
+      0.44585866,
+      0.10665193,
+      -0.76182294,
+      0.44585866,
+      0.10665193
+    ],
+    "cross_positive_action": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cross_negative_action": [
+      -0.22967987,
+      -0.02238182,
+      0.13789647,
+      -0.17805064,
+      -0.11248412,
+      -0.02117634,
+      -0.22967987,
+      -0.02238182,
+      0.13789647,
+      -0.17805064,
+      -0.11248412,
+      -0.02117634
+    ]
+  }
+}

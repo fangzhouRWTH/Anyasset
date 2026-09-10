@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source": "titatit",
+  "url": "https://github.com/DDTRobot/quadruped-wheel-titatit-rl.git",
+  "requested_ref": "4ba7d2d72b96f2bf64efe793c49497feedf2e6de",
+  "resolved_commit": "4ba7d2d72b96f2bf64efe793c49497feedf2e6de",
+  "license": "MIT",
+  "role": "training_runtime_urdf_dae_to_stl",
+  "artifacts": {
+    "training/urdf/wheeled_titatit_mujoco.urdf": {
+      "bytes": 21084,
+      "sha256": "4294f53dc1c64b60a38665332a1c836efc934f59a27f83d04ad0b68f8bedd6db"
+    },
+    "training/urdf/wheeled_titatit_rl.upstream.urdf": {
+      "bytes": 21517,
+      "sha256": "58431aa05c72227e9cef0ed87bd41bd314af44a35fce4d2a4789177419e1a0c2"
+    },
+    "training/meshes/base.STL": {
+      "bytes": 7681634,
+      "sha256": "bbdf2f81fadcd736cb5a4d9a8b9ddb0f364748da3fab5112f10095da958a4a22"
+    },
+    "LICENSE": {
+      "bytes": 1080,
+      "sha256": "12926be7004cc445e8b52867972190bca1f2ceeb639c124c2c068236af43923c"
+    }
+  }
+}

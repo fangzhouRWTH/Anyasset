@@ -1,0 +1,28 @@
+{
+  "package_version": 1,
+  "name": "DDT TITATIT flat public ONNX deployment",
+  "robot": "titatit",
+  "task": "rl_flat motion reproduction",
+  "model_file": "../../../Robots/DirectDrive/Titatit/urdf/titatit_deployment_mujoco.urdf",
+  "model_hash": "sha256:cc7648c6ac0222ce5370d04b1edb9a0670a441c802f9b26a2d580b1f948fe150",
+  "policy_file": "test_cylinder_1027_open_source.onnx",
+  "policy_hash": "sha256:46aaf830da26d678e8d9b1d48113a065b8f8addfc21a9548ea6a5166bfb3beb9",
+  "policy_format": "onnx",
+  "observation_spec": "observation.json",
+  "action_spec": "action.json",
+  "controller_spec": "controller.json",
+  "command_spec": "command.json",
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "observation_size": 627,
+  "action_size": 16,
+  "action_mode": "ddt_titatit_np3o_policy_order",
+  "requires_previous_action": true,
+  "history_length": 10,
+  "source": {
+    "repository": "https://github.com/DDTRobot/ddt_ros2_control.git",
+    "commit": "63e9e6e625357802ea982b99edc62a29de42afe8",
+    "policy_config": "controller/rl_controller/config/titatit/controllers.yaml",
+    "controller_source": "controller/rl_controller/src/fsm/FSMState_RL.cpp"
+  }
+}

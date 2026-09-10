@@ -1,0 +1,54 @@
+{
+  "version": 4,
+  "physics_dt": 0.005,
+  "control_dt": 0.02,
+  "base_body": "base",
+  "gait_phase_hz": 1.6666666667,
+  "gait_phase_freeze_on_stand": false,
+  "foot_contact_bodies": ["FL_calf", "FR_calf", "RL_calf", "RR_calf"],
+  "actuator_order": [
+    "FL_hip", "FL_thigh", "FL_calf",
+    "FR_hip", "FR_thigh", "FR_calf",
+    "RL_hip", "RL_thigh", "RL_calf",
+    "RR_hip", "RR_thigh", "RR_calf"
+  ],
+  "stand_hold": {
+    "cmd_norm_eps": 0.10,
+    "action_scale": 1.0,
+    "brake_action_scale": 1.0,
+    "max_action_l2": 99.0
+  },
+  "recovery_supervisor": {
+    "enabled": false
+  },
+  "stop_supervisor": {
+    "enabled": true,
+    "command_norm_max": 0.10,
+    "min_start_steps": 25,
+    "gait_phase_reset_on_start": true,
+    "min_settle_steps": 25,
+    "settle": {
+      "speed_xy_at_most": 0.03,
+      "angular_speed_xy_at_most": 0.15,
+      "gravity_xy_at_most": 0.10
+    },
+    "disturb": {
+      "speed_xy_above": 0.06,
+      "angular_speed_xy_above": 0.25,
+      "gravity_xy_above": 0.14
+    }
+  },
+  "heading_hold": {
+    "enabled": true,
+    "min_planar_command": 0.10,
+    "user_yaw_rate_deadband": 0.03,
+    "proportional_gain": 0.75,
+    "max_correction_yaw_rate": 0.25
+  },
+  "command_calibration": {
+    "enabled": true,
+    "positive_vx_scale": 1.125,
+    "positive_vx_max": 1.0
+  },
+  "notes": "Mjlab-native timing/action ABI; lifecycle, absolute-heading hold, and measured positive-vx response calibration remain host owned."
+}

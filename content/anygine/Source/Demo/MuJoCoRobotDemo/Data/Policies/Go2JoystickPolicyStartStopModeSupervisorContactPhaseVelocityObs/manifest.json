@@ -1,0 +1,22 @@
+{
+  "package_version": 1,
+  "name": "Go2JoystickPolicyStartStopModeSupervisorContactPhaseVelocityObs",
+  "robot": "unitree_go2",
+  "task": "joystick_locomotion",
+  "model_file": "model/scene.xml",
+  "model_hash": "sha256:PLACEHOLDER",
+  "policy_file": "policy/checkpoint",
+  "policy_format": "pytorch_reference",
+  "observation_spec": "observation.json",
+  "action_spec": "action.json",
+  "controller_spec": "controller.json",
+  "command_spec": "command.json",
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "observation_size": 58,
+  "action_size": 12,
+  "action_mode": "joint_position_delta",
+  "requires_previous_action": true,
+  "history_length": 1,
+  "notes": "Experimental append-only ABI v7: v6 plus host-owned start_active at [57:58]. Template only."
+}

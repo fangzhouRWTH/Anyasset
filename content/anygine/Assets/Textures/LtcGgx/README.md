@@ -11,6 +11,9 @@ The tables originate from the authors' `selfshadow/ltc_code` reference implement
 `LICENSE.selfshadow-ltc-code.txt` and the paper citation recorded by the manifest when
 redistributing source or binaries.
 
+The license is retained byte-for-byte, including upstream trailing whitespace. Git attributes
+disable text conversion and whitespace checks for this file so its pinned SHA-256 stays valid.
+
 Reproduce from an exact upstream checkout:
 
 ```bash

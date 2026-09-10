@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "source": "tita",
+  "url": "https://github.com/DDTRobot/tita_rl.git",
+  "resolved_commit": "77abbc367a2db3a2036a53e38930e80620e9f915",
+  "license": "MIT",
+  "role": "verified_exported_rough_onnx_policy_package",
+  "artifacts": {
+    "rough.onnx": {
+      "bytes": 2142563,
+      "sha256": "c4a9710c66c27d43540394bad047e9d81e459e4f37ddf9a0b17a4d1b170f7c32"
+    },
+    "EXPORT_VERIFICATION.json": {
+      "bytes": 4422,
+      "sha256": "7618d49b27bfa0f69877e4d3252f48792eeb8f9b5eb97fa07786dead708865c8"
+    },
+    "checkpoint": {
+      "path": "../Tita/tita_example_10000.pt",
+      "bytes": 13075360,
+      "sha256": "a721c810e561c290c96753ff85ca36a7341bf138bf0ac311b4db8be1883ce4c3"
+    }
+  }
+}

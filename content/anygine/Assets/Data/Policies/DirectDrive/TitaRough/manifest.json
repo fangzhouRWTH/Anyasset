@@ -1,0 +1,33 @@
+{
+  "package_version": 1,
+  "name": "DDT TITA Isaac Gym Rough exported public actor",
+  "robot": "tita",
+  "task": "tita_constraint rough locomotion sim-to-sim",
+  "model_file": "../../../Robots/DirectDrive/Tita/urdf/tita_description.urdf",
+  "model_hash": "sha256:57a34da0cfe94af3be05fbd02b96ea95e06c6daaaefd850f79b805c1a2f18cd9",
+  "policy_file": "rough.onnx",
+  "policy_hash": "sha256:c4a9710c66c27d43540394bad047e9d81e459e4f37ddf9a0b17a4d1b170f7c32",
+  "policy_format": "onnx",
+  "observation_spec": "observation.json",
+  "action_spec": "action.json",
+  "controller_spec": "controller.json",
+  "command_spec": "command.json",
+  "physics_dt": 0.0025,
+  "control_dt": 0.01,
+  "observation_size": 363,
+  "action_size": 8,
+  "action_mode": "ddt_tita_np3o_policy_order",
+  "requires_previous_action": true,
+  "history_length": 10,
+  "source": {
+    "repository": "https://github.com/DDTRobot/tita_rl.git",
+    "commit": "77abbc367a2db3a2036a53e38930e80620e9f915",
+    "checkpoint": "tita_example_10000.pt",
+    "checkpoint_sha256": "a721c810e561c290c96753ff85ca36a7341bf138bf0ac311b4db8be1883ce4c3",
+    "actor": "ActorCriticBarlowTwins.actor_teacher_backbone",
+    "verification": "EXPORT_VERIFICATION.json",
+    "verification_sha256": "7618d49b27bfa0f69877e4d3252f48792eeb8f9b5eb97fa07786dead708865c8",
+    "export_lock": "../../../../../Source/Apps/DirectDriveStudio/RoughReference/tita-rough-export.lock.json",
+    "export_lock_sha256": "ad9bf6a3a1a354fc0f18ee8ea47c0a0772a79e863380e041d1b2e54ea257c4cf"
+  }
+}

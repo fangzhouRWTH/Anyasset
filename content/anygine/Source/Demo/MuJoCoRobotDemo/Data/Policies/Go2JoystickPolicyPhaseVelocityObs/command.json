@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "fields": [
+    {"name": "vx", "unit": "m/s", "default": 0.0},
+    {"name": "vy", "unit": "m/s", "default": 0.0},
+    {"name": "yaw_rate", "unit": "rad/s", "default": 0.0}
+  ],
+  "notes": "Same command ABI as v1/v2."
+}

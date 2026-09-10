@@ -1,0 +1,28 @@
+{
+  "package_version": 1,
+  "name": "DDT TITA flat public ONNX deployment",
+  "robot": "tita",
+  "task": "rl_flat motion reproduction",
+  "model_file": "../../../Robots/DirectDrive/Tita/mujoco/scene.motion.xml",
+  "model_hash": "sha256:e145c68ce56b172ded20e30b6313494b9d6baa0e640670d5d574c7364ce94392",
+  "policy_file": "flat.onnx",
+  "policy_hash": "sha256:d5544c14df8030995e0ab554bfa98b4373a0da2bb76a812ab481925d90a016fd",
+  "policy_format": "onnx",
+  "observation_spec": "observation.json",
+  "action_spec": "action.json",
+  "controller_spec": "controller.json",
+  "command_spec": "command.json",
+  "physics_dt": 0.002,
+  "control_dt": 0.01,
+  "observation_size": 363,
+  "action_size": 8,
+  "action_mode": "ddt_tita_np3o_policy_order",
+  "requires_previous_action": true,
+  "history_length": 10,
+  "source": {
+    "repository": "https://github.com/DDTRobot/ddt_ros2_control.git",
+    "commit": "63e9e6e625357802ea982b99edc62a29de42afe8",
+    "policy_config": "controller/rl_controller/config/tita/controllers.yaml",
+    "controller_source": "controller/rl_controller/src/fsm/FSMState_RL.cpp"
+  }
+}
