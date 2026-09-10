@@ -2601,6 +2601,12 @@
     }
   },
   "collections": {
+    "anygine/benchmarks": [
+      "defaults/anygine/local-layout",
+      "anygine-local/models/abeautifulgame/abeautifulgame.glb",
+      "anygine-local/models/chronographwatch/chronographwatch.glb",
+      "anygine-local/models/sponza/newsponza_main_gltf_003.gltf"
+    ],
     "anygine/core": [
       "tests/anygine/test-triangle",
       "tests/anygine/transparent-swatch",
@@ -2647,6 +2653,12 @@
       "anygine-local/textures/skybox/default_skybox_1.hdr",
       "anygine-local/textures/skybox/default_skybox_2.hdr",
       "defaults/anygine/local-layout"
+    ],
+    "anygine/robot-demo": [
+      "defaults/anygine/local-layout",
+      "anygine-local/bots/demo/demo_rover.glb",
+      "anygine-local/bots/demo/demo_rover.gltf",
+      "anygine-local/bots/demo/demo_rover.robot.json"
     ],
     "anygine/robots": [
       "anygine-robots/catalog/presets",
