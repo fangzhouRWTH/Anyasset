@@ -1,5 +1,30 @@
 # Anygine shared source library
 
+## Single runtime release (2026-09-11)
+
+All maintained engine branches adopt the same exact runtime release and complete selection.
+The engine's `Config/DevelopmentAssets/release.json` temporarily routes every deployment profile
+to that lock. Anyasset's versioned lock, snapshot and rollback mechanisms remain available.
+
+The owner requested a smaller deployment library. Sixty-one authoring or redundant files
+(3,807,465,681 bytes) were moved into a verified local `authoring-assets.tar.zst` backup
+(1,333,148,837 bytes). Its SHA-256 is
+`76fa3af01199a92aa36b8ebd1811432ac160b2f533a330fd81776cef63ea21c7`.
+The backup contains MAX, FBX, Blender sources, duplicate Sponza Z-up USD, the duplicate Porsche
+glTF representation, original archives, preview renders and unreferenced files. The complete
+file-by-file removal record is `content/anygine/Provenance/runtime-assets-20260911.json`.
+
+Runtime model, texture and robot/policy bytes are unchanged. Sponza glTF and its actual buffer/image
+references remain, together with the Y-up USDA entry and its asset references used by the existing
+USD smoke path. Both chess formats, Rover sidecars, PT/ONNX weights and external-data companions,
+robot templates, exact RobotTransfer sources and package notices remain. The six retired logical
+IDs are recorded explicitly; they are not silently mapped to a different model format.
+
+Ordinary deployment restores only this runtime selection. Historical source commits and external
+indexes describe previous releases, and their former authoring payloads are held in the offline
+backup. Deleting files in a new Git commit does not itself reclaim GitHub LFS historical storage;
+remote object purging is a separate repository-owner maintenance operation.
+
 ## Git/LFS default source release (2026-09-10)
 
 The engine owner selected Git LFS distribution for shared models, textures and deployment

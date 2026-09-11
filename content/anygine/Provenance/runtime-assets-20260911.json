@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "mode": "single-runtime-release",
+  "previous_full_release": "d98086056dd0c4f0051727da54b3e43c9fc28792",
+  "retired_asset_ids": [
+    "anygine-engine/models/grass_medium_01_1k",
+    "anygine-engine/models/rock_moss_set_02_1k",
+    "anygine-local/models/porsche/1975_porsche_911_930_turbo.gltf",
+    "anygine-local/models/sponza/newsponza_main_usd_zup_003.usda",
+    "anygine-local/models/sponza/newsponza_main_yup_003.fbx",
+    "anygine-local/models/sponza/newsponza_main_zup_003.fbx"
+  ],
+  "archived_files": [
+    {
+      "lfs": true,
+      "path": "content/anygine/Assets/Models/grass_medium_01_1k/grass_medium_01_1k.blend",
+      "sha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "size": 1832028
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/Assets/Models/rock_moss_set_02_1k/rock_moss_set_02_1k.blend",
+      "sha256": "f4f975d41f2df5f3502544f6e9027af3557805391fb5573ccc8d00abdefeeb50",
+      "size": 2470540
+    },
+    {
+      "lfs": false,
+      "path": "content/anygine/LocalAssets/Models/Porsche/1975_porsche_911_930_turbo.gltf",
+      "sha256": "e46e51895ed0f4010a552ee0c3158fb4daf7a29f9f5215cfa900398d5e45b6b2",
+      "size": 152000
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/free_1975_porsche_911_930_turbo.zip",
+      "sha256": "cc42cc70a8a3a43f089e91989b899615259490f89035dda99a2ef01b4b040729",
+      "size": 70243066
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/scene.bin",
+      "sha256": "36db5a9592f2e4f30be9624ff59eeb7dbeb5b744cd0ac1daa944b2a49e6b398f",
+      "size": 8820304
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_chromes_baseColor.png",
+      "sha256": "06646bfb17dfb1e548f1e7d61b9f20bd07e11deed77a56cf8febfdbf42433988",
+      "size": 782212
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_chromes_metallicRoughness.png",
+      "sha256": "ecdffed774d269183f3273801b6db2e5bf9ce3da99985df4b2cac8fd1e377f1c",
+      "size": 1071445
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_lights_baseColor.png",
+      "sha256": "c16c763150df9f6f934d51b22705b66e1c52b3d3448219a686ca42b71b559d27",
+      "size": 3162716
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_lights_metallicRoughness.png",
+      "sha256": "866197794f9eabda288cc5d28a54fe6a33e33bb8e2c726742d477cca7e9af8e1",
+      "size": 1948
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_lights_normal.png",
+      "sha256": "cd6e2ab71bfa5221de12ae3442652c9e0e79f435efe000e895135db4a4f3653b",
+      "size": 1709547
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_plastics_baseColor.png",
+      "sha256": "19057ba7f0a6a5b3905c5332ec1592e8087a2643bd2884ffd13d77455a7ad7ac",
+      "size": 2715386
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_plastics_metallicRoughness.png",
+      "sha256": "805e02cdd0d693df4c73cd30b36ba8cba0a34bf3608a037d4ddaf548b2aa6577",
+      "size": 1848923
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_rim_baseColor.png",
+      "sha256": "590b7500444996bd9760bc021169a295d150899bf100d1d8692cce96ae4aa67e",
+      "size": 1075764
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_rim_metallicRoughness.png",
+      "sha256": "27413fe1b950fdb79aaacefd154b591aa77102d3cb03545c9fb91fac379a7a2c",
+      "size": 15740109
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_rim_normal.png",
+      "sha256": "21625b2133edb298a83c19651e6a3af0a8e76211dd1b4fa317f908d7b1c4f409",
+      "size": 79811
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_stickers_baseColor.png",
+      "sha256": "8eb1b054987e1f1275a2d98b1bfcad12840466c7777af52afef9f4e1297d26b3",
+      "size": 636003
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_tire_baseColor.png",
+      "sha256": "a70a326fa0700130d10358777310fb0171790b88677c9cf9e61da8a305d5f6fc",
+      "size": 3485313
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_tire_metallicRoughness.png",
+      "sha256": "5390fd31bfc75b190b3854bb4f8d0900089f0df36c44de9800d86d7164a38959",
+      "size": 5614807
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_tire_normal.png",
+      "sha256": "e3fd2599aae6204eb3f44736cad89062180f95c3ce5f61ee315fc55239cf395e",
+      "size": 4174822
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_wunderbaum_baseColor.png",
+      "sha256": "cef411532794ebf78c65b4a194bd77793582023c09d71aa426110f1e839c977a",
+      "size": 324664
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/930_wunderbaum_metallicRoughness.png",
+      "sha256": "2f4e14a501e04724ef8867d0a7bf55a2379485dc0c5a085df7ca4c963d99d3f5",
+      "size": 19677
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/coat_baseColor.png",
+      "sha256": "749625ceb741f2dd674505af7fab9fff5976f7175b5ff1a4a6a781fb0f9cb010",
+      "size": 2496465
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/coat_metallicRoughness.png",
+      "sha256": "fa8f041d1b01787a1b7cdd8add3947857b37618f33f6f1124f16b80e74b4dbe4",
+      "size": 3620309
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/glass_baseColor.png",
+      "sha256": "30d47294626f7f8a140822744b865dc30271b412f518f1814caf58f4a9953681",
+      "size": 588274
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/glass_metallicRoughness.png",
+      "sha256": "91f2ce3bd37bbd87dfaf80959577a8ddc3b2d1d10bd0c0828b0593926b3d16f4",
+      "size": 1473620
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/material_0_baseColor.png",
+      "sha256": "b337bda64647ea1e5fa15683c726a82b5b3fd23c5a731b11e43305c7b084411d",
+      "size": 549031
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/paint_clearcoat.png",
+      "sha256": "4a2f022e9e0904eb54d5d43ea4a32961eba8ae5831e1667bad6a8d67f26b6ca6",
+      "size": 1315781
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/paint_clearcoat_normal.png",
+      "sha256": "abcfeec5ef2ea608f6fcbec010e04e0accebf42430a934e6b07f8b85964ea85a",
+      "size": 4231062
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/paint_clearcoat_roughness.png",
+      "sha256": "fa8f041d1b01787a1b7cdd8add3947857b37618f33f6f1124f16b80e74b4dbe4",
+      "size": 3620309
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/paint_metallicRoughness.png",
+      "sha256": "a520b03cff89bdcf94fef44a4e497283f0a4da2608342ad9354d594840a8668e",
+      "size": 4845021
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/plate_baseColor.png",
+      "sha256": "80f2cb2040668c76f945aecc3962e4341e6bea0d0ccb87f54e2ff7382a1e8e99",
+      "size": 30656
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Porsche/textures/plate_normal.png",
+      "sha256": "e2a54e7d1d2f9158eb7dc0942eca91d431a55e06b400aca2aaa0c7b472a21998",
+      "size": 28063
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/NewSponza_Main_USD_003.max",
+      "sha256": "4790c4e9208dda5da63d39098b27a8233f37639762f7f55a17b8f9bea952f88e",
+      "size": 495408004
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/NewSponza_Main_USD_Zup_003.usda",
+      "sha256": "10e7689b8db6966f6b818d20c915f9cb90f596179a61296f360bd0a6f67b0184",
+      "size": 436512485
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/NewSponza_Main_Yup_003.fbx",
+      "sha256": "3d44613b1040a1079d550fd0c9cbd9f02dd0677df89a36e67b7f67d803ed1a19",
+      "size": 929301382
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/NewSponza_Main_Zup_003.fbx",
+      "sha256": "0b9ef098706c13f5815a26e3f061d30b21dd19623d672da20fd404b1e2e42034",
+      "size": 929297471
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/NewSponza_Main_glTF_003.max",
+      "sha256": "6210da6b04f0a52fbf92c67763718aefe93033eaee479cb5ea110cdefcf6e6c1",
+      "size": 495424590
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/Render_Main_A.png",
+      "sha256": "92dff8bf065d2124f1f549362c615329c89e812b7ac68cd869d4b55113ea59a7",
+      "size": 10446570
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/Render_Main_B.png",
+      "sha256": "d84f055ea38fa3d9f9467ed3a93dc9b89b27085d76d32f02b429094bc6f46bf2",
+      "size": 10283291
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/Render_Main_C.png",
+      "sha256": "77e0e68fdbf9fc5764aba83d4b2b1dfc0433581e063ad7da3a080d1c8f5461de",
+      "size": 10393572
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/Render_Main_D.png",
+      "sha256": "e0f96ffec483d242f8e8c51285d4149f9c10998dfdb0d27b3277141f91766f55",
+      "size": 10320899
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/Render_Main_E.png",
+      "sha256": "c1c9f58909be1adff635b2f6304730ace834149d99d88cc912932c42cb22b5e1",
+      "size": 10446633
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/Render_Main_E_Fix.png",
+      "sha256": "1525c188b277eeed629fcf139a9292cfe64435af361fe6c156bdac7703d5d31e",
+      "size": 11428617
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/Render_Main_E_USD_Fix.png",
+      "sha256": "5917518e9351c93a33e97c17dbe546d47e38d7ea7425c34c76b0b6c5353bbf7f",
+      "size": 11527748
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/Render_Main_F.png",
+      "sha256": "625d7b28e8f53fa68c3b7b11afb3eb2ab182d420ccf1ea7a51c342c21413b4de",
+      "size": 10560790
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/ceiling_plaster_02_Metalness.png",
+      "sha256": "f790625c24510389aba626a3b4ea80806ad5012b1f838bfbee3b69dd87e3a70e",
+      "size": 16411
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/ceiling_plaster_02_Normal.png",
+      "sha256": "475b3326f541aea86d7b7164489dd20d27a1d6736a5ea5e76c631b27a74b7c28",
+      "size": 25524597
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/col_brickwall_01_Roughnesscolumn_brickwall_01_Metalness.png",
+      "sha256": "544bc2b8d42cfac282e23e00322a844a257a7334ede24d7ebb22223f5b525b3c",
+      "size": 32114234
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/curtain_fabric_Metalness.png",
+      "sha256": "86616dfd971d46f73b0719a7b008a36769285b07bd282bef54d5591641041412",
+      "size": 2852036
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/curtain_fabric_Normal.png",
+      "sha256": "19195ec835958a053fd40c0fef593f5e11a87560d962f49ef3d2c61a9c359919",
+      "size": 45198462
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/curtain_fabric_Roughness.png",
+      "sha256": "a9e0387efa000c6a83d86e6864be0088b2fbc6ef7a4bc24fb42972754999bf55",
+      "size": 8414019
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/curtain_fabric_blue_BaseColor.png",
+      "sha256": "f0d5ffa41776c87b244a1c9680a67cc6ec0f66de414d468ba37a155ce89255b4",
+      "size": 17869201
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/curtain_fabric_green_BaseColor.png",
+      "sha256": "6bdbc84c52e07dbee4a68afe608505e65b9b8cd27157c8b4f9e4f6238e260233",
+      "size": 18734493
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/curtain_fabric_red_BaseColor.png",
+      "sha256": "6a5a092f51f0a680341e5694c2409056dfb8b7d78af84839219600c4c1559910",
+      "size": 18157344
+    },
+    {
+      "lfs": false,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/desktop.ini",
+      "sha256": "cd32ed95efc093041b2e9122fc506f4d1007cd55e3a5e5ebd7b980711860b5ca",
+      "size": 244
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/dirt_decal_01_alpha.png",
+      "sha256": "c5719497db6f7f3734ea26576ca3651cc57f6083cd616a859d10f516dbbdb28b",
+      "size": 28975718
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/dirt_decal_01_dirt_decal_01_mask_alpha_dirt_decal_Opacity.png",
+      "sha256": "706109ee310eb2923c8eaafc98c8ce15b55be63a410cc9df848c9e49e9feb27b",
+      "size": 34601463
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/dirt_decal_01_invmask.png",
+      "sha256": "72954b65dc8eb3f426706381320301a6ca84f91a49f5999011b869cc66542a33",
+      "size": 19484366
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/dirt_decal_01_mask.png",
+      "sha256": "8d78a88ba15be85e976509a330433c42d0a0e5ebfb1037d399917d5e72268bb6",
+      "size": 15432429
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Sponza/textures/dirt_decal_01_mask_gltf.png",
+      "sha256": "15949c11926c8b099dd5d4d6605a574fc25971eabe725d26fc6cad944d260b38",
+      "size": 19484571
+    },
+    {
+      "lfs": true,
+      "path": "content/anygine/LocalAssets/Models/Test/gltf_test_pbr_material.zip",
+      "sha256": "c12326751bdb2b4e3110cf53191f92c5fd83a989c2a3a374ac891d1b37dba7d6",
+      "size": 494365
+    }
+  ],
+  "archive": {
+    "file": "authoring-assets.tar.zst",
+    "sha256": "76fa3af01199a92aa36b8ebd1811432ac160b2f533a330fd81776cef63ea21c7",
+    "scope": "Owner-maintained offline authoring backup; not required for deployment"
+  },
+  "preserved": "Native model, texture, robot, deployment policy, template and notice bytes remain unchanged."
+}
